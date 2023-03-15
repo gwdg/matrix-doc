@@ -1515,7 +1515,7 @@
              x="30.269667"
              y="39.320148"
              id="tspan612-2-4"
-             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1">Server an der TUD, HTTPS</tspan></text>
+             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1">Server an der TUB, HTTPS</tspan></text>
         <text
            xml:space="preserve"
            id="text3221-3-8-6-5-1-88"
@@ -2328,7 +2328,7 @@
              x="30.269667"
              y="39.320148"
              id="tspan612-84"
-             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1">Serverstandort: TU Dresden</tspan></text>
+             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1">Serverstandort: TU Berlin</tspan></text>
         <text
            xml:space="preserve"
            id="text3221-3-8-6-5-8"
@@ -2517,7 +2517,7 @@
              x="30.473221"
              y="42.822464"
              id="tspan612-6-8-6"
-             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1;stroke-width:1">u.v.m. wird von der TUD</tspan></text>
+             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1;stroke-width:1">u.v.m. wird von</tspan></text>
         <text
            xml:space="preserve"
            id="text3221-3-8-6-3-5-3"
@@ -2527,7 +2527,7 @@
              x="30.473221"
              y="46.554916"
              id="tspan612-9-6-1"
-             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1;stroke-width:1">geregelt</tspan></text>
+             style="font-size:2.82222px;text-align:center;text-anchor:middle;font-family:sans-serif;fill:#b31f23;fill-opacity:1;stroke-width:1">InnoCampus geregelt</tspan></text>
       </g>
     </g>
     <text
@@ -3392,7 +3392,7 @@
     </g>
   </a>
   <a
-     href="https://matrix.tu-dresden.de"
+     href="https://chat.tu-berlin.de"
      target="_blank"
      rel="noopener noreferrer"
      id="href_element">
@@ -3424,7 +3424,7 @@
            x="289.30502"
            y="171.15099"
            id="tspan612-8-4-1-6-9-9"
-           style="font-size:2.46944px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1">Der TUD-Webdienst im Browser</tspan></text>
+           style="font-size:2.46944px;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:1">Der TUB-Webdienst im Browser</tspan></text>
     </g>
   </a>
   <a
@@ -4125,7 +4125,7 @@
        y="0"><tspan
          x="-69.320312"
          y="85.580704"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#b31f23;fill-opacity:1">Communities 
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#b31f23;fill-opacity:1">Spaces
 </tspan></tspan></text>
   </g>
   <g

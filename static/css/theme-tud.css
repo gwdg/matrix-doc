@@ -7,12 +7,12 @@
     --MAIN-LINK-HOVER-color: #333; /* Color of hovered links */
     --MAIN-ANCHOR-color: #0077b3; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color: #002557; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #0069b4; /*Color of menu header border */ 
+    --MENU-HEADER-BG-color:#c50e1f; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color:#8f0a17; /*Color of menu header border */
 
-    --MENU-SEARCH-BG-color: #0069b4; /* Search field background color (by default borders + icons) */
-    --MENU-SEARCH-BOX-color: #0069b4; /* Override search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
+    --MENU-SEARCH-BG-color:#8f0a17; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BOX-color: #8f0a17; /* Override search field border color */
+    --MENU-SEARCH-BOX-ICONS-color: #ffffff; /* Override search field icons color */
 
     --MENU-SECTIONS-ACTIVE-BG-color: #20272b; /* Background color of the active section and its childs */
     --MENU-SECTIONS-BG-color: #252c31; /* Background color of other sections */

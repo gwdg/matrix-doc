@@ -1,7 +1,7 @@
 ---
 title: "Nachrichten"
 date: 2020-07-15T18:10:07+02:00
-draft: false
+draft: true
 chapter: true
 weight: 30
 ---
