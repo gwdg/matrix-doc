@@ -1,7 +1,7 @@
 ---
 title: "Datenschutz"
 date: 2020-07-03T13:25:27+02:00
-draft: false
+draft: true
 chapter: true
 weight: 900
 ---

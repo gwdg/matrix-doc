@@ -7,11 +7,11 @@ weight: 38
 ---
 ## Benachrichtigungen feiner einstellen
 
-Man muss seine Arbeit erledigen können und darf nicht durch Matrix gestört werden. Wir alle müssen in Zeiten der digitalen Ablenkung lernen, wie Benachrichtigungen schrittweise sinnvoll angepasst werden sollten. 
+Man muss seine Arbeit erledigen können und darf nicht durch Matrix gestört werden. Wir alle müssen in Zeiten der digitalen Ablenkung lernen, wie Benachrichtigungen schrittweise sinnvoll angepasst werden sollten.
 
 *Szenario 1:*
 
-Wenn Sie einen Antrag für ein Forschungsprojekt schreiben und die Frist bald abläuft, möchten Sie vielleicht benachrichtigt werden, wenn Ihre Kolleg:innen eine Diskussion mit Ihnen beginnen wollen.  Benachrichtigungen in diesem Raum sollen aufmerksam machen und werden dementsprechend eingestellt...
+Wenn Sie einen Antrag für ein Forschungsprojekt schreiben und die Frist bald abläuft, möchten Sie vielleicht benachrichtigt werden, wenn Ihre Kolleg:innen eine Diskussion mit Ihnen beginnen wollen. Benachrichtigungen in diesem Raum sollen aufmerksam machen und werden dementsprechend eingestellt...
 
 *Szenario 2:*
 
@@ -21,7 +21,7 @@ Wenn Sie sich in einem Raum befinden, dessen Hauptzweck es ist, sich gelegentlic
 
 **Einstellungen > Benachrichtigungen**
 
-Hier müssen ggf. Erfahrungen gemacht werden, die bei der Einschätzung helfen, welche Benachrichtigungen man wirklich zeitnah braucht und wann ein hin-und-wieder-vorbeischauen ausreicht.
+Hier müssen ggf. Erfahrungen gesammelt werden, die bei der Einschätzung helfen, welche Benachrichtigungen man wirklich zeitnah braucht und wann ein hin-und-wieder-vorbeischauen ausreicht.
 
 Siehe [Empfehlungen zu ersten Schritten nach Erstlogin]({{< ref "settings" >}})
 

@@ -2,7 +2,7 @@
 menutitle: "FAQ"
 title: "Frequently asked questions"
 date: 2020-08-02T21:26:25+02:00
-draft: false
+draft: true
 weight: 200
 ---
 This is a collection of frequently asked questions and their answers. Some of the answers are not yet written. In these cases please ask in the matrix room ```#matrix-support:tu-dresden.de```.

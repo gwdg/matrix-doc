@@ -1,7 +1,7 @@
 ---
 title: "Communities"
 date: 2020-07-02T21:22:34+02:00
-draft: false
+draft: true
 chapter: true
 weight: 50
 ---

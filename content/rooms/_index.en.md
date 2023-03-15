@@ -2,7 +2,7 @@
 title: "Rooms"
 date: 2020-07-02T21:23:14+02:00
 chapter: true
-draft: false
+draft: true
 weight: 35
 ---
 # Rooms 

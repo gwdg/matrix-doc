@@ -17,10 +17,9 @@ There are many services and programs for instant electronic communication. Matri
 - Data protection: end-to-end encryption standard in 1:1 conversations and (group) rooms, can be switched off in the latter
 - Web application + desktop client + mobile apps available
   - The contacts on your own cell phone are not automatically passed on to third parties (no address book upload)
-- Connection to existing authentication systems (e.g. TU Dresden)
+- Connection to existing authentication systems (e.g. TU Berlin)
 - Existing successful security audit
-- Autonomy and control: locally installable (server location TU Dresden)
-- Recognize the presence status
+- Autonomy and control: locally installable (server location TU Berlin)
 - Active further development
 - Up-and-coming use by other scientific institutions (e.g. lots of German universities)
 
