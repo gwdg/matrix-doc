@@ -2,7 +2,7 @@
 menutitle: "Blog/News"
 title: "Blog"
 date: 2020-01-02T21:26:25+02:00
-draft: false
+draft: true
 weight: 200
 ---
 

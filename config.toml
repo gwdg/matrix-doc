@@ -1,4 +1,4 @@
-baseURL = "https://doc.matrix.tu-dresden.de/"
+baseURL = "https://docs.chat.tu-berlin.de/"
 languageCode = "de-DE"
 DefaultContentLanguage = "de"
 title = "Matrix Dokumentation"
@@ -21,11 +21,11 @@ home = [ "HTML", "RSS", "JSON"]
     [markup.goldmark.renderer]
       unsafe = true
 [languages]
-	[languages.en]
-    		title = "Matrix Documentation"
-    		weight = 2
-		languageName = "English"
-	[languages.de]
-		title = "Matrix Dokumentation"
-		weight = 1
-		languageName = "Deutsch"
+  [languages.en]
+    title = "Matrix Documentation"
+    weight = 2
+    languageName = "English"
+  [languages.de]
+    title = "Matrix Dokumentation"
+    weight = 1
+    languageName = "Deutsch"

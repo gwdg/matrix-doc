@@ -1,9 +1,104 @@
 ---
 title: "Datenschutz"
-date: 2024-01-26T14:25:00+02:00
-draft: false
+date: 2020-07-03T13:25:27+02:00
+draft: true
 chapter: true
 weight: 900
 ---
+## Datenschutzerklärung für den Matrix-Dienst der TU Dresden
 
-<script>window.location.replace("https://selfservice.tu-dresden.de/services/privacy-policies/policies/matrix");</script>
+**Welcher Zweck wird mit der Datenverarbeitung verfolgt?**
+
+"Matrix" ist ein offener, dezentraler Kommunikationsdienst für die Echtzeitkommunikation. Es wird den Mitgliedern und Angehörigen der TU Dresden unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihres ZIH-Logins mit Angehörigen dieser und anderer Universitäten sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner:innen) per Chat sowie Audio-/Video-Telefonie zu kommunizieren. Ziel des Einsatzes von Groupware-Systemen sind insbesondere die Sicherstellung und Vereinfachung arbeitsorganisatorischer Maßnahmen für die gemeinschaftliche Arbeit von Nutzerinnen und Nutzern, Personengruppen, Teams und Gremien sowie das Kommunikationsmanagement. Die Verarbeitung personenbezogener Daten erfolgt ausschließlich für vorgenannte Zwecke.
+
+**Wer ist für die Datenverarbeitung verantwortlich und an wen können sich
+betroffene wenden?**
+
+Verantwortlicher
+i.S.d. Art. 4 Nr. 7 DSGVO ist die [TU Dresden](https://tu-dresden.de/impressum).
+
+Ansprechpartner:
+
+Technische Universität Dresden <br>
+Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH) <br>
+01062 Dresden <br>
+
+Tel.: +49 351 463-40000 <br>
+Fax: +49 351 463-42328 <br>
+E-Mail: servicedesk@tu-dresden.de <br>
+
+sowie <br>
+
+Der Datenschutzbeauftragte der TU Dresden <br>
+Herr Jens Syckor <br>
+01062 Dresden <br>
+
+Tel.: +49 (0)351 463 32839 <br>
+Fax: +49 (0)351 463 39718 <br>
+
+E-Mail: [informationssicherheit@tu-dresden.de](mailto:informationssicherheit@tu-dresden.de)
+
+**Welche personenbezogenen Daten werden verarbeitet?**
+
+Die Verarbeitung umfasst folgende personenbezogene Daten:
+
+1. Zugangsverwaltung: Vor- & Nachname(n), Mailadresse, Matrix-ID (Localpart der
+    Mail-Adresse), Anzeigename
+
+2. Authentifizierung: Nutzername und Passwort
+
+3. Benutzerinhalte: alle Daten, welche der Nutzer in das System eingibt (Ende-zu-Ende-verschlüsselt möglich)
+
+4. Geräteidentifikation: IP-Adressen mit Zeitstempel und Gerätename; verwendete Art des Endgerätes (Mobil / Desktop), Betriebssystem
+
+5. Serverprotokoll: IP-Adressen mit Zeitstempel
+
+6. Audio-/Video-Telefonie: IP-Adressen, AV-Daten
+
+7. Benachrichtigungen (Mail)
+
+Die Profildaten (Anzeigename, E-Mail, Foto) sowie die Matrix-ID sind durch die Teilnahme am globalen Matrix-Netzwerk über die Kontaktsuche für Externe sichtbar.
+
+**Auf welcher Rechtsgrundlage erfolgt die Verarbeitung personenbezogener Daten?**
+
+Die Rechtsgrundlage für die Datenverarbeitung zu den oben genannten Zwecken ist Art. 6 Abs. 1 UAbs. 1 lit. a DSGVO (Einwilligung). 
+
+**Wie lange werden die personenbezogenen Daten gespeichert?**
+
+Die personenbezogenen Daten zur Nutzung des Dienstes werden gemäß § 15 Abs. 4 IT-Ordnung der TU Dresden spätestens 15 Monate nach dem Ausscheiden der betroffenen Person bzw. bei Widerruf gelöscht.
+
+Die Benutzerinhalte nach 3. können von den Nutzenden jederzeit selbst gelöscht werden, eine automatisierte Löschung ist seitens des ZIH nicht möglich. 
+
+**Welche Rechte stehen den betroffenen Personen grundsätzlich zu?**
+
+<u>Auskunftsrecht (Art. 15 DSGVO)</u>
+
+Die Betroffenen haben das Recht, jederzeit Auskunft über die zu ihrer
+Person verarbeiteten Daten sowie die möglichen Empfänger dieser
+Daten verlangen zu können.
+
+<u>Recht auf Berichtigung, Löschung und Einschränkung (Art. 16 - 18 DSGVO)</u>
+
+Die Betroffenen können jederzeit gegenüber der TU Dresden die
+Berichtigung, Löschung ihrer personenbezogenen Daten bzw. die
+Einschränkung der Verarbeitung zu verlangen.
+
+<u>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</u>
+
+Die Betroffenen können verlangen, dass der Verantwortliche ihnen ihre
+personenbezogenen Daten maschinenlesbaren in Format übermittelt.
+
+<u>Beschwerderecht (Art. 77 DSGVO)</u>
+
+Betroffene Personen können sich jederzeit an die zuständige Aufsichtsbehörde
+für den Datenschutz wenden. Die zuständige Aufsichtsbehörde ist:
+
+Sächsische Datenschutzbeauftragte <br>
+Frau Dr. Juliane Hundert <br>
+Devrientstraße 5 <br>
+01067 Dresden <br>
+
+Tel.: +49(0)351/85471 101 <br>
+Fax: + 49(0)351/85471 109 <br>
+
+E-Mail: [saechsdsb@slt.sachsen.de](mailto:saechsdsb@slt.sachsen.de)
