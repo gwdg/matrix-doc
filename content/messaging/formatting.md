@@ -12,7 +12,7 @@ Nachrichten können mit der **Enter-Taste** versendet werden. Für einen Zeilenu
 
 ![Erläuterung der Symbole in der Texteingabezeile](/images/01_Textformatting_de.webp)
 
-**Dateien** (auch Bilder) lassen sich bis zu einer Größe von 25MB versenden. Dazu ist die Büroklammer auszuwählen. Die Seitenleiste mit dem Dokumentensymbol zeigt die Dateien innerhalb eines Raumes an. Größere Dateien können über die [cloudstore der TU Dresden](https://cloudstore.zih.tu-dresden.de) und einen Freigabelink geteilt werden.
+**Dateien** (auch Bilder) lassen sich bis zu einer Größe von 20 MB versenden. Dazu ist die Büroklammer auszuwählen. Die Seitenleiste mit dem Dokumentensymbol zeigt die Dateien innerhalb eines Raumes an. Größere Dateien können über die [Cloud der TU Berlin](https://tubcloud.tu-berlin.de/) und einen Freigabelink geteilt werden.
 
 Mittels Text, der in der Auszeichnungssprache [**MarkDown**](https://de.wikipedia.org/wiki/Markdown) formatiert ist, lassen sich auch in Matrix Element Nachrichten formatieren. Hier einige Beispiele:
 
