@@ -27,7 +27,7 @@ Anschließend kann in der Zeile "Raumadresse" ein wiedererkennbarer Name vergebe
 
 ![Raumeinstellungen mit dem lokale Adressen ausgewählt](/images/02_Sharing_de.png)
 
-Es können auch verschiedene Adressen vergeben werden. Sollte die Raumadresse im Raum-Verzeichnis des Matrix-Heimatservers der TU Dresden veröffentlicht werden sollen, kann dies durch den folgend gezeigten Schalter und die Auswahl der Primären Adresse im Drop-Down-Menü erfolgen:
+Es können auch verschiedene Adressen vergeben werden. Sollte die Raumadresse im Raum-Verzeichnis des Matrix Homeservers der TU Berlin veröffentlicht werden sollen, kann dies durch den folgend gezeigten Schalter und die Auswahl der Primären Adresse im Drop-Down-Menü erfolgen:
 
 ![Raumeinstellungen mit dem öffentliche Raumadresse ausgewählt](/images/03_Sharing_de.png)
 
