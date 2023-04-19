@@ -44,19 +44,17 @@ setInterval(() => {
     * [Element-Installation unter Linux]({{< relref "clients/install_linux/_index.md" >}})
 <!--
     * [Weitere Clients]({{< relref "clients/more_clients/_index.md" >}})
+-->
 * [Personen finden und direkte Nachrichten versenden]({{< relref "messaging/_index.md" >}})
     * [Nachrichten formatieren]({{< relref "messaging/formatting/_index.md" >}})
     * [Nachrichten suchen]({{< relref "messaging/search/_index.md" >}})
--->
 * [Räume erstellen und Verantwortung übernehmen]({{< relref "rooms/_index.md" >}})
     * [Räume erstellen]({{< relref "rooms/create/_index.md" >}})
     * [Räume finden]({{< relref "rooms/find/_index.md" >}})
     * [Räume löschen und aus Räumen austreten]({{< relref "rooms/delete/_index.md" >}})
     * [Räume teilen und publik machen]({{< relref "rooms/sharing/_index.md" >}})
 * [Benachrichtigungen feiner einstellen]({{< relref "notifications/_index.md" >}})
-<!--
 * [Communities als Raum-Filter einsetzen]({{< relref "communities/_index.md" >}})
--->
 * [Spaces zur Raumverwaltung einsetzen]({{< relref "spaces/_index.md" >}})
 * [Ende-zu-Ende-Verschlüsselung nutzen]({{< relref "encryption/_index.md" >}})
 <!--
