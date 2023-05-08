@@ -13,7 +13,7 @@ Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem von InnoCampus:
 
 ## Impressum
 
-Es gilt das [Impressum der TU Berlin](https://www.tu.berlin/impressum/) mit folgenden Änderungen:
+Es gilt das [Impressum der TU Berlin](https://www.tu.berlin/footer/impressum/) mit folgenden Änderungen:
 
 ### Ansprechpartner:
 
