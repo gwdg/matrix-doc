@@ -5,9 +5,13 @@ chapter: false
 draft: false
 ---
 
-## Wartungsarbeiten am 13.09.23 ab 21:30 Uhr
+<!--## Wartungsarbeiten am Montag den 06.11.23 ab 20:30 Uhr
 
-Am Mittwoch den 13.09.23 ab 21:30 Uhr finden Wartungsarbeiten statt - Matrix wird voraussichtlich für einige Stunden nicht erreichbar sein.
+Am Montag den 06.11.23 ab 20:30 Uhr finden Wartungsarbeiten statt - Matrix wird voraussichtlich für einige Stunden nicht erreichbar sein.-->
+
+## Element-Client
+
+Unser Matrix-Homeserver ist über den [Element-Client](https://chat.tu-berlin.de/) im Browser erreichbar.
 
 ## Dokumentation im Aufbau
 Aktuell arbeiten wir noch daran die [Dokumentation von der TU-Dresden](https://doc.matrix.tu-dresden.de/) an unsere Matrix-Instanz anzupassen. Im Menü auf der linken Seite werden nach und nach immer mehr Seiten entstehen.
