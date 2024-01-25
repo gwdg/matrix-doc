@@ -5,6 +5,14 @@ chapter: false
 draft: false
 ---
 
+<!--## Wartungsarbeiten am Montag den 06.11.23 ab 20:30 Uhr
+
+Am Montag den 06.11.23 ab 20:30 Uhr finden Wartungsarbeiten statt - Matrix wird voraussichtlich für einige Stunden nicht erreichbar sein.-->
+
+## Element-Client
+
+Our matrix home server can be accessed via the [Element-Client](https://chat.tu-berlin.de/) in your favourite browser.
+
 ## English version under development
 Currently we are stil working on the english version of this documentation.
 More pages in the menu will appear soon.
