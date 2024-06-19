@@ -52,7 +52,7 @@ Ja! Zur Zeit ist es nur ein experimentelles Feature, aber in wenigen Wochen wird
 
 ***
 #### Gibt es sowas wie Threads (vgl. Mattermost/Slack) in Matrix? {#threads}
-Threads sind in Kürze in Matrix verfügbar und aktuell, zumindest am Element Desktop, als Laborfunktion ausprobierbar: https://github.com/vector-im/roadmap/projects/1
+Ja, Threads sind in Matrix zumindest im Element Client verfügbar: https://element.io/blog/introducing-threads-in-beta/
 
 ***
 #### Ich habe keinen Wiederherstellungsschlüssel
