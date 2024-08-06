@@ -2,7 +2,7 @@
 title: "First steps"
 date: 2020-08-02T21:26:25+02:00
 chapter: true
-draft: false
+draft: true
 weight: 2
 ---
 
@@ -186,11 +186,10 @@ For civil use of the Matrix protocol, here is a list of public home servers that
 
 [https://fediverse.blog/~/FossMessenger/matrix-server](https://fediverse.blog/~/FossMessenger/matrix-server)
 
-
-## Privacy policy
-
-Privacy policy: [Link]({{< relref "privacy/_index.en.md" >}})
-
 ## Imprint
 
 Imprint: [Link]({{< relref "imprint/_index.en.md" >}})
+
+## Privacy policy
+
+Privacy policy: [Link](https://matrix.tu-berlin.de/_matrix/consent)

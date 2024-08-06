@@ -5,16 +5,40 @@ draft: false
 chapter: true
 weight: 1000
 ---
-# Impressum
+## Fragen / Kontakt
 
-Es gilt das [Impressum der TU Dresden](https://tu-dresden.de/impressum) mit folgenden Änderungen:
+Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem von InnoCampus:
 
-**Ansprechpartner und technische Umsetzung des Matrix-Dienstes**
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
 
-Technische Universität Dresden <br>
-Zentrum für Informationsdienste und Hochleistungsrechnen (ZIH) <br>
-01062 Dresden <br>
+## Impressum
 
-Tel.: +49 351 463-40000 <br>
-Fax: +49 351 463-42328 <br>
-E-Mail: servicedesk@tu-dresden.de <br>
+Es gilt das [Impressum der TU Berlin](https://www.tu.berlin/footer/impressum/) mit folgenden Änderungen:
+
+### Ansprechpartner:
+
+#### M.Sc. Martin Gauk
+
+Technische Universität Berlin<br/>
+InnoCampus<br/>
+Sekretariat E 1<br/>
+Einsteinufer 19<br/>
+10587 Berlin
+
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+
+### Technische Umsetzung:
+
+#### B.Sc. Daniel Wujecki
+
+Technische Universität Berlin<br/>
+InnoCampus<br/>
+Sekretariat E 1<br/>
+Einsteinufer 19<br/>
+10587 Berlin
+
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+
+## Datenschutzerklärung
+
+Siehe [https://matrix.tu-berlin.de/_matrix/consent](https://matrix.tu-berlin.de/_matrix/consent).

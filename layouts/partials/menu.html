@@ -54,13 +54,13 @@
         <div class="highlightable">
         <ul class="topics">
             {{if eq .Site.Language.Lang "en"}}
-            <li class="dd-item" data-nav-id="/" titel="Matrix at TUD">
-              <a href="/en">Matrix at TUD</a>
-          </li>  
+            <li class="dd-item" data-nav-id="/" titel="Matrix at TUB">
+              <a href="/en">Matrix at TUB</a>
+            </li>
             {{end}}
             {{if eq .Site.Language.Lang "de"}}
-            <li class="dd-item" data-nav-id="/" titel="Matrix an der TUD">
-                <a href="/">Matrix an der TUD</a>
+            <li class="dd-item" data-nav-id="/" titel="Matrix an der TUB">
+                <a href="/">Matrix an der TUB</a>
             </li>        
             {{end}}
             {{if eq .Site.Params.ordersectionsby "title"}}  
@@ -71,7 +71,17 @@
               {{range .Site.Home.Sections.ByWeight}}
               {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
               {{end}}
-            {{end}} 
+            {{end}}
+            {{if eq .Site.Language.Lang "en"}}
+            <li class="dd-item" data-nav-id="/" titel="Privacy">
+              <a href="https://matrix.tu-berlin.de/_matrix/consent">Privacy</a>
+            </li>
+            {{end}}
+            {{if eq .Site.Language.Lang "de"}}
+            <li class="dd-item" data-nav-id="/" titel="Datenschutz">
+                <a href="https://matrix.tu-berlin.de/_matrix/consent">Datenschutz</a>
+            </li>
+            {{end}}
         </ul>
     
         {{ $disableShortcutsTitle := .Site.Params.DisableShortcutsTitle}}
@@ -159,4 +169,3 @@
       {{end}}
      {{ end }}
     {{ end }}
-    

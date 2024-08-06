@@ -1,7 +1,7 @@
 ---
 title: "Notifications"
 date: 2020-07-03T13:45:15+02:00
-draft: false
+draft: true
 chapter: true
 weight: 38
 ---

@@ -5,16 +5,40 @@ draft: false
 chapter: true
 weight: 1000
 ---
-# Imprint
+## Questions and Contact
 
-The [Imprint of the TU Dresden](https://tu-dresden.de/impressum) is valid with the following changes:
+Please mail general questions to the ticket-system of InnoCampus:
 
-**Contact person and technical implementation of the matrix service**
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
 
-Technische Universität Dresden <br>
-Center for Information Services and High Performance Computing (ZIH) <br>
-01062 Dresden <br>
+## Imprint
 
-Tel.: +49 351 463-40000 <br>
-Fax: +49 351 463-42328 <br>
-Email: servicedesk@tu-dresden.de <br>
+The [Impressum der TU Berlin](https://www.tu.berlin/footer/impressum/) is valid with the following changes:
+
+### Contact person:
+
+#### M.Sc. Martin Gauk
+
+Technische Universität Berlin<br/>
+innoCampus<br/>
+Sekretariat E 1<br/>
+Einsteinufer 19<br/>
+10587 Berlin
+
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+
+### Technical implementation:
+
+#### B.Sc. Daniel Wujecki
+
+Technische Universität Berlin<br/>
+innoCampus<br/>
+Sekretariat E 1<br/>
+Einsteinufer 19<br/>
+10587 Berlin
+
+<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+
+## Privacy Policy
+
+Please consider [https://matrix.tu-berlin.de/_matrix/consent](https://matrix.tu-berlin.de/_matrix/consent).
