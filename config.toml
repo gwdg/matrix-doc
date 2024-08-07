@@ -1,4 +1,4 @@
-baseURL = "https://docs.chat.tu-berlin.de/"
+baseURL = "https://docs.chat.academiccloud.de/"
 languageCode = "de-DE"
 DefaultContentLanguage = "de"
 title = "Matrix Dokumentation"

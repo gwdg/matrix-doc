@@ -8,21 +8,21 @@ weight: 5
 
 # Element Web
 
-Starten Sie auf [chat.tu-berlin.de](https://chat.tu-berlin.de).
+Starten Sie auf [chat.academiccloud.de](https://chat.academiccloud.de).
 
 ![Startseite von Element Webclient mit Anmeldebutton](/images/01_Welcome_de.png)
 
-Hierzu ist keine Konfiguration oder Registrierung nötig, der Dienst kann sofort durch Klick auf „Anmelden“ auf der Startseite [chat.tu-berlin.de](https://chat.tu-berlin.de) genutzt werden.
+Hierzu ist keine Konfiguration oder Registrierung nötig, der Dienst kann sofort durch Klick auf „Anmelden“ auf der Startseite [chat.academiccloud.de](https://chat.academiccloud.de) genutzt werden.
 
 ![Loginfenster mit Aufforderung ZIH Login und Passwort einzugeben](/images/02_Login1_de.png)
 
 Anschließend müssen Benutzername und Passwort des TUB-Accounts angegeben werden. In dem Dropdown-Menü „Anmelden mit:“ sollte „Benutzername“ ausgewählt bleiben. Als Nutzername muss der TUB-Login **vollständig in Kleinbuchstaben** verwendet werden (keine E-Mail-Adresse). Es folgt nach dem Erstlogin auch keine Bestätigungsmail.
 
 {{% notice warning %}}
-Sollten Sie statt mit der oben genannten Website (Element-Web-App an der TU Berlin installiert) sofort mit einem [Matrix Client]({{< relref "../clients" >}}) starten wollen, ist es wichtig den Heimserver vom zumeist standardmäßig eingestellten matrix.org auf matrix.tu-berlin.de zu ändern siehe [Erste Schritte]({{< relref "../first-steps" >}}).
+Sollten Sie statt mit der oben genannten Website (Element-Web-App der Academic Cloud) sofort mit einem [Matrix Client]({{< relref "../clients" >}}) starten wollen, ist es wichtig den Heimserver vom zumeist standardmäßig eingestellten matrix.org auf academiccloud.de zu ändern siehe [Erste Schritte]({{< relref "../first-steps" >}}).
 {{% /notice %}}
 
-Der einfachste Weg ist das direkte Öffnen der Element-Web-Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)) unter der Adresse [chat.tu-berlin.de](https://chat.tu-berlin.de).
+Der einfachste Weg ist das direkte Öffnen der Element-Web-Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)) unter der Adresse [chat.academiccloud.de](https://chat.academiccloud.de).
 
 ## Browsereinstellungen
 
@@ -38,7 +38,9 @@ Sollten Sie Browser-Plugins (z.B. Skript-Blocker) nutzen, um sich vor [Tracking]
 
 ### Cookies
 
-Erlauben Sie auch Cookies von
+Erlauben Sie auch dauerhaft Cookies von
 
-- tu-berlin.de
+- academiccloud.de
 - vector.im (für den Integrationsmanager)
+
+So ist u.a. sichergestellt, dass die Sitzung stabil bestehen bleibt und damit die Schlüssel der Ende-zu-Ende-Verschlüsselung nicht verlorengehen.

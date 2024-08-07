@@ -12,9 +12,9 @@ Der bekannteste und empfohlene Client zur Nutzung von Matrix heißt **Element** 
 
 ## [Element Web]({{< ref "browser.md" >}} "Einrichtung von Element Web (Browser)")
 
-Der einfachste Weg ist das direkte Öffnen der Element-Web-Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)). Neben einer öffentlich verfügbaren Version von Element Web bietet die TU Berlin eine vorkonfigurierte Version von Element Web an. Dadurch entfällt beispielsweise die Eingabe der Homeserver-URL beim Login und bestimmte Features sind aktiviert (z.B. Latex-Formatierung in Nachrichten) beziehungsweise deaktiviert.
+Der einfachste Weg ist das direkte Öffnen der Element-Web-Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)).
 
-{{% button href="https://chat.tu-berlin.de" icon="fas fa-globe" %}}chat.tu-berlin.de{{% /button %}} {{% button href="https://app.element.io" icon="fas fa-globe" %}}app.element.io{{% /button %}}
+{{% button href="https://chat.academiccloud.de" icon="fas fa-globe" %}}chat.academiccloud.de{{% /button %}} {{% button href="https://app.element.io" icon="fas fa-globe" %}}app.element.io{{% /button %}}
 
 ## [Element Desktop]({{< ref "desktop.md" >}} "Einrichtung von Element Desktop") (Linux, macOS, Windows)
 
@@ -27,5 +27,7 @@ Element kann als Programm auf dem eigenen Rechner installiert werden. Vorteil is
 Unterwegs ist der Zugriff auf Matrix per Smartphone mit Hilfe der mobilen Element Apps möglich.
 
 {{% button href="https://apps.apple.com/app/vector/id1083446067" icon="fas fa-download" %}}iOS (iPhone/iPad){{% /button %}} {{% button href="https://play.google.com/store/apps/details?id=im.vector.app" icon="fas fa-download" %}}Android (Google Play){{% /button %}} {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Droid){{% /button %}}
+
+ACHTUNG: In einigen Stores findet sich auch die App 'Element X'. Diese ist noch nicht fertig entwickelt und sollte nicht eingesetzt werden.
 
 [![Element Seite zum Download des Clients](/images/12_Element-Download.png)](https://element.io/get-started)
