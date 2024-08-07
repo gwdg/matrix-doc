@@ -2,17 +2,18 @@ baseURL = "https://docs.chat.tu-berlin.de/"
 languageCode = "de-DE"
 DefaultContentLanguage = "de"
 title = "Matrix Dokumentation"
-theme = "learn"
+theme = "hugo-theme-relearn"
 
 [params]
-  themeVariant = "tud"
+  themeVariant = "ac"
   disableNextPrev = true
   disableShortcutsTitle = false
-  showVisitedLinks = true
+  showVisitedLinks = false
   disableBreadcrumb = false
   disableMermaid = false
+
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+  home = [ "HTML", "RSS", "SEARCH"]
 
 # No newline (<br/>) unless unsafe is enabled
 # https://gohugo.io/news/0.60.0-relnotes/
@@ -21,10 +22,6 @@ home = [ "HTML", "RSS", "JSON"]
     [markup.goldmark.renderer]
       unsafe = true
 [languages]
-  [languages.en]
-    title = "Matrix Documentation"
-    weight = 2
-    languageName = "English"
   [languages.de]
     title = "Matrix Dokumentation"
     weight = 1

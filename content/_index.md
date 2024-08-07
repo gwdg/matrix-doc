@@ -50,9 +50,6 @@ setInterval(() => {
     * [Element Android]({{< relref "clients/android/_index.md" >}})
     * [Element iOS]({{< relref "clients/ios/_index.md" >}})
     * [Element-Installation unter Linux]({{< relref "clients/install_linux/_index.md" >}})
-<!--
-    * [Weitere Clients]({{< relref "clients/more_clients/_index.md" >}})
--->
 * [Personen finden und direkte Nachrichten versenden]({{< relref "messaging/_index.md" >}})
     * [Nachrichten formatieren]({{< relref "messaging/formatting/_index.md" >}})
     * [Nachrichten suchen]({{< relref "messaging/search/_index.md" >}})
