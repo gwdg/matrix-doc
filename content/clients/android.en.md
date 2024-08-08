@@ -25,10 +25,8 @@ You may find the app 'Element X' in the Play-Store. This app is not ready for pr
 
 ![Selection of a server: You can see the options "matrix.org", "element matrix services" and "Other".](/images/15_Element_Android2_en.jpg?height=50vh&classes=border)
 
-3. Enter `tu-dresden.de` in the address field and confirm server address by tapping the **"Continue"** button.
+3. Enter `acadamiccloud.de` in the address field and confirm server address by tapping the **"Continue"** button.
 
 !["Other" screen to connect to custom server. The Address text box requires the server address to be entered, and below it is the Continue button.](/images/15_Element_Android3_en.jpg?height=50vh&classes=border)
 
-4. Enter your ZIH login in the **"User name or e-mail address"** field. (You will find your ZIH login in the [profile of the Self-Service Portal](https://selfservice.tu-dresden.de/profile/) in the Account Information section as "Login user name".) After entering your ZIH password in the second field, you can log in using the **"Login"** button.
-
-![Screen "Connect to tu-dresden.de" expects the input of the ZIH login in the text field "Username or email" and the input of the ZIH password in the text field "Password". To connect, the button "Sign in" is on the display.](/images/15_Element_Android4_en.jpg?height=50vh&classes=border)
+4. Follow the usual login Academic Cloud Login flow.
