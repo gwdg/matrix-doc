@@ -6,7 +6,7 @@ chapter: true
 weight: 60
 ---
 # Install Element Desktop on Linux
-We recommend using the package manager of your System to install Element Desktop. The following commands will install element desktop. You can enter them on the command line.
+We recommend using the package manager of your system or Flathub to install Element Desktop. The following commands will install element desktop. You can enter them on the command line.
 
 ### Debian/Ubuntu
 ```sh
@@ -20,17 +20,26 @@ sudo apt update
 
 sudo apt install element-desktop
 ```
+
 ### Fedora
 ```sh
 sudo dnf install -y dnf-plugins-core distribution-gpg-keys
 sudo dnf copr enable taw/element
 sudo dnf install -y element --refresh
 ```
+
 ### Arch Linux
 ```sh
 sudo pacman -Sy element-desktop
 ```
+
 ### NixOS
 ```sh
 nix-env -iA nixos.element-desktop
+```
+
+### Flatpak
+If your distribution supports flatpaks you can install element also from [flathub](https://flathub.org/home)
+```sh
+flatpak install flathub im.riot.Riot
 ```
