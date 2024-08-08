@@ -14,7 +14,7 @@ These terms of use come into force on 08.04.2024.
 ### Notes on the Federation
 
 {{% notice note %}}
-Data or files stored on other matrix servers cannot be deleted by TU Dresden. Members of TU Dresden can use the federation to access rooms on external matrix servers and vice versa. In this case, the external server also holds data and files from the TUD matrix server, but may handle the deletion of this information differently. It is also possible that data is still available in the temporary cache of users' Matrix clients.
+Data or files stored on other matrix servers cannot be deleted by GWDG. Matrix users with an Academic ID can use the federation to access rooms on external matrix servers and vice versa. In this case, the external server also holds data and files from the GWDG matrix servers, but may handle the deletion of this information differently. It is also possible that data is still available in the temporary cache of users' Matrix clients.
 {{% /notice %}}
 
 ### Files
@@ -22,7 +22,7 @@ Data or files stored on other matrix servers cannot be deleted by TU Dresden. Me
 Matrix can be used to exchange files, but is not intended for longer-term storage. For this reason, files that have been received or sent in Matrix are automatically removed from the TU Dresden Matrix server after a certain period of time. Specifically, a file is deleted 12 months after it was last accessed.
 
 {{% notice tip %}}
-Appropriate services such as [Datashare](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) can be used for the permanent storage of files.
+Appropriate services such as [ownCloud](https://owncloud.gwdg.de) can be used for the permanent storage of files.
 {{% /notice %}}
 
 ### Sessions
@@ -39,20 +39,20 @@ In general, you should only log out of a session if "Secure Backup" is enabled o
 
 ### Matrix accounts
 
-#### With inactive ZIH login
+#### With inactive Academic ID login
 
-If the ZIH login has expired, existing sessions are deleted. This means that you will be logged out of all Matrix clients in use. Access to the Matrix account is not possible with an expired ZIH login. 
+If the Academic ID login has expired, existing sessions are deleted. This means that you will be logged out of all Matrix clients in use. Access to the Matrix account is not possible with an expired Academic ID. 
 
-If the ZIH login is reactivated within 15 months, access to the Matrix account is possible again. However, there may be restrictions on access to encrypted messages:
+If the Academic ID login is reactivated within 15 months, access to the Matrix account is possible again. However, there may be restrictions on access to encrypted messages:
 
 * Access to encrypted messages received during inactivity is not possible.
 * Access to older encrypted messages is only possible if either
   * the "Secure Backup" is active and its security key or phrase is known or
-  * the "E2E room keys" were exported before the ZIH login expired.
+  * the "E2E room keys" were exported before the Academic ID expired.
 
-#### If ZIH login is blocked
+#### If Academic ID login is blocked
 
-If the ZIH login has been expired for more than 15 months, the associated Matrix account will be deactivated.
+If the Academic ID login has been expired for more than 15 months, the associated Matrix account will be deactivated.
 
 The following Matrix account data will be deleted:
 

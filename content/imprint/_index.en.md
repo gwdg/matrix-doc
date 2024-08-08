@@ -1,44 +1,23 @@
 ---
 title: "Imprint"
-date: 2020-07-02T21:22:54+02:00
+date: 2024-08-08T21:22:54+02:00
 draft: false
 chapter: true
 weight: 1000
 ---
 ## Questions and Contact
 
-Please mail general questions to the ticket-system of InnoCampus:
+Please mail general questions to the ticket-system of GWDG:
 
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+<a href="mailto:support@gwdg.de">support(at)gwdg.de</a>
 
 ## Imprint
 
-The [Impressum der TU Berlin](https://www.tu.berlin/footer/impressum/) is valid with the following changes:
+The [Impressum der GWDG](https://gwdg.de/impressum/) is valid for the matrix services hosted at 
 
-### Contact person:
+chat.academiccloud.de
+chat.umg.eu
+matrixchat.mpg.de
+chat.uni-goettingen.de
+matrix.gwdg.de
 
-#### M.Sc. Martin Gauk
-
-Technische Universität Berlin<br/>
-innoCampus<br/>
-Sekretariat E 1<br/>
-Einsteinufer 19<br/>
-10587 Berlin
-
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
-
-### Technical implementation:
-
-#### B.Sc. Daniel Wujecki
-
-Technische Universität Berlin<br/>
-innoCampus<br/>
-Sekretariat E 1<br/>
-Einsteinufer 19<br/>
-10587 Berlin
-
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
-
-## Privacy Policy
-
-Please consider [https://matrix.tu-berlin.de/_matrix/consent](https://matrix.tu-berlin.de/_matrix/consent).

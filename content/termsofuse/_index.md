@@ -7,22 +7,22 @@ chapter: true
 
 # Nutzungsbedingungen
 
-Diese Nutzungsbedingungen treten ab dem 08.04.2024 in Kraft.
+Diese Nutzungsbedingungen treten ab dem 08.08.2024 in Kraft.
 
 ## Löschfristen
 
 ### Hinweise zur Föderation
 
 {{% notice note %}}
-Daten bzw. Dateien, die auf anderen Matrix-Servern liegen, können von der TU Dresden nicht gelöscht werden. Über die Föderation ist es Angehörigen der TU Dresden möglich, Räume externer Matrix-Server zu betreten und umgekehrt. In diesem Fall hält der externe Server ebenfalls Daten und Dateien des TUD-Matrix-Servers bereit, handhabt das Löschen dieser Informationen ggf. anders. Weiterhin ist es möglich, dass Daten noch im temporären Zwischenspeicher von Matrix-Clients der Nutzer:innen vorhanden sind.
+Daten bzw. Dateien, die auf anderen Matrix-Servern liegen, können von der GWDG nicht gelöscht werden. Über die Föderation ist es Angehörigen der GWDG Matrix Server möglich, Räume externer Matrix-Server zu betreten und umgekehrt. In diesem Fall hält der externe Server ebenfalls Daten und Dateien der GWDG-Matrix-Server bereit, handhabt das Löschen dieser Informationen ggf. anders. Weiterhin ist es möglich, dass Daten noch im temporären Zwischenspeicher von Matrix-Clients der Nutzer:innen vorhanden sind.
 {{% /notice %}}
 
 ### Dateien
 
-Matrix lässt sich zum Austausch von Dateien verwenden, ist aber nicht als längerfristigere Aufbewahrung gedacht. Aus diesem Grund werden Dateien, die in Matrix empfangen bzw. verschickt wurden, nach einer gewissen Zeit automatisiert vom Matrix-Server der TU Dresden entfernt. Konkret wird eine Datei 12 Monate, nachdem der letzte Zugriff auf sie erfolgte, gelöscht.
+Matrix lässt sich zum Austausch von Dateien verwenden, ist aber nicht als längerfristigere Aufbewahrung gedacht. Aus diesem Grund werden Dateien, die in Matrix empfangen bzw. verschickt wurden, nach einer gewissen Zeit automatisiert von den  Matrix-Servern der GWDG entfernt. Konkret wird eine Datei 12 Monate, nachdem der letzte Zugriff auf sie erfolgte, gelöscht.
 
 {{% notice tip %}}
-Zur dauerhaften Aufbewahrung von Dateien können entsprechende Dienste wie bspw. [Datashare](https://tu-dresden.de/zih/dienste/service-katalog/zusammenarbeiten-und-forschen/datenaustausch/cloudstore) genutzt werden.
+Zur dauerhaften Aufbewahrung von Dateien können entsprechende Dienste wie bspw. [ownCloud](https://owncloud.gwdg.de) genutzt werden.
 {{% /notice %}}
 
 ### Sitzungen
@@ -39,19 +39,19 @@ Generell sollten Sie sich nur aus einer Sitzung abmelden, wenn die „Verschlüs
 
 ### Matrix-Konten
 
-#### Bei inaktivem ZIH-Login
+#### Bei inaktiver Academic ID
 
-Wenn das ZIH-Login abgelaufen ist, werden vorhandene Sitzungen gelöscht. Es erfolgt also eine Abmeldung aus allen genutzten Matrix-Clients. Ein Zugriff auf das Matrix-Konto ist mit einem abgelaufenen ZIH-Login nicht möglich. 
+Wenn die Academic ID abgelaufen ist, werden vorhandene Sitzungen gelöscht. Es erfolgt also eine Abmeldung aus allen genutzten Matrix-Clients. Ein Zugriff auf das Matrix-Konto ist mit einem abgelaufenen Academic ID Login nicht möglich. 
 
-Sollte das ZIH-Login innerhalb von 15 Monaten reaktiviert werden, ist der Zugriff auf das Matrix-Konto wieder möglich. Dabei kann es allerdings zu Einschränkungen beim Zugriff auf verschlüsselte Nachrichten kommen:
+Sollte das Academic ID innerhalb von 15 Monaten reaktiviert werden, ist der Zugriff auf das Matrix-Konto wieder möglich. Dabei kann es allerdings zu Einschränkungen beim Zugriff auf verschlüsselte Nachrichten kommen:
 
 * Der Zugriff auf während der Inaktivität empfangene verschlüsselte Nachrichten ist nicht möglich.
 * Ein Zugriff auf ältere verschlüsselte Nachrichten ist nur möglich, wenn entweder
   * die „Verschlüsselte Sicherung“ aktiv und deren Sicherheitsschlüssel bzw. -phrase bekannt ist oder
-  * die „E2E-Raumschlüssel“ vor Ablauf des ZIH-Logins exportiert wurden.
+  * die „E2E-Raumschlüssel“ vor Ablauf der Academic ID exportiert wurden.
 
 
-#### Bei gesperrtem ZIH-Login
+#### Bei gesperrter Academic ID
 
 Wenn das ZIH-Login seit mehr als 15 Monaten abgelaufen ist, wird das zugehörige Matrix-Konto deaktiviert.
 

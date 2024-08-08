@@ -7,38 +7,17 @@ weight: 1000
 ---
 ## Fragen / Kontakt
 
-Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem von InnoCampus:
+Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem der GWDG:
 
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
+<a href="mailto:support@gwdg.de">support(at)gwdg.de</a>
 
 ## Impressum
 
-Es gilt das [Impressum der TU Berlin](https://www.tu.berlin/footer/impressum/) mit folgenden Änderungen:
+Es gilt das [Impressum der GWDG](https://gwdg.de/impressum/) für die Matrix Installationen unter
 
-### Ansprechpartner:
+chat.academiccloud.de<br>
+chat.umg.eu<br>
+matrixchat.mpg.de<br>
+chat.uni-goettingen.de<br>
+matrix.gwdg.de<br>
 
-#### M.Sc. Martin Gauk
-
-Technische Universität Berlin<br/>
-InnoCampus<br/>
-Sekretariat E 1<br/>
-Einsteinufer 19<br/>
-10587 Berlin
-
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
-
-### Technische Umsetzung:
-
-#### B.Sc. Daniel Wujecki
-
-Technische Universität Berlin<br/>
-InnoCampus<br/>
-Sekretariat E 1<br/>
-Einsteinufer 19<br/>
-10587 Berlin
-
-<a href="mailto:matrix-support@innocampus.tu-berlin.de">matrix-support(at)innocampus.tu-berlin.de</a>
-
-## Datenschutzerklärung
-
-Siehe [https://matrix.tu-berlin.de/_matrix/consent](https://matrix.tu-berlin.de/_matrix/consent).
