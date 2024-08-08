@@ -34,6 +34,7 @@ In order to meet the demand for real-time communication, the open communication 
 <!--
 * [How can Matrix be used? (registration and first steps)]({< relref "first-steps/_index.en.md" >})
 * [Recommendations for further important settings after first login]({< relref "settings/_index.en.md" >}})
+-->
 * [Install and setup Matrix clients]({< relref "clients/_index.en.md" >}})
     * [Element Web]({< relref "clients/browser/_index.en.md" >}})
     * [Element Desktop]({< relref "clients/desktop/_index.en.md" >}})
@@ -41,6 +42,7 @@ In order to meet the demand for real-time communication, the open communication 
     * [Element iOS]({< relref "clients/ios/_index.en.md" >}})
     * [Element installation under Linux]({< relref "clients/install_linux/_index.en.md" >}})
     * [More Clients]({< relref "clients/more_clients/_index.en.md" >}})
+<!--
 * [Find people and send direct messages]({< relref "messaging/_index.en.md" >}})
     * [Format messages]({< relref "messaging/formatting/_index.en.md" >}})
     * [Search messages]({< relref "messaging/search/_index.en.md" >}})
@@ -54,9 +56,9 @@ In order to meet the demand for real-time communication, the open communication 
 * [Using Spaces for managing rooms]({< relref "spaces/_index.en.md" >}})
 * [Use end-to-end encryption]({< relref "encryption/_index.en.md" >}})
 * [Use integrations, bridges, bots (e.g. Jitsi)]({< relref "integrations/_index.en.md" >}})
-* [Frequently asked questions (FAQ)]({< relref "faq/_index.en.md" >}})
 * [Further development of Matrix]({< relref "development/_index.en.md" >}})
 -->
+* [Frequently asked questions (FAQ)]({< relref "faq/_index.en.md" >}})
 * [Privacy policy](https://gwdg.de/imprint)
 * [Imprint]({{< relref "imprint/_index.en.md" >}})
 

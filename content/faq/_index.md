@@ -2,143 +2,203 @@
 menutitle: "Häufige Fragen (FAQ)"
 title: "Häufig gestellte Fragen"
 date: 2020-08-02T21:26:25+02:00
-draft: true
+draft: false
 weight: 200
 ---
-Dies ist eine Zusammenstellung häufiger Fragen und deren Antworten. Teilweise sind die Antworten noch nicht formuliert. In diesen Fällen bitte im Raum ```#matrix-support:tu-dresden.de``` nachfragen.
+Dies ist eine Zusammenstellung häufiger Fragen und deren Antworten. .
 
-* [Nachrichten nicht lesbar](#unable-to-decrypt)
-* [Was ist der Unterschied zwischen Sicherheitsphrase und Sicherheitsschlüssel?](#securityphrase-vs-securitykey)
-* [Warum sieht man im Element Desktop-Client keine Statuszeile am unteren Ende des Bildschirms wenn man über Hyperlinks hovert (= Maus drüber bewegt und verweilt)? Wie kann man diesen dann vertrauen?](#no-statusline)
-* [Wie teilt man Leuten mit Element Desktop-Client eine Raumadresse mit?](#desktop-share-room)
-* [Wie teilt man Leuten mit Element Web-Client eine Raumadresse mit?](#web-share-room)
-* [Kann ich LaTeX schreiben?](#latex)
-* [Gibt es sowas wie Threads (vgl. Mattermost/Slack) in Matrix?](#threads)
-* [Wie ändere ich die Sicherheitsphrase für meine Schlüsselsicherung?](#change-securityphrase)
-* [Wie kann ich die Schlüsselsicherung zurücksetzen, wenn ich meine Sicherheitsphrase UND meinen (abgespeicherten und ausgedruckten) Sicherheitsschlüssel verloren habe?](#reset-securityphrase)
-* [Warum gibt es keinen Raum „TU Dresden“? Wer dürfte ihn erstellen?](#no-tud-room)
-* [Wie kann ich als administrierende Person viele Nachrichten auf einmal löschen?](#delete-multiple-messages)
-* [Manchmal sehe ich einen fett markierten Raum und klicke ihn an, habe aber doch nicht die Zeit, den Inhalt und etwaige Konsequenzen für mich sofort zu bearbeiten.Wie kann ich den Raum wieder als „ungelesen“ markieren?](#mark-room-as-unread)
-* [Was muss ich tun, wenn auf einem MacOS Video oder Audio in einer Videokonferenz nicht funktioniert.](#apple-no-video)
-* [Wie viele Personen können gleichzeitig in einen Raum eingeladen werden? Kann ich Personen über ihre E-Mail-Adressen einladen?](#how-many-invites-can-i-do)
-* [Kann ich die Beitrittsrechte aller Räume meiner Community so anpassen, dass nur Mitglieder der Community Zutritt haben?](#roompermissions-in-communities)
-* [Kann ich mit Element mehrere Matrix-Accounts verwalten (Multi-Account-Client)?](#multiple-accounts-element)
-* [Ich kann keine Profil-/Raumbilder oder gesendete Bilder mehr sehen.](#relogin)
-* [Überall steht nur „missing translation: en“|](#missing-translations)
-* [Ist unser Server auf eurer Föderations-Blacklist?](#blacklist)
-* [Ich sehe in einem Raum von einer bestimmten Person keine Nachrichten](#blocked-user)
-
-***
-#### Nachrichten nicht lesbar{#unable-to-decrypt}
-  * Es muss zur zeit mindestens immer eine verifizierte Sitzung offen sein, am einfachsten geht dies, wenn der Desktop Client oder Element auf dem tragbarem Handrechner eingerichtet ist. Diese Programme können beendet und neu gestartet werden, ohne sich erneut anmelden zu müssen. Anderweitig kann eine verifizierte Matrixsitzung in einem privaten Browserfenster erstellt werden, indem man sich dort bei Matrix anmeldet und diese Sitzung aus einer bestehenden verifziert. Dieses Fenster kann nach ca. fünf Minuten geschlossen werden. Die Schlüssel werden durch die Verifikation in die anderen Matrixclients übernommen. Das erzeugt eine Geistersitzung welche dann immer offen ist. Dann können alle anderen Clients abgemeldet werden. Ansonsten können Nachrichten welche in dem Zeitraum ohne offene Matrixsitzung empfangen werden später nicht mehr gelesen werden. Dies soll in Zukunft mittels der Funktion dehydrated devices gelöst werden.
-  * Wurde die Schlüsselsicherung ordnungsgemäß eingerichtet?
-  * Nachrichten bleiben nicht lesbar, wenn Matrixsitzungen erstellt werden und dann das Fenster des Browsers einfach geschlossen wird, ohne sich abzumelden. Lösung: nur für neue Nachrichten möglich: diese Dokumentation durchlesen.
-
-***
-#### Was ist der Unterschied zwischen Sicherheitsphrase und Sicherheitsschlüssel? {#securityphrase-vs-securitykey}
-Das Kennwort, welches für die Schlüsselsicherung benötigt wird heißt Sicherheitsprase. Damit verschlüssel der Matrixclient den Sicherheitsschlüssel/Wiederherstellungsschlüssel. Der Sicherheitsschlüssel wird beim erstellen als security-key.txt angeboten und sollte bei Windows nicht unter Downloads gespeichert werden, da dieser von Windows gegebenenfalls automatisch bereinigt wird. Der Sicherheitsschlüssel besteht aus 12 Blöcken zu je vier Zeichen und startet mit einem großen E. Es empfiehlt sich nach dem Einrichten des Sicherheitsschlüssels diesen in einem Passwortmanager, als Datei und evlt. ausgedruckt zu speichern. Da der Sicherheitsschlüssel im Alltag schlecht gemerkt werden kann (bspw. unterwegs, wenn man mal eben in Matrix vorbeischauen möchte, aber nur fremde Rechner zur Verfügung hat) kann man sich eine (gut merkbare) Sicherheitsphrase ausdenken (z.B. ein [Passsatz](https://inv.13ad.de/watch?v=jtFc6B5lmIM)), damit kann dann die Sitzung verifiziert werden und wird damit mit der Schlüsselsicherung verbunden.
-***
-#### Warum sieht man im Element Desktop-Client keine Statuszeile am unteren Ende des Bildschirms wenn man über Hyperlinks hovert (= Maus drüber bewegt und verweilt)? Wie kann man diesen dann vertrauen? {#no-statusline}
-Tatsächlich ist die Statusleiste eine beliebte Prüfung der Seriösität von Hyperlinks, die man versucht ist anzuklicken. Im Element Desktop Client geht das ähnlich der mobilen Clients nicht. Hier kann man nur mit der rechten Maustaste auf den Link klicken und so die präsentierte Zielseite auf Seriösität prüfen.
-***
-#### Wie teilt man Leuten mit Element Desktop-Client eine Raumadresse mit? {#desktop-share-room}
-Mit dem matrix.to-Link, den man unter dem i für die Raumeigenschaften und einem weiteren Klick auf „Teile Raum“ erkennt.
-***
-#### Wie teilt man Leuten mit Element Web-Client eine Raumadresse mit? {#web-share-room}
-Mit dem matrix.to-Link, den man unter dem i für die Raumeigenschaften und einem weiteren Klick auf „Teile Raum“ erkennt und einem Austausch vom vorderen matrix.to/#/ mit matrix.tu-dresden.de/#/room/
-***
-#### Kann ich LaTeX schreiben? {#latex}
-Ja! Zur Zeit ist es nur ein experimentelles Feature, aber in wenigen Wochen wird es für alle verfügbar sein. Siehe https://github.com/vector-im/element-web/issues/1945
+- [Nachricht kann nicht entschlüsselt werden](#unable-to-decrypt)
+- [Ich habe keinen Wiederherstellungsschlüssel](#no-recovery-key)
+- [Wie ändere ich die Sicherheitsphrase für meine Schlüsselsicherung?](#change-securityphrase)
+- [Wie kann ich die Schlüsselsicherung zurücksetzen, wenn ich meine Sicherheitsphrase UND meinen Sicherheitsschlüssel verloren habe?](#reset-securityphrase)
+- [Was muss ich tun, wenn auf einem Mac oder MacBook Video oder Audio in einer Videokonferenz nicht funktioniert?](#apple-no-video)
+- [Ich kann einen Kollegen/ Kommilitonen nicht einladen](#unable-to-invite)
+- [Die Verbindung zum Server wurde unterbrochen](#no-connection)
+- [Überall steht nur „missing translation: en“](#missing-translations)
+- [Ist unser Server auf eurer Föderations-Blocklist?](#blocklist)
+- [Ich sehe in einem Raum von einer bestimmten Person keine Nachrichten](#blocked-user)
+- [Wie kann ich Matrix nutzen? / Ich finde keine Anleitung wie ich/andere Matrix nutzen können.](#how-to-login)
+- [Ich habe mich an einem zweiten Gerät angemeldet und kann meine Nachrichten nicht lesen](#second-device-no-messages)
+- [Ich habe Studien-/Forschungskollegen, die das auch nutzen wollen. Können die sich auch beim Academic Cloud Matrix anmelden? / Wie kann ich in Matrix mit Externen zusammenarbeiten?](#login-for-external-users)
+- [Wie teilt man Leuten eine Raumadresse mit?](#share-room)
+- [Wie kann ich als administrierende Person viele Nachrichten auf einmal löschen?](#delete-multiple-messages)
+- [Manchmal sehe ich einen fett markierten Raum und klicke ihn an, habe aber doch nicht die Zeit, den Inhalt und etwaige Konsequenzen für mich sofort zu bearbeiten. Wie kann ich den Raum wieder als „ungelesen“ markieren?](#mark-room-as-unread)
+- [Kann ich LaTeX schreiben?](#latex)
+- [Gibt es so etwas wie Threads (vgl. Rocket.Chat/ Slack) in Matrix?](#threads)
+- [Ich habe 2 Accounts, kann ich Nachrichten vom einen zum anderen weiterleiten lassen?](#forward-account)
+- [Kann ich in Matrix Videokonferenzen veranstalten?](#videoconf-in-matrix)
+- [Kann man über Matrix Dateien versenden? / Was ist die maximale Dateigröße, die über Matrix verschickt werden kann?](#file-upload)
+- [Kann ich die/eine Matrix-App auf meinem Handy installieren, ohne Benachrichtigungen zu bekommen?](#app-without-notifications)
+- [Ist es möglich, benachrichtigt zu werden wenn es neue Nachrichten in Matrix gibt, ohne eine App/Website zu öffnen?](#notifications-via-email)
+- [Kann ich mit Element mehrere Matrix-Accounts verwalten (Multi-Account-Client)?](#multiple-accounts-element)
+- [Wie kann ich einen (Chat-)Bot in Matrix bertreiben?](#hook)
 
 ***
-#### Gibt es sowas wie Threads (vgl. Mattermost/Slack) in Matrix? {#threads}
-Ja, Threads sind in Matrix zumindest im Element Client verfügbar: https://element.io/blog/introducing-threads-in-beta/
+# Problembehandlung / "Troubleshooting"
 
+#### Nachricht kann nicht entschlüsselt werden {#unable-to-decrypt}
+- **Tritt dies bei allen Nachrichten in einem Raum (bzw. allen Nachrichten in allen privaten Räumen) auf?**
+  Die Anmeldung, in der die Nachrichten nicht sichtbar sind, wurde nicht verifiziert. Also:
+    - Sicherheitsschlüssel oder Sicherheitspassphrase eingeben (diese wurden beim ersten Login festgelegt), oder
+    - Diese Anmeldung interaktiv verifizieren (man vergleicht Emoji zwischen der ersten und der zweiten Anmeldung). Weitere Infos dazu gibt es [hier](/first-steps)
+    - Schauen, ob die Einstellung "Niemals verschlüsselte Nachrichten von dieser Sitzung zu unverifizierten Sitzungen senden" aktiv ist. Diese Einstellung kann sowohl pro Anmeldung/Gerät als auch pro Raum gesetzt werden. Die Wirkung dieser Einstellung ist, dass unverifierte Gegenüber (a.k.a. mit welchen man noch keine Emojis ausgetauscht hat) die eigenen Nachrichten nicht mehr lesen können. Meist wird diese Einstellung bei der Ersteinrichtung von sicherheitsbewussten Anwendern reflexartig gesetzt, ohne, dass deren Konsequenzen vollumfänglich verstanden werden. Bei persönlich bekannten **und verifizierten** Gegenübern macht diese Einstellung durchaus Sinn und kann die Sicherheit erhöhen. Sofern man jedoch auch mit noch nicht verifierten / fremden Personen Nachrichten problemlos austauschen möchte (insbesondere in Gruppen), sollte man diese Einstellung mit Vorsicht und nur pro Raum setzen (bspw. bei Räumen mit besonders sensitiven Inhalten). Sicherheitsbewusste Anwender sollten mehr auf die Anzeige von grünen/roten Schilden neben Namen und roten Schilden neben Nachrichten vertrauen und achten.
+- **Tritt dies nur bei Nachrichten in einem bestimmten Zeitraum auf?**
+  Wahrscheinlich war in diesem Zeitraum kein Gerät mit dem Konto angemeldet. Um Matrix sicher zu nutzen, ist es *nicht* notwendig sich aus Sitzungen abzumelden (bspw. bevor man den Browser schließt), es wird daher empfohlen auf Geräten, die man wieder nutzen möchte, einfach angemeldet zu bleiben und die Webseite/Anwendung direkt zu schließen wenn gewünscht. So können, auch während kein Gerät angeschaltet ist, Nachrichten korrekt verschlüsselt und zugestellt werden.
+  Falls Sie stets mit mindestens einem Gerät angemeldet waren, könnten auch die Einstellungen Ihres Browsers (sofern Sie Element im Browser verwenden) das Problem verursachen. Stellen Sie sicher, dass der Browser nicht selbstständig lokale Daten, Cookies o.ä. löscht.
+- **Tritt dies vereinzelt / nur einmal auf?**
+  Sie können zunächst nachschauen, ob es für Ihr Konto Anmeldungen gibt, die nicht verifiziert sind (dies findet sich in der Regel in Sicherheitseinstellungen der jeweiligen App oder Website), und den Sender der Nachricht aufforden, das selbe zu tun. Manchmal ist dieser Fehler nicht behebbar, in diesem Fall fordern Sie den Sender am besten auf, die Nachricht erneut zu veschicken.
 ***
-#### Ich habe keinen Wiederherstellungsschlüssel
-Dafür bitte prüfen, ob diese überhaupt eingerichtet wurde. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung)
 
+#### Ich habe keinen Wiederherstellungsschlüssel {#no-recovery-key}
+Bitte prüfen Sie, ob die Schlüsselsicherung eingerichtet wurde. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung).
 ***
+
 #### Wie ändere ich die Sicherheitsphrase für meine Schlüsselsicherung? {#change-securityphrase}
-  * bei allen Matrix-Sitzungen bis auf eine, auf die noch Zugriff besteht, die Raumschlüssel exportieren `Einstellungen`-> `Sicherheit & Datenschutz` -> `Verschlüsselung` hier am besten mit dem Matrixanmeldekennwort versehen. Abschließend abmelden, dafür links oben auf den Benutzernamen und abmelden, bei der Frage möglicherweise auftretenden Fage ob die verschüsselten Nachrichten gewünscht werden den Knopf `Ich möchte meine verschlüsselten Nachrichten nicht` betätigen, da diese Schlüssel eben schon exportiert wurden.
-  * Unter `Einstellungen`-> `Sicherheit & Datenschutz` -> `Sicheres Backup` erst den Knopf `Sicherung löschen`, dann den Knopf `Zurücksetzen`, möglicherweise ist ein löschen des Zwischenspeichers unter `Einstellungen`-> `Hilfe & Über` nötig, möglicherweise auch ein abmelden und erneutes anmelden mit anschließendem erneuten Versuch. Wenn das alles nicht geht, im nächsten Punkt fortfahren. Die Aktion war erfolgreich, wenn nur noch der grüne Einrichten Knopf angezeigt wird.
-  * Für alle vorher exportieren Schlüsselsicherungen den manuellen importweg ausführen.
-  * Neue Schlüsselsicherung einrichten. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung)
-
+- Bei allen Matrix-Sitzungen bis auf eine, auf die noch Zugriff besteht, die Raumschlüssel exportieren `Einstellungen`-> `Sicherheit & Datenschutz` -> `Verschlüsselung`. Abschließend abmelden, dafür links oben auf den Benutzernamen und abmelden, bei der Frage möglicherweise auftretenden Fage ob die verschüsselten Nachrichten gewünscht werden den Knopf `Ich möchte meine verschlüsselten Nachrichten nicht` betätigen, da diese Schlüssel eben schon exportiert wurden.
+- Unter `Einstellungen`-> `Sicherheit & Datenschutz` -> `Sicheres Backup` erst den Knopf `Sicherung löschen`, dann den Knopf `Zurücksetzen`, möglicherweise ist ein löschen des Zwischenspeichers unter `Einstellungen`-> `Hilfe & Über` nötig, möglicherweise auch ein abmelden und erneutes anmelden mit anschließendem erneuten Versuch. Wenn das alles nicht geht, im nächsten Punkt fortfahren. Die Aktion war erfolgreich, wenn nur noch der grüne Einrichten Knopf angezeigt wird.
+- Für alle vorher exportieren Schlüsselsicherungen den manuellen importweg ausführen.
+- Neue Schlüsselsicherung einrichten. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung)
 ***
-#### Wie kann ich die Schlüsselsicherung zurücksetzen, wenn ich meine Sicherheitsphrase UND meinen (abgespeicherten und ausgedruckten) Sicherheitsschlüssel verloren habe? {#reset-securityphrase}
+
+#### Wie kann ich die Schlüsselsicherung zurücksetzen, wenn ich meine Sicherheitsphrase UND meinen Sicherheitsschlüssel verloren habe? {#reset-securityphrase}
 Bitte folgendes ausführen:
-  1. In einer Matrix-Sitzung (=Client/Geräte/Browser), wo man die früheren verschlüsselten Gespräche noch lesen kann, die Raumschlüssel exportieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf den Knopf "E2E-Raumschlüssel exportieren" klicken. Sollte es keinen Zugang zu irgendeiner Matrix-Sitzung mehr geben, in der frühere verschlüsselte Nachrichten lesbar sind, diesen Schritt überspringen.
-  2. In der einen Matrix-Sitzung, bei der man soeben in Schritt 1 die Raumschlüssel manuell exportiert hat, unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` alle weiteren Sitzungen über die Checkbox am Zeilenanfang markieren und unterhalb der Liste auf den rot umrandeten Knopf „x ausgewählte Geräte  abmelden“ klicken. Die oberste Zeile unter der Überschrift "Dieses Gerät" ist die aktuelle Sitzung, diese nicht mit anhaken, also nicht löschen.
+  1. In einer Matrix-Sitzung (=Client/Geräte/Browser), wo man die früheren verschlüsselten Gespräche noch lesen kann, die Raumschlüssel exportieren. Dazu zu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel exportieren klicken. Sollte es keinen Zugang zu irgendeiner Matrix-Sitzung mehr geben, in der frühere verschlüsselte Nachrichten lesbar sind, diesen Schritt überspringen.
+  2. In der einen Matrix-Sitzung, bei der man soeben in Schritt 1 die Raumschlüssel manuell exportiert hat, unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` alle weiteren Sitzungen am Zeilenende ankreuzen und unterhalb der Liste auf den rot umrandeten Knopf „x ausgewählte Geräte  abmelden“ klicken. Die oberste in Fettschrift ist die aktuelle Sitzung, diese nicht mit anhaken, also nicht löschen.
   3. Ggf. ausloggen und wieder einloggen, dabei Nachfragen ignorieren.
-  4. Unter `Einstellungen`-> `Sicherheit` -> `Sicheres Backup` schauen ob dort ein grüner Knopf `Einrichten` und keine roten Knöpfe da sind. Oder wenn noch rote Knöpfe da sind, erst den Knopf `Sicherung löschen`, dann den Knopf `Zurücksetzen` klicken. Möglicherweise ist ein löschen des Zwischenspeichers (roter Knopf unter `Einstellungen`-> `Hilfe & Über`) nötig, möglicherweise auch ein Abmelden und erneutes aAnmelden. 
+  4. Unter `Einstellungen`-> `Sicherheit` -> `Sicheres Backup` schauen ob dort ein grüner Knopf `Einrichten` und keine roten Knöpfe da sind. Oder wenn noch rote Knöpfe da sind, erst den Knopf `Sicherung löschen`, dann den Knopf `Zurücksetzen` klicken. Möglicherweise ist ein löschen des Zwischenspeichers (roter Knopf unter `Einstellungen`-> `Hilfe & Über`) nötig, möglicherweise auch ein Abmelden und erneutes Anmelden. 
   5. Anschließend unter `Einstellungen`-> `Sicherheit` -> `Quersignierung` auf den roten Knopf `Zurücksetzen` drücken. Die Aktion war erfolgreich, wenn für `Sicheres Backup` und `Quersignierung` nur noch der grüne Einrichten Knopf angezeigt wird.
   6. Jetzt die zuvor exportieren Schlüsselsicherungen manuell importieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel importieren klicken.
-  7. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung]({{< relref "settings/#schlüsselsicherung" >}}). Den Sicherheitsschlüssel mehrfach ausdrucken und an verschiedenen Orten sicher aufbewahren (Verlustgefahr bspw. durch Brand, wenn nur an einem Ort).
+  7. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung). Den Sicherheitsschlüssel können Sie zum Beispiel ausdrucken und sicher verwahren.
+***
 
+#### Was muss ich tun, wenn auf einem Mac oder MacBook Video oder Audio in einer Videokonferenz nicht funktioniert? {#apple-no-video}
+Häufig hat Element nicht die Rechte, auf die Webcam und das Mikrofon zuzugreifen. Diese können in den Systemeinstellungen unter Sicherheit und Privatsphäre vergeben werden.
 ***
-#### Warum gibt es keinen Raum „TU Dresden“? Wer dürfte ihn erstellen? {#no-tud-room}
-Alle raumerstellenden Personen sind administrierende Personen und tragen die Verantwortung für den Raum. Matrix ist bisher nicht für den Austausch von tausenden Mitgliedern an der Universität gedacht. Sollte eines Tages ein zentraler Raum von Bedarf sein, würde die Einrichtung und Pflege sicher beim Rektorat und dem Dezernat „Strategie & Kommunikation“ liegen.
+
+#### Ich kann einen Kollegen/Kommilitonen nicht einladen {#unable-to-invite}
+- Zunächst die Rechtschreibung prüfen (wurde das Kürzel oder der Name wirklich korrekt eingegeben?)
+- Es ist nicht möglich, Nutzer mit ihrer E-Mail-Adresse einzuladen oder zu suchen. Am besten entweder das Kürzel (falls bekannt) suchen, oder "auf gut Glück" Vor- und/oder Nachnamen der Person suchen (dies geht nur, wenn die Person diese als Anzeigenamen gewählt hat)
+- Nutzer können nur eingeladen werden, wenn diese sich mindestens einmal angemeldet haben. Falls das Kürzel / die Matrix-ID nicht gefunden werden kann, hat sich dieser Nutzer noch nie in Matrix angemeldet.
 ***
+
+#### Die Verbindung zum Server wurde unterbrochen {#no-connection}
+1. Hat Ihr Gerät Zugang zum Internet? Stellen Sie sicher, dass es sich nicht um ein Funkloch, ein ausgestecktes Internet-Kabel, o.ä. handelt.
+2. Zur Wartung des Systems wird der Matrix-Server manchmal kurz neugestartet, in diesem Fall steht der Dienst nach wenigen Minuten wieder zur Verfügung.
+***
+
+#### Überall steht nur „missing translation: en“ {#missing-translations}
+Dieses Phänomen steht häufig im Zusammenhang mit noch nicht fertiggestellten Aktualisierungen des Matrix-Clients. Laden Sie den Zwischenspeicher neu: Gehen Sie in den Element-Einstellungen in die Kategorie „Hilfe und Über“ und scrollen Sie ganz nach unten: „Zwischenspeicher löschen und neu laden“ sollte das Anzeigeproblem beheben.
+***
+
+#### Ist unser Server auf eurer Föderations-Blocklist? {#blocklist}
+Aktuell befindet sich kein Server auf unserer Föderations-Blocklist. Dies kann nicht der Grund für etwaige Förderations-Probleme sein. Meldet euch aber gerne via [GWDG Support](https://gwdg.de/support)
+***
+
+#### Ich sehe in einem Raum von einer bestimmten Person keine Nachrichten {#blocked-user}
+Ein häufig vorkommender Grund hierfür ist, dass Sie sich verklickt haben und die Person, von der Sie keine Nachrichten mehr sehen, obwohl Ihnen berichtet wird, dass dort etwas stehen müsste, von Ihnen blockiert wurde. Öffnen Sie hierzu Ihre Sicherheitseinstellungen und scrollen weit nach unten. Prüfen Sie, ob in der Kategorie „Blockierte Benutzer“ Einträge stehen, die dort nicht hingehören. Entfernen Sie diese gegebenenfalls.
+***
+
+# Login
+#### Wie kann ich Matrix nutzen? / Ich finde keine Anleitung wie ich/andere Matrix nutzen können. {#how-to-login}
+Anleitungen finden Sie für Element [für die Nutzung im Browser](/first-steps), auf [Android](/clients/android) und auf [iOS](/clients/ios) auf diesen Hilfeseiten.
+
+Für andere Clients finden sich Anleitungen im Internet.
+***
+
+#### Ich habe mich an einem zweiten Gerät angemeldet und kann meine Nachrichten nicht lesen {#second-device-no-messages}
+Verschlüsselte Nachrichten sind erst sichtbar, nachdem die neue Anmeldung verifiziert wurde. Dafür können Sie entweder
+- Sicherheitsschlüssel oder Sicherheitspassphrase am neuen Gerät eingeben (diese wurden beim ersten Login festgelegt), oder
+- Die zweite Anmeldung interaktiv verifizieren (man vergleicht Emoji zwischen der ersten und der zweiten Anmeldung).
+
+Weitere Infos dazu gibt es [hier](/first-steps).
+***
+
+#### Ich habe Studien-/Forschungskollegen, die das auch nutzen wollen. Können die sich auch beim Academic Cloud Matrix anmelden? / Wie kann ich in Matrix mit Externen zusammenarbeiten? {#login-for-external-users}
+Diese Matrix-Instanz ist auf Angehörige der Academic Cloud begrenzt. Allerdings ist es in Matrix egal, bei welchem Betreiber man angemeldet ist. Externe können also herausfinden, ob ihre Institution bereits Matrix betreibt, und
+- falls ja, sich dort anmelden und sich wie gehabt in Chat-Räume oder Direktnachrichten einladen.
+- falls nein, sich ein Konto bei einem beliebigen öffentlichen Matrix-Server anlegen (Listen gibt es z.B. [hier](https://joinmatrix.org/servers/)), und sich wie gehabt in Chat-Räume oder Direktnachrichten einladen.
+***
+
+# Nutzung des Dienstes
+#### Wie teilt man Leuten eine Raumadresse mit? {#share-room}
+Mit dem "https://matrix.to/..."-Link, den man unter dem i-Symbol für die Raumeigenschaften und einem weiteren Klick auf „Teile Raum“ erkennt.
+***
+
 #### Wie kann ich als administrierende Person viele Nachrichten auf einmal löschen? {#delete-multiple-messages}
-?
+Bitte melden Sie sich beim [GWDG Support](https://gwdg.de/support).
 ***
+
 #### Manchmal sehe ich einen fett markierten Raum und klicke ihn an, habe aber doch nicht die Zeit, den Inhalt und etwaige Konsequenzen für mich sofort zu bearbeiten. Wie kann ich den Raum wieder als „ungelesen“ markieren? {#mark-room-as-unread}
-Das geht in Element leider nicht. Als Workaround kann man den Raum als Favorit markieren und sich selbst merken, dass eigene Favoriten nochmal in den Blick genommen werden sollten.
-
+In Element kann ein Raum mittels Rechtsklick 'Als Ungelesen markieren' wieder hervorgehoben werden. Über die Verfügbarkeit in anderen Programmen/ Apps, beachten Sie bitte deren Dokumentation.
 ***
-#### Was muss ich tun, wenn auf einem MacOS Video oder Audio in einer Videokonferenz nicht funktioniert. {#apple-no-video}
-Häufig hat Element nicht die Rechte, auf die Webcam und das Mikrofon zu zugreifen. Diese können in den Systemeinstellungen unter Sicherheit und Privatsphäre vergeben werden.
 
-***
-#### Wie viele Personen können gleichzeitig in einen Raum eingeladen werden? Kann ich Personen über ihre E-Mail-Adressen einladen? {#how-many-invites-can-i-do}
-Die Masseneinladung per E-Mail wird derzeit in Element nicht unterstützt. Wenn Sie eine Masseneinladung durchführen möchten, senden Sie bitte eine Anfrage über den Servicedesk, damit wir Ihnen helfen können. Sie können selbst 100 Personen über ihren ZIH-Benutzernamen einladen.
 
+# "Kann ich..?" (Features etc.)
+#### Kann ich LaTeX schreiben? {#latex}
+Ja! Es handelt sich allerdings um ein experimentelles Feature, Sie können es in den `Einstellungen` -> `Labor` -> `Nachrichtenübermittlung` einschalten und dann zwischen Dollar-Zeichen Latex schreiben: `$\LaTeX$`
 ***
+
+#### Gibt es so etwas wie Threads (vgl. Rocket.Chat/ Slack) in Matrix? {#threads}
+Ja, Matrix unterstützt die Nutzung von Threads. Diese sind allerdings noch recht neu und nicht in allen Clients optimal nutzbar. Die Unterstützung im empfohlenen Programm Element ist jedoch gut.
+***
+
+#### Ich habe 2 Accounts, kann ich Nachrichten vom einen zum anderen weiterleiten lassen? {#forward-account}
+Nicht ohne weiteres, nein. Technisch ist das machbar, aber nur mit einigen Vorkenntnissen. Eine solche Konfiguration wird nicht aktiv durch uns unterstützt.
+***
+
+#### Kann ich in Matrix Videokonferenzen veranstalten? {#videoconf-in-matrix}
+Zur Zeit werden nur 1:1-Anrufe (auch mit Video) unterstützt, in einigen Monaten werden evt. Gruppenanrufe mit prinzipiell unbegrenzter Teilnehmerzahl möglich sein. Wie viele Kamera-Bilder gleichzeitig genutzt werden können wird man dann testen können.
+
+Eine Vorab-Testversion steht bereits zur Verfügung, Sie können diese in `Einstellungen` -> `Labor` einschalten.
+
+Wir empfehlen die Nutzung des [GWDG BBB Dienstes](https://academiccloud.de/services/bigbluebutton/).
+***
+
+#### Kann man über Matrix Dateien versenden? / Was ist die maximale Dateigröße, die über Matrix verschickt werden kann? {#file-upload}
+Im Matrix-Dienst ist im Moment das Hochladen von Dateien bis 250 Megabyte erlaubt. Für Nutzer bei anderen Betreibern, die ein geringeres Limit festgelegt haben, könnte es nicht möglich sein, größere Dateien herunterzuladen. In der Regel beträgt die Maximalgröße bei den meisten Betreibern 200 Megabyte.
+
+Für Dateitransfers empfehlen wir generell eher [den Academic Cloud Service auf Basis von ownCloud](https://academiccloud.de/services/owncloud/) bzw. [GWDG FileSender](https://filesender.gwdg.de/).
+***
+
+#### Kann ich die/eine Matrix-App auf meinem Handy installieren, ohne Benachrichtigungen zu bekommen? {#app-without-notifications}
+Ja, die meisten Apps erlauben es, Benachrichtigungen komplett auszuschalten. Dies ist in den Einstellungen der jeweiligen App möglich.
+
+Auch können selektiv für besonders große/aktive/unwichtigere Chat-Räume die Benachrichtigungen ausgeschaltet werden, dies geht in der Regel indem man in der Raum-Liste lange auf den gewünschten Raum drückt und dann die Benachrichtigungs-Einstellungen am unteren oder oberen Bildschirmrand vornimmt (in Element erscheinen am unteren Bildschirmrand 4 mögliche Benachrichtigungs-Stufen).
+***
+
+#### Ist es möglich, benachrichtigt zu werden, wenn es neue Nachrichten in Matrix gibt, ohne eine App/Website zu öffnen? {#notifications-via-email}
+Ja, es ist möglich, E-Mails zu bekommen wenn es im eigenen Matrix-Konto neue Nachrichten oder Raumeinladungen gibt. Weitere Infos gibt es [hier](/settings).
+***
+
 #### Kann ich mit Element mehrere Matrix-Accounts verwalten (Multi-Account-Client)? {#multiple-accounts-element}
-Ein Element-Fenster kann zur Zeit nur einen Matrix-Account verwalten. Es ist aber möglich, mehrere Element-Fenster mit unterschiedlichen Matrix-Konten zu starten, auch im Autostart des Rechners. Dazu ist der Programmaufruf so abzuändern, dass ein spezifisches Profil geöffnet wird:
+Ein Element-Fenster kann zur Zeit nur einen Matrix-Account verwalten. Sie können allerdings zum Beispiel verschiedene Clients für die verschiedenen Accounts verwenden, unter anderem [SchildiChat](https://schildi.chat/), welcher große Ähnlichkeit mit Element hat. Zudem gibt es Clients, wie [FluffyChat](https://fluffychat.im/) oder [Fractal](https://matrix.org/ecosystem/clients/fractal/), welche mehrere Accounts in nur einer App (bzw. einem Browser-Tab) verwalten können.
+
+Auch ist es möglich, mehrere Element-Fenster mit unterschiedlichen Matrix-Konten zu starten, auch im Autostart des Rechners. Dazu ist der Programmaufruf so abzuändern, dass ein spezifisches Profil geöffnet wird:
 ```
 element-desktop --profile PROFILNAME
 ```
-So lassen sich mehrere Starter im Autostart platzieren, die dann verschiedene Profilnamen haben, z.B. --profile TUD und --profile Privat. Beide geöffneten Fenster haben leider gleichaussehende Icons im Indicator-Applet. Hierfür gibt es aber sicher auch bald eine Lösung...
-
-Darüber hinaus gibt es andere Matrix-Clients, die mehrere Matrix-Konten verwalten können, u.a. [weechat](https://matrix.org/docs/projects/client/weechat-matrix), [Spectral](https://matrix.org/docs/projects/client/spectral), [Quaternion](https://matrix.org/docs/projects/client/quaternion) oder [Mirage](https://matrix.org/docs/projects/client/mirage).
-
+So lassen sich mehrere Starter im Autostart platzieren, die dann verschiedene Profilnamen haben, z.B. --profile acloud und --profile Privat. Beide geöffneten Fenster haben leider gleichaussehende Icons im Indicator-Applet.
 ***
-#### Ich kann keine Profil-/Raumbilder oder gesendete Bilder mehr sehen. {#relogin}
-Aufgrund einer Aktualisierung am Matrix Server (28.03.2021) finden Clients, die seitdem angemeldet sind, keine Mediendateien mehr. Um dieses Problem zu lösen, ist ein Ab- und erneutes Anmelden notwendig. **Damit Sie keine Ihrer Nachrichten verlieren sollten Sie folgendes Vorgehen beachten:** Sind mehrere Clients betroffen, so sollte die Prozedur nacheinander pro Client durchgeführt werden und nicht parallel.
 
-<ul type="1">
-  <li>Stellen Sie sicher, dass Sie mindestens einen Punkt erfüllt haben:</li>
-  <ol type="a">
-    <li>... eine zusätzliche verifizierte Sitzung (z.B. mit dem Smartphone) ist aktiv und benutzbar</li>
-    <li>... die <a href="{{< relref "settings/#schlüsselsicherung" >}}">Schlüsselsicherung</a> ist eingerichtet und die Sicherheitsphrase oder der Sicherheitsschlüssel ist vorhanden</li>
-    <li>... die Raumschlüssel sind exportiert wurden</li>
-  </ol>
-  <li>Melden Sie sich im Client ab und erneut an und verwenden Sie als <strong>Heimserver:</strong> "<strong>tu-dresden.de</strong>"</li>
-  <li>Stellen Sie Ihre Nachrichten wieder her:</li>
-  <ol type="a">
-    <li>... Verifizieren Sie die neue Sitzung in einer zusätzlichen aktiven Sitzung (z.B. mit dem Smartphone), um den Schlüsselaustausch zwischen diesen Sitzungen zu starten</li>
-    <li>... Verbinden Sie sich mit der Schlüsselsicherung, um Ihre Nachrichtenschlüssel zurück zu erhalten</li>
-    <li>... Importieren Sie die Raumschlüssel und richten Sie die <a href="{{< relref "settings/#schlüsselsicherung" >}}">Schlüsselsicherung</a> ein</li>
-  </ol>
-</ul>
+#### Kann ich (Chat-)Bots oder Webhooks verwenden bzw. RSS-Feeds einbinden? {#hook}
+Dies ist möglich. Laden Sie hierfür den Benutzer `@hookshot:gwdg.de` in ihren Kanal ein und geben Sie dem User das Power-Level 'Moderator'. Anschließend kann mit der Chatnachricht
+```
+!hookshot feed <url>
+bzw.
+!hookshot webhook <kreativerName>
+```
 
-* **Anmerkungen:**
-  * Das Verlieren der Raumschlüssel führt zum Verlust Ihrer Nachrichten, da diese nur für Sie und ihre Kommunikationsteilnehmer:innen lesbar sind. Da kann kein Admin helfen.
-  * Aufgrund der neuen Sitzung wird anschließend bei allen Ihrer früheren Nachrichten ein rotes Warnschild anzeigt. Das ist kein Fehler, sondern nur eine etwas zu dramatisch eingestellte Information (Diskussionen diesbzgl. gibt es hier: [externer Link](https://github.com/vector-im/element-web/issues/13701))
-  * Sollten Sie Matrix nur auf einem Gerät nutzen und derzeit keinen Zugriff auf Ihre schon eingerichtete Schlüsselsicherung haben (also die Sicherheitsphrase oder den Sicherheitsschlüssel nicht finden, dann müssen Sie Option c) folgen um keinen Verlust Ihrer verschlüsselten Nachrichten zu erfahren)
+ein RSS-Feed abonniert bzw. ein neuer Webhook angelegt werden. Im Falle des Webhook werden die nötigen Infos (Token/ URL) als persönliche Nachricht durch den Hookshot-User verschickt.
+
+Eine Nachricht kann nun z.B. so erstellt werden:
+```
+curl -X PUT https://hook.matrix.gwdg.de/webhook/ffffff-fffff-ffff-ffff-ffffffffffff -H "Content-Type: application/json" -d '{"text": "The answer is 42."}'
+```
 
 
-#### Überall steht nur „missing translation: en“ {#missing-translations}
-
-Dieses Phänomen steht häufig im Zusammenhang mit noch nicht fertiggestellten Aktualisierungen des Matrix-Clients. Laden Sie den Zwischenspeicher neu: Gehen Sie in den Element-Einstellungen in die Kategorie „Hilfe und Über“ und scrollen Sie ganz nach unten: „Zwischenspeicher löschen und neu laden“ sollte das Anzeigeproblem beheben.
-
-#### Ist unser Server auf eurer Föderations-Blacklist? {#blacklist}
-
-Aktuell befindet sich kein Server auf unserer Föderations-Blacklist. Dies kann nicht der Grund für etwaige Förderations-Probleme sein.
-
-
-#### Ich sehe in einem Raum von einer bestimmten Person keine Nachrichten {#blocked-user}
-
-Ein häufig vorkommender Grund hierfür ist, dass Sie sich verklickt haben und die Person, von der Sie keine Nachrichten mehr sehen, obwohl Ihnen berichtet wird, dass dort etwas stehen müsste, von Ihnen blockiert wurde. Öffnen Sie hierzu Ihre Sicherheitseinstellungen und scrollen weit nach unten. Prüfen Sie, ob in der Kategorie „Blockierte Benutzer“ Einträge stehen, die dort nicht hingehören. Entfernen Sie diese ggf.
+Alle möglichen Befehle listet
+```
+!hookshot help
+```
+auf. Weitere Informationen [auf der Website des hookshot-Bots](https://matrix-org.github.io/matrix-hookshot/latest/setup/webhooks.html).
+***
