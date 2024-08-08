@@ -46,11 +46,13 @@ In order to meet the demand for real-time communication, the open communication 
 * [Find people and send direct messages]({< relref "messaging/_index.en.md" >}})
     * [Format messages]({< relref "messaging/formatting/_index.en.md" >}})
     * [Search messages]({< relref "messaging/search/_index.en.md" >}})
+-->
 * [Create rooms and take responsibility]({< relref "rooms/_index.en.md" >}})
     * [Create rooms]({< relref "rooms/create/_index.en.md" >}})
     * [Find rooms]({< relref "rooms/find/_index.en.md" >}})
     * [Delete and leave rooms]({< relref "rooms/delete/_index.en.md" >}})
     * [Sharing rooms and making them public]({< relref "rooms/sharing.en.md" >}})
+<!--
 * [Fine-tune notifications]({< relref "notifications/_index.en.md" >}})
 * [Using communities as room filters]({< relref "communities/_index.en.md" >}})
 * [Using Spaces for managing rooms]({< relref "spaces/_index.en.md" >}})

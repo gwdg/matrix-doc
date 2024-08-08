@@ -10,7 +10,12 @@ weight: 10
 New rooms are created using the + in the left bar in the category Rooms.
 
 ![Marking of the room add button](/images/01_Rooms_en.png)
-Then the room name must be assigned. You can also optionally assign a theme (which can be adapted more often later). Optionally, the room can be made publicly accessible (this is not the default setting). With an additional click on "Show more settings" it can be prevented that Matrix users from outside the TU Dresden home server (Homeserver) can enter the room. By default, all new rooms (just like all new 1:1 calls) have [end-to-end encryption]({{< relref "encryption" >}}) set up. If this is not desired (e.g. because verification of the participants becomes very impractical in very large rooms) you can use the slider before creating the room to not activate end-to-end encryption.
+Then the room name must be assigned. You can also optionally assign a theme (which can be adapted more often later). Optionally, the room can be made publicly accessible (this is not the default setting). With an additional click on "Show more settings" it can be prevented that Matrix users from outside the home server (Homeserver) can enter the room. This should never be set as even academic cloud matrix consists of multiple home servers. By default, all new rooms (just like all new 1:1 chats) have [end-to-end encryption]({{< relref "encryption" >}}) set up. If this is not desired (e.g. because verification of the participants becomes very impractical in very large rooms) you can use the slider before creating the room to not activate end-to-end encryption.
+
+{{% notice warning %}}
+We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
+{{% /notice %}}
+
 
 ![Input menu for the room name](/images/02_Rooms_en.png)
 
@@ -20,7 +25,7 @@ The room is now created and gets any colored icon color. By clicking on the i in
 
 Here you can upload a room-specific image/icon in the **General** tab. An important feature is the assignment of a local room address. This address is easier to read by humans than the cryptic room address, which is always present in parallel (you can see it in the tab Advanced). The assigned local room address can then easily be distributed in public or to the target group and has the following structure:
 
-#roomaddress:tu-dresden.de
+#roomaddress:academiccloud.de
 
 Another important setting here is whether the room should appear in the room directory of the TU Dresden. You can also activate the URL preview for the room here.
 

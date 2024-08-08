@@ -2,10 +2,10 @@
 title: "Rooms"
 date: 2020-07-02T21:23:14+02:00
 chapter: true
-draft: true
+draft: false
 weight: 35
 ---
-# Rooms 
+# Rooms
 
 Conversations are organized in matrix in rooms. 1:1 conversations are also rooms, but for now with only two people. In this 
 Category is about 
