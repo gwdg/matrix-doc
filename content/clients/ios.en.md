@@ -20,7 +20,7 @@ Downloads for: {{% button href="https://apps.apple.com/app/vector/id1083446067" 
 
 ![Configuration screen of the Element app. The fields "Email or username", "Phone number" and "Password" are displayed. Additionally, the checkbox "Individual server options" is on the page and the two buttons for logging in via Apple or facebook.](/images/15_Element_iOS2_de.png?height=50vh&classes=border)
 
-3. Check the **"individual server options"** checkbox and enter `https://matrix.tu-dresden.de` in the **"home server URL"** field.
+3. Check the **"individual server options"** checkbox and enter `academiccloud.de` in the **"home server URL"** field.
 
 ![Configuration screen as in step 2. The Custom Server Options checkbox is selected so that the Home Server URL text box appears.](/images/15_Element_iOS3_de.png?height=50vh&classes=border)
 

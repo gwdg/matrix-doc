@@ -1,7 +1,7 @@
 ---
 title: "Matrix Clients"
 date: 2020-07-02T21:22:27+02:00
-draft: true
+draft: false
 chapter: true
 weight: 15
 ---
@@ -12,7 +12,7 @@ The recommended reference client for using Matrix is called Element and is avail
 
 ## [Element Web]({{< ref "clients/browser" >}} "Setup of Element Web (Browser)")
 
-Web-App: {{% button href="https://matrix.tu-dresden.de" icon="fas fa-globe" %}}matrix.tu-dresden.de{{% /button %}}
+Web-App: {{% button href="https://chat.academiccloud.de" icon="fas fa-globe" %}}chat.academiccloud.de{{% /button %}}
 
 The easiest way is to open the Element Web application directly in a modern browser (e.g. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)).
 

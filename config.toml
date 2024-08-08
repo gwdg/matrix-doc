@@ -32,4 +32,4 @@ theme = "hugo-theme-relearn"
     title = "Matrix Documentation"
     weight = 2
     languageName = "English"
-    disabled = true
+    disabled = false

@@ -7,11 +7,11 @@ weight: 5
 ---
 
 # Element Web
-Start here: [https://matrix.tu-dresden.de](https://matrix.tu-dresden.de) 
+Start here: [https://chat.academiccloud.de](https://chat.academiccloud.de) 
 
 ![Start page of Element Webclient with login button](/images/01_Welcome_en.png)
 
-No registration is necessary, the service can be used immediately by clicking on "Register" on the homepage [https://matrix.tu-dresden.de](https://matrix.tu-dresden.de).
+No registration is necessary, the service can be used immediately by clicking on "Register" on the homepage [https://chat.academiccloud.de](https://chat.academiccloud.de).
 
 ![Login window with request to enter ZIH login and password](/images/02_Login1_en.png)
 
@@ -61,5 +61,4 @@ Many people use script blockers to protect themselves from [Tracking](https://tu
 
 Do you also allow cookies from
 
-- tu-dresden.de
-- vector.im (for the integration manager)
+- academiccloud.de
