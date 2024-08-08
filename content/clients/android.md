@@ -10,6 +10,10 @@ weight: 29
 
 Downloads für: {{% button href="https://play.google.com/store/apps/details?id=im.vector.app" icon="fas fa-download" %}}Android (Google Play){{% /button %}} {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Driod){{% /button %}}
 
+## Element X
+
+Im Play-Store findet sich auch die App 'Element X'. Diese ist noch nicht fertig und funktioniert noch nicht mit unserer Matrix-Instanz.
+
 ## Einrichtung
 
 1. Nach dem erstmaligen Öffnen der Element-App wählen Sie **„Ich habe schon ein Konto“**. Anschließend werden Sie aufgefordert, einen Server auszuwählen.

@@ -10,6 +10,11 @@ weight: 29
 
 Downloads for: {{% button href="https://play.google.com/store/apps/details?id=im.vector.app" icon="fas fa-download" %}}Android (Google Play){{% /button %}} {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Driod){{% /button %}}
 
+
+## Element X
+
+You may find the app 'Element X' in the Play-Store. This app is not ready for production and does not work with our matrix server.
+
 ## Setup
 
 1. After opening the Element app for the first time, select **"I already have an account"**. You will then be prompted to select a server.
