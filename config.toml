@@ -1,8 +1,9 @@
 baseURL = "https://docs.chat.academiccloud.de/"
-languageCode = "de-DE"
 DefaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
 title = "Matrix Dokumentation"
 theme = "hugo-theme-relearn"
+
 
 [params]
   themeVariant = "ac"
@@ -26,3 +27,9 @@ theme = "hugo-theme-relearn"
     title = "Matrix Dokumentation"
     weight = 1
     languageName = "Deutsch"
+    languageCode = "de-DE"
+  [languages.en]
+    title = "Matrix Documentation"
+    weight = 2
+    languageName = "English"
+    disabled = true
