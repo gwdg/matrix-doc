@@ -10,6 +10,10 @@ weight: 60
 
 1:1 Gespräche sind standardmäßig Ende-zu-Ende-verschlüsselt. Daher wird eine eingerichtete Schlüsselsicherung sowie eine Verifikation aller selbst eingesetzten Client-Geräte empfohlen (siehe [Wichtige Einstellungen]({{< ref "settings" >}})).
 
+{{% notice warning %}}
+Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
+{{% /notice %}}
+
 Die Entscheidung, ob ein erzeugter Raum verschlüsselt werden soll, muss gut überlegt sein und kann nicht mehr rückgängig gemacht werden. Wenn es sich um größere oder öffentliche Räume handelt, könnte das Prüfen aller Schlüssel aller Gesprächspartner viel Zeit in Anspruch nehmen. Diese manuelle Prüfung kann man aber auch später bei Gelegenheit durchführen und auch direkt Ende-zu-Ende-verschlüsselte Gespräche mit vorerst blindem Vertrauen starten.
 
 ![Neuen Raum mit aktivierter Verschlüsselung erstellen](/images/01_Create-Room-wE2E_de.png)
@@ -20,9 +24,16 @@ Wer in einem unverschlüsselten Raum eine Ende-zu-Ende-Verschlüsselung (E2EE) z
 
 Dazu ist im Reiter Sicherheit & Datenschutz der Schieberegler Verschlüsselt zu bewegen:
 
+{{% notice warning %}}
+Das Aktivieren der Verschlüsselung kann **nicht rückgängig gemacht werden.** Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann
+{{% /notice %}}
+
+
 ![Verschlüsselung in den Raumeinstellungen aktivieren](/images/03_Roome2e_de.png)
 
-Dies kann mit OK bestätigt werden. Ab sofort können die Nachrichten nur noch von den am Gespräch Beteiligten gelesen werden. Sofern nicht schon vorab in den Einstellungen eine Schlüsselsicherung eingerichtet wurde, so sollte dies nun durchgeführt werden (siehe [Wichtige Einstellungen]({{< ref "settings" >}})), um frühere und in Abwesenheit empfangene Nachrichten lesen zu können.
+Dies kann mit OK bestätigt werden. Ab sofort können die Nachrichten nur noch von den am Gespräch Beteiligten gelesen werden. Sofern nicht schon vorab in den Einstellungen eine Schlüsselsicherung eingerichtet wurde, so sollte dies spätestens jetzt durch alle Chat-Teilnehmenden durchgeführt werden (siehe [Wichtige Einstellungen]({{< ref "settings" >}})), um frühere und in Abwesenheit empfangene Nachrichten lesen zu können.
+
+Das Aktivieren der Verschlüsselung kann **nicht rückgängig gemacht werden.**
 
 Nun kann der verschlüsselte Austausch beginnen. Wenn man sich von der Korrektheit der Schlüssel überzeugen, und diese Vertrauenswürdigkeit digital dokumentieren möchte, ist dazu zuerst auf das Personensymbol oben rechts die Seitenleiste auszuklappen:
 

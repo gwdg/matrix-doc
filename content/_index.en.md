@@ -33,8 +33,8 @@ In order to meet the demand for real-time communication, the open communication 
 * [Why Matrix and no other chat system?]({{< relref "why/_index.en.md" >}})
 <!--
 * [How can Matrix be used? (registration and first steps)]({< relref "first-steps/_index.en.md" >})
-* [Recommendations for further important settings after first login]({< relref "settings/_index.en.md" >}})
 -->
+* [Recommendations for further important settings after first login]({< relref "settings/_index.en.md" >}})
 * [Install and setup Matrix clients]({< relref "clients/_index.en.md" >}})
     * [Element Web]({< relref "clients/browser/_index.en.md" >}})
     * [Element Desktop]({< relref "clients/desktop/_index.en.md" >}})

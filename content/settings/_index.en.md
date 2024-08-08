@@ -1,7 +1,7 @@
 ---
 title: "Important settings"
 date: 2020-07-03T13:22:13+02:00
-draft: true
+draft: false
 chapter: true
 weight: 10
 ---
@@ -9,10 +9,10 @@ weight: 10
 
 ## Convenient use of end-to-end encryption (E2EE)
 
-Matrix not only encrypts transports to and from the home server (in the data center of TU Dresden) but also allows the use of end-to-end encryption (E2EE). For this, cryptographic keys have to be exchanged between all devices that want to write end-to-end encrypted. This technical necessity sounds and is complicated, but in the meantime it has become very convenient for the users. The many cryptographic keys created by the client are stored on the respective device. If this is a tab in a browser, for example, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the home server of the TU Dresden, on which (protected with a security phrase (or security key that can be calculated from it) all cryptographic keys are stored encrypted. 
+Matrix not only encrypts transports to and from the home server (in the data center of GWDG) but also allows the use of end-to-end encryption (E2EE). For this, cryptographic keys have to be exchanged between all devices that want to write end-to-end encrypted. This technical necessity sounds and is complicated, but in the meantime it has become very convenient for the users. The many cryptographic keys created by the client are stored on the respective device. If this is a tab in a browser, for example, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the matrix server, on which (protected with a security phrase (or security key that can be calculated from it) all cryptographic keys are stored encrypted. 
 
 {{% notice warning %}}
-It is highly recommended to use this key backup (with a secure security phrase which is NOT your ZIH password) and read on at [Other important settings]({{< relref "_index.en.md#other-important-settings" >}})!
+It is highly recommended to use this key backup (with a secure security phrase which is NOT your normal password) and read on at [Other important settings]({{< relref "_index.en.md#other-important-settings" >}})!
 {{% /notice %}}
    
 ![Screenshot of the prompt to enter a security phrase](/images/01_Restore-Session_en.png)
@@ -41,11 +41,6 @@ Adjust settings in the Settings menu: to do this, click on the line of the e-mai
 
 ![Selection of the menu item Settings in the user:inside menu](/images/06_Settings_en.png)
 
-In the settings you can change your display name ("First Name Last Name") in the **General** tab if necessary and upload a profile picture (similar to the contact box on the TUD website; select profile picture <5MB):
-![Marking of the field Display name and profile picture in the settings](/images/06_Settings-Names_en.png)
-
-In the medium term the display name will be obtained from the Common Name in the LDAP of the TU Dresden, then a manual change is no longer necessary.
-
 The e-mail address field is not necessarily to be filled in, since an e-mail address is stored via your ZIH login. Theoretically you can add more addresses here, e.g. to have notifications about missed messages sent to another e-mail address.
 
 On the same page you can also change the design theme from light to dark.
@@ -71,12 +66,12 @@ In the **Security & Privacy** tab you will find all your devices that have been 
 
 * The public names of your devices which can be assigned here (by clicking on them with the mouse) can also be viewed by your conversation partner:inside.  This helps if they want to compare the cryptographic keys of your devices (e.g. laptop + cell phone) and can easily identify the device names.
 
-* The many cryptographic keys are stored on the respective device. If this is e.g. a tab in a browser, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the home server of the TU Dresden, on which (protected by a passphrase) all cryptographic keys are stored encrypted. It is strongly recommended to use this key backup!
+* The many cryptographic keys are stored on the respective device. If this is e.g. a tab in a browser, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the matrix server, on which (protected by a passphrase) all cryptographic keys are stored encrypted. It is strongly recommended to use this key backup!
 
 ![Screenshot of the menu item for key protection](/images/10_Setup-Keystore_en.png)
 
 ## Secure Backup
-If not set up after initial registration: The **Secure Backup** is a valuable achievement, as it enables the keys of all end-to-end encrypted calls to be centrally secured on the TU Dresden server with a password. This allows convenient use of multiple devices or matrix clients. To do so, click on "Start using key backup" and choose a strong security phrase (but not the ZIH password). This security phrase will always have to be entered if keys are to be synchronized with the key backup.
+If not set up after initial registration: The **Secure Backup** is a valuable achievement, as it enables the keys of all end-to-end encrypted chats to be centrally secured on the matrix server server with a password. This allows convenient use of multiple devices or matrix clients. To do so, click on "Start using key backup" and choose a strong security phrase (but not your password). This security phrase will always have to be entered if keys are to be synchronized with the key backup.
 
 ![Prompt to generate the security key or enter a security phrase](/images/11_Setup-Key_en.png)
 ![Prompt to enter a password for the key backup](/images/12_Enter-Key_en.png)

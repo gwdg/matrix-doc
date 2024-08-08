@@ -1,14 +1,18 @@
 ---
 title: "Encryption"
 date: 2020-07-03T13:20:58+02:00
-draft: true
+draft: false
 chapter: true
 weight: 60
 ---
 
 # Use of end-to-end encryption
 
-1:1 calls are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is recommended ([Important settings]({{< ref "settings" >}}))
+1:1 chats are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is highly recommended ([Important settings]({{< ref "settings" >}}))
+
+{{% notice warning %}}
+We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
+{{% /notice %}}
 
 The decision whether a created room should be encrypted in this way must be well thought out and cannot be undone. If the room is large or public, checking all keys of all interlocutors could take a lot of time. But this manual check can be done later on occasion and end-to-end encrypted conversations can be started directly with blind trust for the time being.
 
@@ -22,7 +26,14 @@ To do this, move the Encrypted slider on the Security & Privacy tab:
 
 ![Enable encryption in the room settings](/images/03_Roome2e_en.png)
 
+{{% notice warning %}}
+The option to enable encryption for a room can never be taken back, the room has to be deleted and recreated!
+We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
+{{% /notice %}}
+
 This can be confirmed with OK. From now on the messages can only be read by those involved in the conversation. If you have not set up a key protection in the settings before, you should do this now (see [Important settings]({{< ref "settings" >}})) to be able to read earlier and in absence received messages.
+
+The option to enable encryption for a room can never be taken back, the room has to be deleted and recreated!
 
 Now the encrypted exchange can begin. If you want to verify the correctness of the keys and to document this trustworthiness digitally, you first have to unfold the sidebar by clicking on the person symbol in the upper right corner:
 
