@@ -59,7 +59,6 @@ setInterval(() => {
     * [Räume löschen und aus Räumen austreten]({{< relref "rooms/delete/_index.md" >}})
     * [Räume teilen und publik machen]({{< relref "rooms/sharing/_index.md" >}})
 * [Benachrichtigungen feiner einstellen]({{< relref "notifications/_index.md" >}})
-* [Communities als Raum-Filter einsetzen]({{< relref "communities/_index.md" >}})
 * [Spaces zur Raumverwaltung einsetzen]({{< relref "spaces/_index.md" >}})
 * [Ende-zu-Ende-Verschlüsselung nutzen]({{< relref "encryption/_index.md" >}})
 <!--
