@@ -1,163 +1,141 @@
 ---
 title: "Erste Schritte"
-date: 2020-08-02T21:26:25+02:00
+date: 2024-08-08T16:49:12+02:00
 chapter: true
 draft: false
 weight: 2
 ---
 
-# Erste Schritte mit Matrix
+# Wie kann ich Matrix nutzen?
 
-## Matrix-Login mit TUB-Account
+## Matrix-Login mit Academic Id
 
-Mitgliedern und Angehörigen der TU Berlin (insbesondere auch Studierenden) wird durch Matrix ermöglicht, mittels ihres **TUB-Accounts** mit Angehörigen dieser und anderer Hochschulen und Universitäten sowie weiteren Matrix-Nutzenden (beispielsweise akademischen Partner:innen) per Chat sowie Audio-/Video-Telefonie zu kommunizieren.
+Allen Nutzenden der Academic Cloud wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihrer **Academic Id** mit Angehörigen ihrer und anderer Hochschulen, Universitäten und Institute sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner*innen) per Chat zu kommunizieren.  
+Der Dienst wird über einen Client genutzt, es stehen eine [Vielzahl verschiedener Programme]({{% relref "clients/_index.md" %}}) zur Auswahl. Der bekannteste Client ist Element (früher Riot), neben der Desktop-Anwendung und mobilen Versionen für Android und IOS für Ihre Geräte betreibt die GWDG Element auch als Web-Anwendung. 
 
-Die Kommunikation erfolgt über einen sogenannten Client. Es steht eine [Vielzahl verschiedener Clients](https://matrix.org/clients/) zur Auswahl. Der bekannteste Client ist Element (früher Riot). Neben mobilen Versionen für Android und IOS bieten wir Element als Web-Anwendung unter [chat.tu-berlin.de](https://chat.tu-berlin.de) an. Element steht aber auch als Desktop-Anwendung zum Download bereit:
+Element steht als Desktop-Anwendung zum Download bereit:
 
 {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}} {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}} {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}
 
 {{% notice tip %}}
-Wir empfehlen die Nutzung von Element als Web-Anwendung unter [chat.tu-berlin.de](https://chat.tu-berlin.de). Diese Version von Element ist auf unseren Matrix-Homeserver abgestimmt und wird regelmäßig aktualisiert.
+Wir empfehlen die Nutzung von Element als Desktop-Anwendung bzw. mobile Client oder die von GWDG bereitgestellte Web-Anwendung.
 {{% /notice %}}
 
-Bei den mobilen Apps für Android und IOS sowie einer Desktop-Installation ist darauf zu achten, dass die Anmeldung mit dem TUB-Account auf unseren lokalen Homeserver erfolgt und kein neuer Account auf einem anderen Homeserver erstellt wird. Dazu muss man im Client die URL des lokalen Homeservers eintragen. Hier am Beispiel von Element-Desktop:
+Die folgenden Screenshots zeigen als Beispiel die Nutzung von [chat.academiccloud.de](https://chat.academiccloud.de) im Browser. Bei einer anderen Instanz können die Screenshots in Details von Ihrem Ablauf abweichen, den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 
-![Markierter Anmeldebutton im Element Matrixclient](/images/01_Login_de.png)
+![Startseite des Element Webclient mit Anmeldebutton](/images/01_Browser_Welcome_de.png)
 
-Um sich auf dem Homeserver der TU Berlin anzumelden, klickt man zunächst auf **Anmelden** und anschließend auf **Bearbeiten**.
+Falls Sie bereits eine Academic Id haben, ist keine weitere Registrierung nötig, der Dienst kann nach dem Login sofort genutzt werden.
 
-![Anmeldeseite mit Fokus auf dem Homeserver ändern Button](/images/02_Change-Homeserver_de.png)
+![Loginfenster mit einem Knopf welcher zum Academic Cloud SSO Login weiterleitet](/images/02_Browser_Login_de.png)
 
-Nun kann man manuell *matrix.tu-berlin.de* als Homeserver angeben.
+Ihr Heimserver ist vorkonfiguriert, klicken Sie auf "Fortfahren", Sie werden zum Academic Cloud SSO geleitet. Falls Sie noch nicht angemeldet sind, loggen Sie sich mit Ihrer Academic Id und ggf. Ihrem zweiten Faktor ein.
 
-![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.tu-berlin.de](/images/03_Set-Homeserver_de.png)
+![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud__SSO_de.png)
 
-Anschließend müssen Benutzername und Passwort des TUB-Accounts angegeben werden. In dem Dropdown-Menü „Anmelden mit:“ sollte „Benutzername“ ausgewählt bleiben. Als Nutzername muss der TUB-Login **vollständig in Kleinbuchstaben** verwendet werden (keine E-Mail-Adresse). Es folgt nach dem Erstlogin auch keine Bestätigungsmail.
+Ihre Account-Daten (Anzeige Name & E-Mail-Adresse) werden aus der Benutzerverwaltung übertragen, eine Änderung ist an dieser Stelle nicht möglich.
 
-![Loginfenster mit Aufforderung TUB-Login und Passwort einzugeben](/images/04_Username_de.png)
+![Übertragung der Account-Daten](/images/04_Browser_Data_Import_de.png)
 
-Analog zu E-Mail-Adressen ergibt sich eine Matrix-Adresse, über die man über einen Client (z.B. Element) zur Kommunikation eingeladen werden kann:
+Bestätigen Sie, dass der Dienst (in diesem Fall chat.academiccloud.de) Ihre Daten verarbeiten darf.
 
-<p style="text-align: center; font-style: italic;">@&lt;tu_login&gt;:matrix.tu-berlin.de</p>
+![Zugriff bestätigen](/images/05_Browser_Allow_Access_de.png)
 
-Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{< relref "settings/_index.md" >}})
+Der Browser muss lokale Daten auf Ihrem PC speichern, erlauben Sie diesen Zugriff.
 
-![Aufforderung den Sicherheitsschlüssel zu generieren oder eine Sicherheitsphrase einzugeben](/images/11_Setup-Key_de.png)
+![Datenzugriff im Browser bestätigen](/images/06_Browser_Allow_Data_Storage_de.png)
 
-## Matrix-Login ohne TUB-Account
+Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen, sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{< relref "settings/_index.md" >}})
 
-Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist hier an der TU Berlin nicht möglich, da den Dienst ausschließlich Personen mit TUB-Login nutzen können. Es ist jedoch möglich mit Nutzern anderer Matrix-Homeserver von verschiedenen wissenschaftlichen und zivilgesellschaftlichen Institutionen zu komminizieren. Dieses Feature nennt sich Förderation (das Prinzip ist ähnlich zu dem E-Mail System: E-Mails können beispielsweise von den Servern der TU Berlin an die Sever TU Dresden geschickt werden). Auf öffentlichen Homeservern, wie zum Beispiel dem von [matrix.org](https://app.element.io/), kann sich jede Person einen Account anlegen.
+{{% notice tip %}}
+Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten.
+{{% /notice %}}
 
-Folgende deutsche Hoschulen verfügen über einen eigenen Homeserver:
+## Zugriff vom Desktop oder mit mobilen Clients ##
 
-* [TU Freiberg](https://matrix.tu-freiberg.de/) inkl. [Doku](https://tu-freiberg.de/en/urz/dienste/chat)
+Bei den mobilen Apps für Android und IOS sowie einer Desktop-Installation müssen Sie darauf achten, dass die Anmeldung auf Ihrem Homeserver erfolgt und Sie sich kein neuen Account auf einem anderen Homeserver erstellen (das _können_ Sie natürlich tun, aber mit dem neuen Account haben Sie dann keinen Zugriff auf Ihre Daten).  
+Dazu müssen Sie im Client die URL des lokalen Homeservers eintragen.
 
-* [TU Chemnitz](https://matrix.tu-chemnitz.de) inkl. [Doku](https://www.tu-chemnitz.de/urz/groupware/chat/doku/)
+Hier am Beispiel von Element-Desktop:
 
-* [Hochschule Darmstadt](https://chat.fbi.h-da.de) inkl. [Doku](https://its.h-da.io/element-docs/)
+![Markierter Anmeldebutton im Element Matrixclient](/images/01_Desktop_Welcome_de.png)
 
-* [Hochschule Zittau-Görlitz](https://matrix.hszg.de) inkl. [Doku](https://zfe.hszg.de/das-zfe/aktuelle-entwicklungen/matrix)
+Um zu Ihrem Homeserver zu wechseln, klicken Sie zunächst auf **Anmelden** und anschließend auf **Bearbeiten**.
 
-* [HMT Leipzig](https://chat.hmt-leipzig.de)
+![Anmeldeseite mit Fokus auf dem Homeserver ändern Button](/images/02_Desktop_Choose_Homeserver_de.png)
 
-* [Uni Kiel](https://riot.fs-infmath.uni-kiel.de) inkl. [Doku](https://www.fs-infmath.uni-kiel.de/wiki/Technische_Dienste)
+Nun können Sie Ihren Homeserver angeben:
 
-* [Uni Hamburg](http://uni-hamburg.de/)
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | im Aufbau |
+| Georg-August-Universität Göttingen | im Aufbau |
+| Universitätsmedizin Göttingen  | im Aufbau |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
 
-* [Uni Bremen](https://element.stugen.de/#/welcome)
+![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.tu-berlin.de](/images/03_Desktop_Set_Homeserver_de.png)
 
-* [TU Berlin](https://chat.tu-berlin.de/) inkl. [Doku](https://www.innocampus.tu-berlin.de/projekte/matrixinnocampus/)
+Bestätigen Sie Ihre Eingabe und Sie werden zum Academic Cloud SSO geleitet, um sich anzumelden und die Übertragung und Verabeitung Ihrer Daten durch die Anwendung zu bestätigen.
+Das Program Elements-Desktop taucht dabei als `element://vector/webapp/` auf.
 
-* [TU Dresden](https://matrix.tu-dresden.de/) inkl. [Doku](https://doc.matrix.tu-dresden.de/)
+![Weiterleitung zum SSO](/images/04_Desktop_SSO_de.png)
 
-* [Humboldt Uni Berlin](https://element.hu-berlin.de/) inkl. [Doku](https://www.digitale-lehre.hu-berlin.de/de/lehr-und-lernlandschaft/element)
+Ab hier funktioniert der Ablauf in der Desktop-Anwendung genau wie bei der Webseite. Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{< relref "settings/_index.md" >}})
 
-* [TU München](https://matrix.tum.de) inkl. [Doku](https://wiki.in.tum.de/Informatik/Helpdesk/RIOT)
+{{% notice tip %}}
+Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten.
+{{% /notice %}}
 
-* [Uni Hannover](https://matrix.uni-hannover.de) inkl. [Doku](https://www.luis.uni-hannover.de/de/services/kommunikation/matrix-messenger/)
+## Neue Geräte hinzufügen ##
 
-* [Uni Osnabrück](https://element.uni-osnabrueck.de) inkl. [Doku](https://digitale-lehre.virtuos.uni-osnabrueck.de/eintrag/instant-messenger-element/)
+Wenn Sie sich auf weiteren Geräten anmelden wollen, müssen Sie diese für den Zugriff auf Ihren Account freischalten. Dazu stehen zwei Möglichkeiten zur Verfügung:  
+Sie können das neue Gerät entweder mit einem bereits angemeldeten Gerät oder mit Ihrer Sicherheitsphrase bzw. Ihrem Sicherheitsschlüssel verifizieren.
+Bei “Mit anderem Gerät verifizieren” werden Ihnen auf beiden Geräten eine Reihe von Emoji angezeigt und Sie werden aufgefordert zu bestätigen, ob sie auf beiden Geräten übereinstimmen. Die Android- und IOS-Clients bieten dazu noch einen QR-Code zur Verifizierung an.
 
-* [Uni Bielefeld](https://uni-bielefeld.de/teamchat2)
+![ein neues Geraet verfirfizieren](/images/13_Browser_Geraet_verfizieren.png)
 
-* [Bauhaus-Universität Weimar](https://chat.uni-weimar.de/) inkl. [Doku](https://chat.uni-weimar.de/docs/matrix/)
+## Schlüsselsicherung der Ende-zu-Ende-Verschlüsselung (E2EE) ##
 
-* [RWTH Aachen](https://riot.comsys.rwth-aachen.de/)
+Matrix nutzt grundsätzlich Transportverschlüsselung für alle Nachrichten von und zu Ihrem Heimserver (im Rechenzentrum der GWDG), aber ermöglicht auch die Nutzung von Ende-zu-Ende-Verschlüsselung (E2EE). Hierzu müssen kryptografische Schlüssel zwischen allen Geräten ausgetauscht werden, von denen sich Nutzer Ende-zu-Ende-verschlüsselt schreiben möchten. Obwohl diese technische Notwendigkeit kompliziert klingt (und es im Hintergrund auch wirklich ist), ist sie für die Anwendenden sehr bequem geworden. Die kryptografischen Schlüssel werden vom Client erstellt und auf dem jeweiligen Gerät gespeichert.
 
-* [Ruhr Universität Bochum](https://riot.rub.de/) inkl. [Doku](https://www.it-services.ruhr-uni-bochum.de/services/issi/element.html.de)
+Sollte dies aber bspw. ein Tab in einem Browser sein, besteht die Gefahr, dass dieser Tab unbeabsichtigt geschlossen wird. Dann sind **durch den Verlust der Schlüssel auch alle verschlüsselten Nachrichten nicht mehr lesbar** und auch durch einen Administrator nicht wieder herstellbar. 
+Damit dies nicht geschieht, bietet Element eine Schlüsselsicherung auf dem Heimserver an, in der alle kryptografischen Schlüssel abgelegt sind.
 
-* [Uni Bonn](https://element.matrix.informatik.uni-bonn.de/)
+{{% notice warning %}}
+Wir raten dringend dazu, die Schlüsselsicherung zu nutzen.
+{{% /notice %}}
 
-* [Uni Heidelberg](https://matrix-im.uni-heidelberg.de/) inkl. [Doku](https://www.urz.uni-heidelberg.de/en/heichat)
+Falls Sie bereits an einem Raum teilnehmen, werden Sie durch einen Dialog zur Sicherung Ihrer Schlüssel aufgefordert. Sonst finden Sie den Punkt unter "Sicherheit" in Ihren Accounteinstellungen.
 
-* [Karlsruher Institut für Technologie (KIT)](https://matrix.kit.edu/)
+![Sicherheit im Menue](/images/07_Browser_Menue_Sicherheit_de.png)
 
-* [Uni Augsburg](https://element.physik.uni-augsburg.de/#/welcome) inkl. [Doku](https://www.uni-augsburg.de/de/fakultaet/mntf/physik/facilities/itservices/elequick/)
+Wählen Sie "Sicherheit" -> "Verschlüsselung" -> "Verschlüsselte Sicherung" und klicken Sie den Button "Einrichten".
+Falls Sie im Laufe des Vorgangs außerhalb des Dialogs klicken, schließt sich dieses Unterfenster. Sie können es aber jederzeit wieder über den Eintrag in "Sicherheit" aufrufen.
 
-* [Uni Stuttgart](https://chat.stuvus.de/) inkl. [Doku](https://wiki.stuvus.uni-stuttgart.de/display/ITKB/Matrix+Messenger)
+![Security & Privacy](/images/08_Browser_Security_Privacy_de.png)
 
-* [Hochschule Bremerhaven](https://matrix.hs-bremerhaven.de/)
+Wählen Sie, ob Sie für Ihren Sicherheitsschlüssel eine selbstgewählte Sicherheitsphrase eingeben möchten oder ob ein zufälliger Schlüssel generiert werden soll.
 
-* [TU Darmstadt](https://element.matrix.tu-darmstadt.de)
+![Auswahl Sicherheitsschlüssel oder -phrase](/images/09_Browser_Schluesselsicherung_einrichten_de.png)
 
-* [Philipps-Universität Marburg](https://matrix.uni-marburg.de/)
+{{% notice warning %}}
+Nutzen sie auf keinen Fall das Passwort Ihrer Academic Id oder anderer Zugangsdaten.
+{{% /notice %}}
 
-* [TU Braunschweig](https://chat.tu-bs.de/)
+![Sicherheitssphrase eingeben](/images/10_Browser_Sicherungsphrase_eingeben_de.png)
 
-* [Hochschule Furtwangen](https://matrix.hs-furtwangen.de/) inkl. [Doku](https://howto.hs-furtwangen.de/hfu-chat/)
+Legen Sie diesen Sicherheitsschlüssel sicher ab, z.B. in Ihrem Passmamager oder als Ausdruck.
 
-* [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://chat.fau.de/) inkl. [Doku](https://www.rrze.fau.de/serverdienste/matrix/)
+![Sicherheitsschlüssel](/images/11_Browser_Sicherungsschluessel_speichern_de.png)
 
-* [Friedrich-Schiller-Universität Jena](https://chat.uni-jena.de/) inkl. [Doku](https://wiki.uni-jena.de/pages/viewpage.action?pageId=84543423)
+Sie haben Ihren Schlüssel erfolgreich gesichert.
 
-* [Albert-Ludwigs-Universität Freiburg](https://matrix.uni-freiburg.de/)
+![Verschlüsselte Sicherung erfolgreich](/images/12_Browser_Sicherungsschluessel_abgeschlossen_de.png)
 
-* [Hochschule Stralsund](https://matrix.hochschule-stralsund.de) inkl. [Doku](https://matrix.hochschule-stralsund.de/doc/)
 
-* [Technische Hochschule Mittelhessen](https://element.thm.de) inkl. [Doku](https://go.thm.de/thmconnect)
+## Matrix-Login ohne Academic Id ##
 
-
-Explizit für Studierende:
-
-* [StudiChat](https://chat.studichat.de/#/welcome) (für alle)
-
-* [Fachschaften](https://matrix.fachschaften.org/) (für Fachschaften)
-
-Weitere europäische Hochschulen:
-
-* [ETH Zürich](https://element.phys.ethz.ch/) inkl. [Doku](https://readme.phys.ethz.ch/chat/)
-
-* [Universität Innsbruck](https://chat.uibk.ac.at/) inkl. [Doku](https://www.uibk.ac.at/zid/anleitungen/chat/)
-
-* [University for Business and Technology, Kosovo](https://ubt-uni.net/)
-
-* [Karl-Franzens-Universität Graz](https://chat.uni-graz.at/)
-
-Kartendarstellung der Hochschulen und Universitäten mit einem Matrix-Dienst:
-* [University of Oxford](https://chat.cs.ox.ac.uk) inkl. [Doku](https://users.ox.ac.uk/~ball5903/oums/)
-
-* [École polytechnique fédérale de Lausanne](https://element.epfl.ch/)
-
-Kartendarstellung der Hochschulen und Universitäten mit einem Matrix-Dienst: 
-
-<object data="/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>
-
-Für die zivilgesellschaftliche Nutzung des Protokolls Matrix gibt es hier eine Liste an öffentlichen Homeservern, die auch von Kolleg:innen genutzt werden können, falls ihre Institution noch keinen Matrix-Server anbietet:
-
-[https://austinhuang.me/matrix-homeservers.html](https://austinhuang.me/matrix-homeservers.html)
-
-[https://www.hello-matrix.net/public_servers.php](https://www.hello-matrix.net/public_servers.php)
-
-[https://publiclist.anchel.nl/](https://publiclist.anchel.nl/)
-
-[https://fediverse.blog/~/FossMessenger/matrix-server](https://fediverse.blog/~/FossMessenger/matrix-server)
-
-<!--
-## Datenschutzerklärung
-
-Datenschutzerklärung: [Link](https://matrix.tu-berlin.de/_matrix/consent)
-
-## Impressum
-
-Impressum: [Link]({{< relref "imprint/_index.md" >}})
--->
+Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist an den von der GWDG betriebenen Matrix-Instanzen nicht möglich. Für die Nutzung des Dienst ist ein Login mit Academic Id notwendig.  
+ Es ist jedoch möglich mit Nutzern anderer Matrix-Homeserver von verschiedenen wissenschaftlichen und zivilgesellschaftlichen Institutionen zu komminizieren. Dieses Feature nennt sich Förderation. Das Prinzip ist ähnlich zu E-Mail: E-Mails können beispielsweise von den Servern der GWDG an die Hochschule Hannover geschickt werden.  
+Auf öffentlichen Homeservern, wie zum Beispiel dem von [matrix.org](https://app.element.io/), kann sich jede Person einen Account anlegen.
