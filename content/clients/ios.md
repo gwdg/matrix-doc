@@ -6,8 +6,6 @@ chapter: true
 weight: 30
 ---
 
-# Element iOS
-
 Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067" icon="fas fa-download" %}}iOS (iPhone/iPad){{% /button %}}
 
 ## Einrichtung

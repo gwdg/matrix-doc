@@ -5,8 +5,6 @@ draft: false
 chapter: true
 ---
 
-# Terms of use
-
 These terms of use come into force on 08.04.2024.
 
 ## Deletion deadlines

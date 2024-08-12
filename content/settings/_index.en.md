@@ -5,7 +5,6 @@ draft: false
 chapter: true
 weight: 10
 ---
-# Recommendations for steps after the first login
 
 ## Convenient use of end-to-end encryption (E2EE)
 

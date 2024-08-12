@@ -6,8 +6,6 @@ chapter: true
 weight: 15
 ---
 
-# Matrix Clients
-
 The recommended reference client for using Matrix is called Element and is available for various platforms:
 
 ## [Element Web]({{< ref "clients/browser" >}} "Setup of Element Web (Browser)")

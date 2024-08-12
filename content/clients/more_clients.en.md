@@ -5,8 +5,6 @@ draft: false
 chapter: true
 ---
 
-# More clients
-
 For users who like to experiment, there are numerous other clients in addition to Element, with which the Matrix communication protocol can be used:
 
 - https://matrix.org/ecosystem/clients/

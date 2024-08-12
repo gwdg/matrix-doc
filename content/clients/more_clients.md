@@ -5,8 +5,6 @@ draft: false
 chapter: true
 ---
 
-# Weitere Clients
-
 Für experimentierfreudige Nutzende gibt es neben Element noch zahlreiche weitere Clients, mit denen das Kommunikationsprotokoll Matrix genutzt werden kann:
 
 - https://matrix.org/ecosystem/clients/

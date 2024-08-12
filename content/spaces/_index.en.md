@@ -6,8 +6,6 @@ chapter: true
 weight: 51
 ---
 
-# Using Spaces for managing rooms
-
 Spaces are a special type of rooms that allow grouping people, rooms and spaces, and all these types of rooms can be assigned to multiple spaces at the same time. Thus, they facilitate the management of many rooms and make them easier to find for other people as well.
 
 ## Content

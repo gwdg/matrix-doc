@@ -6,8 +6,6 @@ chapter: true
 weight: 29
 ---
 
-# Element Android
-
 Downloads for: {{% button href="https://play.google.com/store/apps/details?id=im.vector.app" icon="fas fa-download" %}}Android (Google Play){{% /button %}} {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Driod){{% /button %}}
 
 

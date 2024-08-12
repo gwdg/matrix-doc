@@ -5,7 +5,6 @@ chapter: true
 draft: false
 weight: 40
 ---
-# Räume teilen und publik machen
 
 Jeder Raum hat eine Adresse, die man in den Raumeinstellungen unter dem Reiter Erweitert finden kann, bspw.
 

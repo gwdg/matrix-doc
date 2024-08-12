@@ -6,8 +6,6 @@ chapter: true
 weight: 1
 ---
 
-# Warum Matrix als Chat-System?
-
 Es gibt sehr viele Dienste und Programme zum instantanen elektronischen Kommunizieren. Matrix wurde ausgewählt, da es sich durch folgende Eigenschaften auszeichnet:
 
 - Offener Standard (keine technische Sackgasse)

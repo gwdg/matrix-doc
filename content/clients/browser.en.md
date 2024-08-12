@@ -6,7 +6,6 @@ chapter: true
 weight: 5
 ---
 
-# Element Web
 Start here: [https://chat.academiccloud.de](https://chat.academiccloud.de) 
 
 ![Start page of Element Webclient with login button](/images/01_Welcome_en.png)

@@ -6,8 +6,6 @@ chapter: true
 weight: 51
 ---
 
-# Spaces zur Raumverwaltung einsetzen
-
 Spaces sind eine spezielle Art von Räumen, die das Gruppieren von Personen, Räumen und Spaces erlauben, wobei all diese Raumarten zugleich mehreren Spaces zugeordnet werden können. Dadurch erleichtern sie die Verwaltung vieler Räume und ermöglichen es, diese auch für andere Personen einfacher auffindbar zu machen.
 
 ## Inhalt

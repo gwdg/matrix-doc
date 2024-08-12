@@ -5,8 +5,6 @@ draft: false
 chapter: true
 ---
 
-# Nutzungsbedingungen
-
 Diese Nutzungsbedingungen treten ab dem 08.08.2024 in Kraft.
 
 ## Löschfristen

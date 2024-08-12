@@ -1,11 +1,10 @@
 ---
-title: "Impressum"
+title: "Impressum/ Kontakt"
 date: 2020-07-02T21:22:54+02:00
 draft: false
 chapter: true
 weight: 1000
 ---
-## Fragen / Kontakt
 
 Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem der GWDG:
 

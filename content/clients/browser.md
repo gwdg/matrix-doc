@@ -6,8 +6,6 @@ chapter: true
 weight: 5
 ---
 
-# Element Web
-
 Starten Sie auf [chat.academiccloud.de](https://chat.academiccloud.de).
 
 ![Startseite von Element Webclient mit Anmeldebutton](/images/01_Welcome_de.png)

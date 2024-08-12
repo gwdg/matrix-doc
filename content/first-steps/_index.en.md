@@ -6,8 +6,6 @@ draft: true
 weight: 2
 ---
 
-# First steps - How to use Matrix?
-
 ## Matrix-Login with TUD account
 
 Members and members of the TU Dresden (of course also students) can use their **TUD login** (=ZIH-Login) to communicate with members of the TU Dresden and other universities and other Matrix users (e.g. academic partners) via chat and audio/video telephony in compliance with the relevant legal and regulatory provisions on data protection and IT security.
