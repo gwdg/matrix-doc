@@ -30,7 +30,7 @@ In the search result, click on the target person and then on "Go":
 
 ![A search result for the search query entered](/images/04_Found-and-Go_en.png)
 
-The [end-to-end encrypted]({{< relref "encryption" >}}) (meanwhile standard) conversation opens, which can begin after the connected person accepts the invitation. The connection to the server at the TU Dresden is of course also transport-encrypted. If you explicitly do not want end-to-end encryption for a special reason, [create]({{< relref "rooms/create.en.md" >}}) an unencrypted room and invite the conversation partners to it.
+The [end-to-end encrypted]({{% relref "encryption" %}}) (meanwhile standard) conversation opens, which can begin after the connected person accepts the invitation. The connection to the server at the TU Dresden is of course also transport-encrypted. If you explicitly do not want end-to-end encryption for a special reason, [create]({{% relref "rooms/create.en.md" %}}) an unencrypted room and invite the conversation partners to it.
 
 ### Invite a group of persons
 
@@ -41,5 +41,5 @@ For the mass invitation of persons (up to 100 at once, then repeatable) the matr
 It is possible to create a room with yourself. In this room you are the only participant. This room can then be used as a clipboard / notebook as well as for tests, for example to check whether formatting (for example of latex) and hyperlinks work correctly.
 
 ### Further reading
-* [formatting messages]({{< relref "formatting.en.md" >}})
-* [searching messages]({{< relref "search.en.md" >}})
+* [formatting messages]({{% relref "formatting.en.md" %}})
+* [searching messages]({{% relref "search.en.md" %}})

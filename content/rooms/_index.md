@@ -6,10 +6,10 @@ draft: false
 weight: 35
 ---
 
-Konversationen sind in Matrix in Räumen organisiert (die wiederum in [Spaces]({{< relref "spaces/_index.md" >}}) organisiert werden können). 1:1-Gespräche sind auch Räume, aber eben mit nur zwei Personen.
+Konversationen sind in Matrix in Räumen organisiert (die wiederum in [Spaces]({{% relref "spaces/_index.md" %}}) organisiert werden können). 1:1-Gespräche sind auch Räume, aber eben mit nur zwei Personen.
 
 Diese Rubrik ist unterteilt in:
-* [Räume erstellen]({{< relref "rooms/create.md" >}})
-* [Räume finden]({{< relref "rooms/find.md" >}})
-* [Räume löschen]({{< relref "rooms/delete.md" >}})
-* [Räume teilen]({{< relref "rooms/sharing.md" >}})
+* [Räume erstellen]({{% relref "rooms/create.md" %}})
+* [Räume finden]({{% relref "rooms/find.md" %}})
+* [Räume löschen]({{% relref "rooms/delete.md" %}})
+* [Räume teilen]({{% relref "rooms/sharing.md" %}})

@@ -6,7 +6,7 @@ chapter: false
 weight: 60
 ---
 
-1:1 Gespräche sind standardmäßig Ende-zu-Ende-verschlüsselt. Daher wird eine eingerichtete Schlüsselsicherung sowie eine Verifikation aller selbst eingesetzten Client-Geräte empfohlen (siehe [Wichtige Einstellungen]({{< ref "settings" >}})).
+1:1 Gespräche sind standardmäßig Ende-zu-Ende-verschlüsselt. Daher wird eine eingerichtete Schlüsselsicherung sowie eine Verifikation aller selbst eingesetzten Client-Geräte empfohlen (siehe [Wichtige Einstellungen]({{% ref "settings" %}})).
 
 {{% notice warning %}}
 Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
@@ -29,7 +29,7 @@ Das Aktivieren der Verschlüsselung kann **nicht rückgängig gemacht werden.** 
 
 ![Verschlüsselung in den Raumeinstellungen aktivieren](/images/03_Roome2e_de.png)
 
-Dies kann mit OK bestätigt werden. Ab sofort können die Nachrichten nur noch von den am Gespräch Beteiligten gelesen werden. Sofern nicht schon vorab in den Einstellungen eine Schlüsselsicherung eingerichtet wurde, so sollte dies spätestens jetzt durch alle Chat-Teilnehmenden durchgeführt werden (siehe [Wichtige Einstellungen]({{< ref "settings" >}})), um frühere und in Abwesenheit empfangene Nachrichten lesen zu können.
+Dies kann mit OK bestätigt werden. Ab sofort können die Nachrichten nur noch von den am Gespräch Beteiligten gelesen werden. Sofern nicht schon vorab in den Einstellungen eine Schlüsselsicherung eingerichtet wurde, so sollte dies spätestens jetzt durch alle Chat-Teilnehmenden durchgeführt werden (siehe [Wichtige Einstellungen]({{% ref "settings" %}})), um frühere und in Abwesenheit empfangene Nachrichten lesen zu können.
 
 Das Aktivieren der Verschlüsselung kann **nicht rückgängig gemacht werden.**
 

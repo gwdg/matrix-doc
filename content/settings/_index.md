@@ -47,7 +47,7 @@ In den Einstellungen können Sie im Reiter **Allgemein** bei Bedarf Ihren Anzeig
 
 <!--Auf der selben Seite kann auch das Design Thema von hell zu dunkel verändert werden.-->
 
-Im Reiter **Benachrichtigungen** können Sie E-Mail-Benachrichtigungen (um über verpasste Nachrichten informiert zu werden) sowie akustische Benachrichtigungen aktivieren und diese granular für einzelne Aktivitäten Anderer einstellen. Mehr dazu auf der Seite [Benachrichtigungen]({{< relref "notifications" >}}).
+Im Reiter **Benachrichtigungen** können Sie E-Mail-Benachrichtigungen (um über verpasste Nachrichten informiert zu werden) sowie akustische Benachrichtigungen aktivieren und diese granular für einzelne Aktivitäten Anderer einstellen. Mehr dazu auf der Seite [Benachrichtigungen]({{% relref "notifications" %}}).
 
 ![Screenshot der Benarchrichtigungeneinstellungen mit einer Makierung der ausgeschalteten E-Mail benachrichtigungen](/images/06_Settings-EMailNotify_de.png)
 

@@ -32,7 +32,7 @@ Im Suchergebnis klickt man auf die Zielperson und anschließend auf "Los":
 
 ![Ein Suchergebnis auf eingegebenen Suchanfrage](/images/04_Found-and-Go_de.png)
 
-Es öffnet sich das Gespräch, welches nach Annahme der Einladung durch die verbundene Person [Ende-zu-Ende-verschlüsselt]({{< relref "encryption" >}}) (inzwischen Standard) beginnen kann. Die Verbindung zum Server an der TU Berlin ist natürlich auch transport-verschlüsselt. Sollten Sie aus einem speziellen Grund explizit keine Ende-zu-Ende-Verschlüsselung wünschen, wäre ein unverschlüsselter [Raum zu erzeugen]({{< relref "rooms/create.md" >}}) und die Gesprächspartner:in in diesen einzuladen.
+Es öffnet sich das Gespräch, welches nach Annahme der Einladung durch die verbundene Person [Ende-zu-Ende-verschlüsselt]({{% relref "encryption" %}}) (inzwischen Standard) beginnen kann. Die Verbindung zum Server an der TU Berlin ist natürlich auch transport-verschlüsselt. Sollten Sie aus einem speziellen Grund explizit keine Ende-zu-Ende-Verschlüsselung wünschen, wäre ein unverschlüsselter [Raum zu erzeugen]({{% relref "rooms/create.md" %}}) und die Gesprächspartner:in in diesen einzuladen.
 
 ### Einladen von Personengruppen
 
@@ -43,5 +43,5 @@ Für das Einladen von mehreren Personen (bis zu 25 auf einmal, dann wiederholbar
 Es ist möglich einen Raum mit sich selbst zu erstellen. In diesem Raum ist man also der einzige Teilnehmer. Dieser Raum kann dann als Zwischenablage / Notizbuch sowie für Tests benutzt werden, zum Beispiel um zu prüfen ob Formatierungen (zum Beispiel von Latex) und Hyperlinks korrekt funktionieren.
 
 ### Weiteres
-* [Nachrichten formatieren]({{< relref "formatting.md" >}})
-* [Nachrichten suchen]({{< relref "search.md" >}})
+* [Nachrichten formatieren]({{% relref "formatting.md" %}})
+* [Nachrichten suchen]({{% relref "search.md" %}})

@@ -6,7 +6,7 @@ chapter: false
 weight: 60
 ---
 
-1:1 chats are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is highly recommended ([Important settings]({{< ref "settings" >}}))
+1:1 chats are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is highly recommended ([Important settings]({{% ref "settings" %}}))
 
 {{% notice warning %}}
 We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
@@ -29,7 +29,7 @@ The option to enable encryption for a room can never be taken back, the room has
 We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
 {{% /notice %}}
 
-This can be confirmed with OK. From now on the messages can only be read by those involved in the conversation. If you have not set up a key protection in the settings before, you should do this now (see [Important settings]({{< ref "settings" >}})) to be able to read earlier and in absence received messages.
+This can be confirmed with OK. From now on the messages can only be read by those involved in the conversation. If you have not set up a key protection in the settings before, you should do this now (see [Important settings]({{% ref "settings" %}})) to be able to read earlier and in absence received messages.
 
 The option to enable encryption for a room can never be taken back, the room has to be deleted and recreated!
 

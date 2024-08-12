@@ -14,8 +14,8 @@ It is not uncommon to want to search for older conversation content. To search t
 
 Searching for messages is possible in unencrypted rooms without any problem, since Element
 has access to all messages. The situation is different in encrypted rooms. This function
-is only possible using the desktop client (see [Clients / Installation]({{< relref
-"clients" >}})), because the messages must be cached for the search. The message search
+is only possible using the desktop client (see [Clients / Installation]({{% relref
+"clients" %}})), because the messages must be cached for the search. The message search
 must be explicitly enabled under `Settings` -> `Security & Privacy` -> `Message search`.
 Afterwards, searching is also possible in encrypted rooms.
 

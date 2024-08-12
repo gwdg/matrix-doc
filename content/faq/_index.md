@@ -1,5 +1,5 @@
 ---
-menutitle: "Häufige Fragen (FAQ)"
+linktitle: "Häufige Fragen (FAQ)"
 title: "Häufige Fragen (FAQ)"
 date: 2020-08-02T21:26:25+02:00
 draft: false

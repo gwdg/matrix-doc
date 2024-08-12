@@ -8,7 +8,7 @@ weight: 35
 
 Conversations are organized in matrix in rooms. 1:1 conversations are also rooms, but for now with only two people. In this 
 Category is about 
-1. [create rooms]({{< relref "rooms/create" >}})
-2. [find rooms]({{< relref "rooms/find" >}})
-3. [delete rooms]({{< relref "rooms/delete" >}})
-4. [share rooms]({{< relref "rooms/sharing" >}})
+1. [create rooms]({{% relref "rooms/create" %}})
+2. [find rooms]({{% relref "rooms/find" %}})
+3. [delete rooms]({{% relref "rooms/delete" %}})
+4. [share rooms]({{% relref "rooms/sharing" %}})

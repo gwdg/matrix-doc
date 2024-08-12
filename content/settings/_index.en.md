@@ -11,9 +11,9 @@ weight: 10
 Matrix not only encrypts transports to and from the home server (in the data center of GWDG) but also allows the use of end-to-end encryption (E2EE). For this, cryptographic keys have to be exchanged between all devices that want to write end-to-end encrypted. This technical necessity sounds and is complicated, but in the meantime it has become very convenient for the users. The many cryptographic keys created by the client are stored on the respective device. If this is a tab in a browser, for example, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the matrix server, on which (protected with a security phrase (or security key that can be calculated from it) all cryptographic keys are stored encrypted. 
 
 {{% notice warning %}}
-It is highly recommended to use this key backup (with a secure security phrase which is NOT your normal password) and read on at [Other important settings]({{< relref "_index.en.md#other-important-settings" >}})!
+It is highly recommended to use this key backup (with a secure security phrase which is NOT your normal password) and read on at [Other important settings]({{% relref "_index.en.md#other-important-settings" %}})!
 {{% /notice %}}
-   
+
 ![Screenshot of the prompt to enter a security phrase](/images/01_Restore-Session_en.png)
 
 If you skip this now, the next screen would look like this:
@@ -44,7 +44,7 @@ The e-mail address field is not necessarily to be filled in, since an e-mail add
 
 On the same page you can also change the design theme from light to dark.
 
-In the **Notifications** tab you can activate e-mail notifications (to be informed about missed messages) as well as acoustic notifications and set them granularly for individual activities of others. For more information see the [notifications]({{< relref "notifications" >}}).
+In the **Notifications** tab you can activate e-mail notifications (to be informed about missed messages) as well as acoustic notifications and set them granularly for individual activities of others. For more information see the [notifications]({{% relref "notifications" %}}).
 
 ![Screenshot of the notification settings with a marker of the switched off e-mail notifications](/images/06_Settings-EMailNotify_en.png)
 

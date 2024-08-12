@@ -23,7 +23,7 @@ Wenn Sie sich in einem Raum befinden, dessen Hauptzweck es ist, sich gelegentlic
 
 Hier müssen ggf. Erfahrungen gesammelt werden, die bei der Einschätzung helfen, welche Benachrichtigungen man wirklich zeitnah braucht und wann ein hin-und-wieder-vorbeischauen ausreicht.
 
-Siehe [Empfehlungen zu ersten Schritten nach Erstlogin]({{< ref "settings" >}})
+Siehe [Empfehlungen zu ersten Schritten nach Erstlogin]({{% ref "settings" %}})
 
 ![Screenshot des Menüs zur Auswahl, wann Benachrichtigungen verschickt werden sollen](/images/notifications2.webp)
 

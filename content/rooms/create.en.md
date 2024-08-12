@@ -10,7 +10,7 @@ weight: 10
 New rooms are created using the + in the left bar in the category Rooms.
 
 ![Marking of the room add button](/images/01_Rooms_en.png)
-Then the room name must be assigned. You can also optionally assign a theme (which can be adapted more often later). Optionally, the room can be made publicly accessible (this is not the default setting). With an additional click on "Show more settings" it can be prevented that Matrix users from outside the home server (Homeserver) can enter the room. This should never be set as even academic cloud matrix consists of multiple home servers. By default, all new rooms (just like all new 1:1 chats) have [end-to-end encryption]({{< relref "encryption" >}}) set up. If this is not desired (e.g. because verification of the participants becomes very impractical in very large rooms) you can use the slider before creating the room to not activate end-to-end encryption.
+Then the room name must be assigned. You can also optionally assign a theme (which can be adapted more often later). Optionally, the room can be made publicly accessible (this is not the default setting). With an additional click on "Show more settings" it can be prevented that Matrix users from outside the home server (Homeserver) can enter the room. This should never be set as even academic cloud matrix consists of multiple home servers. By default, all new rooms (just like all new 1:1 chats) have [end-to-end encryption]({{% relref "encryption" %}}) set up. If this is not desired (e.g. because verification of the participants becomes very impractical in very large rooms) you can use the slider before creating the room to not activate end-to-end encryption.
 
 {{% notice warning %}}
 We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
@@ -44,7 +44,7 @@ In the **Security & Privacy** tab, room administrators have to make important de
 A "call waiting" to closed rooms is not yet possible. The closest workaround is to send a direct message to the room administrator, who will then invite you.
 
 {{% notice note %}}
-The end-to-end encryption of large or public spaces is critical in terms of the difficult verification for many people. See [Use end-to-end encryption]({{< relref "encryption" >}}).
+The end-to-end encryption of large or public spaces is critical in terms of the difficult verification for many people. See [Use end-to-end encryption]({{% relref "encryption" %}}).
 {{% /notice %}}
 {{% notice warning %}}
 As the room administrator, you have **responsibility** for the content shared in the room (e.g. false messages, hate mail, etc.). Include other people in this responsibility by assigning roles in the right bar (after clicking on the person icon) via the "Permission Level" drop-down menu, e.g. Administrator:inside or Moderator:inside.

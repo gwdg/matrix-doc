@@ -6,7 +6,7 @@ chapter: false
 weight: 60
 ---
 
-Wir empfehlen das Installieren des Clients über die Paketverwaltung der jeweiligen Distribution oder Flathub. Die folgenden Befehle installieren den Element Desktop Client über die Kommandozeile. Folgen Sie anschließend der Anleitung auf [Element Desktop]({{< relref "clients/desktop/_index.md" >}}).
+Wir empfehlen das Installieren des Clients über die Paketverwaltung der jeweiligen Distribution oder Flathub. Die folgenden Befehle installieren den Element Desktop Client über die Kommandozeile. Folgen Sie anschließend der Anleitung auf [Element Desktop]({{% relref "clients/desktop/_index.md" %}}).
 
 ### Debian/Ubuntu
 ```sh

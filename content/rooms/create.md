@@ -10,7 +10,7 @@ weight: 10
 Neue Räume werden über das **+** in der linken Leiste in der Kategorie Räume erstellt.
 
 ![Makierung des Raumhinzufügenbuttons](/images/01_Rooms_de.png)
-Anschließend ist der Raumname zu vergeben. Auch kann optional ein Thema (das später immer wieder angepasst werden kann) vergeben werden. Optional kann der Raum auch öffentlich zugänglich gemacht werden (dies ist nicht die Standardeinstellung). Mit einem zusätzlichen Klick auf „Weitere Einstellungen anzeigen“ kann anschließend noch verhindert werden, dass Matrix-Nutzende von außerhalb der Academic Cloud den Raum betreten können. Dies sollte **nicht aktiviert** werden, da schon die Academic Cloud aus mehreren Matrix-Servern besteht. Standard ist inzwischen, dass alle neuen Räume (genau wie alle neuen 1:1-Gespräche) eine [Ende-zu-Ende-Verschlüsselung]({{< relref "encryption" >}}) eingerichtet haben. Sollte man dies nicht wünschen (bspw. weil in sehr großen Räumen die Verifikation der Teilnehmenden sehr unpraktisch wird) kann hier vor der Raum-Erstellung der Schieberegler benutzt werden um die Ende-zu-Ende-Verschlüsselung nicht zu aktivieren.
+Anschließend ist der Raumname zu vergeben. Auch kann optional ein Thema (das später immer wieder angepasst werden kann) vergeben werden. Optional kann der Raum auch öffentlich zugänglich gemacht werden (dies ist nicht die Standardeinstellung). Mit einem zusätzlichen Klick auf „Weitere Einstellungen anzeigen“ kann anschließend noch verhindert werden, dass Matrix-Nutzende von außerhalb der Academic Cloud den Raum betreten können. Dies sollte **nicht aktiviert** werden, da schon die Academic Cloud aus mehreren Matrix-Servern besteht. Standard ist inzwischen, dass alle neuen Räume (genau wie alle neuen 1:1-Gespräche) eine [Ende-zu-Ende-Verschlüsselung]({{% relref "encryption" %}}) eingerichtet haben. Sollte man dies nicht wünschen (bspw. weil in sehr großen Räumen die Verifikation der Teilnehmenden sehr unpraktisch wird) kann hier vor der Raum-Erstellung der Schieberegler benutzt werden um die Ende-zu-Ende-Verschlüsselung nicht zu aktivieren.
 
 {{% notice warning %}}
 Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
@@ -44,7 +44,7 @@ Ein "Anklopfen" an geschlossene Räume ist bisher nicht möglich. Der nahestehen
 
 <!--
 {{% notice note %}}
-Die Ende-zu-Ende-Verschlüsselung größerer oder öffentlicher Räume ist kritisch hinsichtlich der schwierigen Verifikation für viele Personen. Siehe [Ende-zu-Ende-Verschlüsselung nutzen]({{< relref "encryption" >}}).
+Die Ende-zu-Ende-Verschlüsselung größerer oder öffentlicher Räume ist kritisch hinsichtlich der schwierigen Verifikation für viele Personen. Siehe [Ende-zu-Ende-Verschlüsselung nutzen]({{% relref "encryption" %}}).
 {{% /notice %}}
 -->
 {{% notice warning %}}

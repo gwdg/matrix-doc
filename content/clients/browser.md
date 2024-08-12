@@ -17,7 +17,7 @@ Hierzu ist keine Konfiguration oder Registrierung nötig, der Dienst kann sofort
 Anschließend müssen Benutzername und Passwort des TUB-Accounts angegeben werden. In dem Dropdown-Menü „Anmelden mit:“ sollte „Benutzername“ ausgewählt bleiben. Als Nutzername muss der TUB-Login **vollständig in Kleinbuchstaben** verwendet werden (keine E-Mail-Adresse). Es folgt nach dem Erstlogin auch keine Bestätigungsmail.
 
 {{% notice warning %}}
-Sollten Sie statt mit der oben genannten Website (Element-Web-App der Academic Cloud) sofort mit einem [Matrix Client]({{< relref "../clients" >}}) starten wollen, ist es wichtig den Heimserver vom zumeist standardmäßig eingestellten matrix.org auf academiccloud.de zu ändern siehe [Erste Schritte]({{< relref "../first-steps" >}}).
+Sollten Sie statt mit der oben genannten Website (Element-Web-App der Academic Cloud) sofort mit einem [Matrix Client]({{% relref "../clients" %}}) starten wollen, ist es wichtig den Heimserver vom zumeist standardmäßig eingestellten matrix.org auf academiccloud.de zu ändern siehe [Erste Schritte]({{% relref "../first-steps" %}}).
 {{% /notice %}}
 
 Der einfachste Weg ist das direkte Öffnen der Element-Web-Anwendung in einem modernen Browser (z.B. [Mozilla Firefox](https://www.mozilla.org/de/firefox/)) unter der Adresse [chat.academiccloud.de](https://chat.academiccloud.de).

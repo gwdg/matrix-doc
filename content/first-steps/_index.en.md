@@ -59,7 +59,7 @@ It is highly recommended to use this key backup (with a secure security phrase w
 Alternatively, instead of the security phrase, you can also have a security key generated that serves the same purpose as the security phrase. Furthermore, the security key is generated in addition to the security phrase and should be kept safe and retrievable as an emergency key (e.g. save it as .txt file AND print it out) 
 ![Display of the security key to write or save away](/images/13_Present-Key_en.png) 
 
-[Other important settings]({{< relref "settings/_index.en.md" >}}) may improve your Matrix experience!
+[Other important settings]({{% relref "settings/_index.en.md" %}}) may improve your Matrix experience!
 
 
 ## Requests to setup the key backup
@@ -186,7 +186,7 @@ For civil use of the Matrix protocol, here is a list of public home servers that
 
 ## Imprint
 
-Imprint: [Link]({{< relref "imprint/_index.en.md" >}})
+Imprint: [Link]({{% relref "imprint/_index.en.md" %}})
 
 ## Privacy policy
 

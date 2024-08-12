@@ -1,5 +1,5 @@
 ---
-menutitle: "Blog/News"
+linktitle: "Blog/News"
 title: "Blog"
 date: 2020-01-02T21:26:25+02:00
 draft: true
@@ -101,7 +101,7 @@ Und die [Uni Innsbruch](https://element.io/case-studies/university-of-innsbruck)
 
 #### 27.03.2021 - Relogin
 
-Durch eine Aktualisierung am Matrix Server haben sich die Orte für Mediendateien verändert. Clients, die seit einem Zeitpunkt vor dem 28.03.2021 angemeldet sind, sehen Medien nicht mehr. Um dieses Problem zu lösen ist ein einmaliges Ab- und erneutes Anmelden nötig. Damit dabei keine früheren verschlüsselten Nachrichten unlesbar werden ist dringend auf die [in den FAQ beschriebene Prozedur]({{< relref "faq/_index.md" >}}) zu achten! Unsere großen Vorteile dadurch: Ab nun ist unser Matrix-Setup aber ein [MDAD](https://github.com/spantaleev/matrix-docker-ansible-deploy) mit automatischer Konfiguration der synapse worker und einer Verringerung der Angriffsgefahr durch Cross-Site Scripting (XSS).
+Durch eine Aktualisierung am Matrix Server haben sich die Orte für Mediendateien verändert. Clients, die seit einem Zeitpunkt vor dem 28.03.2021 angemeldet sind, sehen Medien nicht mehr. Um dieses Problem zu lösen ist ein einmaliges Ab- und erneutes Anmelden nötig. Damit dabei keine früheren verschlüsselten Nachrichten unlesbar werden ist dringend auf die [in den FAQ beschriebene Prozedur]({{% relref "faq/_index.md" %}}) zu achten! Unsere großen Vorteile dadurch: Ab nun ist unser Matrix-Setup aber ein [MDAD](https://github.com/spantaleev/matrix-docker-ansible-deploy) mit automatischer Konfiguration der synapse worker und einer Verringerung der Angriffsgefahr durch Cross-Site Scripting (XSS).
 
 #### 02.03.2021 - Pull Request für MDAD synapse worker erfolgreich gemergt
 

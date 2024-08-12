@@ -6,7 +6,7 @@ chapter: false
 weight: 60
 ---
 
-We recommend using the package manager of your system or Flathub to install Element Desktop. The following commands will install element desktop. You can enter them on the command line. Afterwards follow the steps on [Element Desktop]({{< relref "clients/desktop/_index.md" >}}).
+We recommend using the package manager of your system or Flathub to install Element Desktop. The following commands will install element desktop. You can enter them on the command line. Afterwards follow the steps on [Element Desktop]({{% relref "clients/desktop/_index.md" %}}).
 
 ### Debian/Ubuntu
 ```sh

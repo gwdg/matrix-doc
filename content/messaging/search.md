@@ -18,7 +18,7 @@ zu durchsuchen, befindet sich in der oberen rechte Ecke der Element-App der
 Das Suchen nach Nachrichten ist in unverschlüsselten Räumen ohne Problem möglich, da
 Element auf alle Nachrichten Zugriff hat. Anders sieht es in verschlüsselten Räumen aus.
 Diese Funktion ist nur unter Verwendung des Desktop-Clients möglich (siehe [Clients /
-Installation]({{< relref "clients" >}})), da die Nachrichten für die Suche
+Installation]({{% relref "clients" %}})), da die Nachrichten für die Suche
 zwischengespeichert werden müssen. Die Nachrichtensuche muss explizit unter
 `Einstellungen` -> `Sicherheit & Datenschutz` -> `Nachrichtensuche` aktiviert werden.
 Anschließend ist das Suchen auch in verschlüsselten Räumen möglich.
