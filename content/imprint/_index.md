@@ -2,7 +2,7 @@
 title: "Impressum/ Kontakt"
 date: 2020-07-02T21:22:54+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 1000
 ---
 

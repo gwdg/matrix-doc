@@ -2,7 +2,7 @@
 title: "Element Desktop"
 date: 2020-10-12T09:27:07+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 10
 ---
 

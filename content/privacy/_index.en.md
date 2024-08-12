@@ -2,7 +2,7 @@
 title: "Privacy"
 date: 2020-07-03T13:25:27+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 900
 ---
 ## Privacy Policy for the Matrix Service of GWDG

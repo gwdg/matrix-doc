@@ -2,7 +2,7 @@
 title: "Nutzungsbedingungen"
 date: 2024-02-16T14:00:00+01:00
 draft: false
-chapter: true
+chapter: false
 ---
 
 Diese Nutzungsbedingungen treten ab dem 08.08.2024 in Kraft.

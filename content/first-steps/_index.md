@@ -1,7 +1,7 @@
 ---
 title: "Erste Schritte"
 date: 2024-08-08T16:49:12+02:00
-chapter: true
+chapter: false
 draft: false
 weight: 2
 ---

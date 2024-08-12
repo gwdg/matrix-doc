@@ -2,7 +2,7 @@
 title: "Declatation of accessibility"
 date: 2020-09-05T10:53:07+02:00
 draft: true
-chapter: true
+chapter: false
 ---
 
 # Accessibility declaration 
