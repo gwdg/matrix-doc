@@ -6,8 +6,6 @@ chapter: true
 weight: 2
 ---
 
-# Einen Space erstellen
-
 Die Schrittfolge beschreibt beispielhaft die Einrichtung eines Spaces in Element Web.
 
 1. In der Bedienoberfläche werden Spaces in der ersten linken Spalte angezeigt. Dort ist unterhalb aller bisherigen Spaces das Plus-Icon **„Neuen Space erstellen“** zu finden, ggf. müssen Sie zuerst ans Ende der Liste scrollen. Klicken Sie auf das Plus-Symbol.

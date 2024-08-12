@@ -6,14 +6,12 @@ chapter: true
 weight: 29
 ---
 
-# Element Android
-
 Downloads for: {{% button href="https://play.google.com/store/apps/details?id=im.vector.app" icon="fas fa-download" %}}Android (Google Play){{% /button %}} {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Driod){{% /button %}}
 
 
 ## Element X
 
-You may find the app 'Element X' in the Play-Store. This app is not ready for production and does not work with our matrix server.
+You may find the app 'Element X' in the Play-Store. This app is not ready for production. Among others missing features are Spaces and Threads.
 
 ## Setup
 

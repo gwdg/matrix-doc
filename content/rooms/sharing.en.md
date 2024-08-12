@@ -5,7 +5,7 @@ chapter: true
 draft: false
 weight: 40
 ---
-# Share rooms and make them public
+
  {{% notice warning %}}
 The share icon in the upper right corner of each room also provides a link, a QR code and various social networks. The link, however, leads to https://matrix.to/ from where you can access the room via an Element web app from https://element.io. In order to share a room within Academic Cloud please use the methode explained in this artice.
  {{% /notice %}}

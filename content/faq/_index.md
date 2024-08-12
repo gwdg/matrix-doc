@@ -1,11 +1,11 @@
 ---
 menutitle: "Häufige Fragen (FAQ)"
-title: "Häufig gestellte Fragen"
+title: "Häufige Fragen (FAQ)"
 date: 2020-08-02T21:26:25+02:00
 draft: false
 weight: 200
 ---
-Dies ist eine Zusammenstellung häufiger Fragen und deren Antworten. .
+Dies ist eine Zusammenstellung häufiger Fragen und deren Antworten.
 
 - [Nachricht kann nicht entschlüsselt werden](#unable-to-decrypt)
 - [Ich habe keinen Wiederherstellungsschlüssel](#no-recovery-key)

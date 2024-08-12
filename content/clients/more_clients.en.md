@@ -5,8 +5,6 @@ draft: false
 chapter: true
 ---
 
-# More clients
-
 For users who like to experiment, there are numerous other clients in addition to Element, with which the Matrix communication protocol can be used:
 
 - https://matrix.org/ecosystem/clients/
@@ -18,6 +16,8 @@ For users who like to experiment, there are numerous other clients in addition t
     - Fühlt sich etwas aufgeräumter an.
 - [SchildiChat](https://schildi.chat/)
     - Eine etwas andere Oberfläche auf Basis von Element
+- [Element X](https://element.io/labs/element-x)
+    - Preview-Version of the next generation of Element. Very fast and leightweight but misses some features like Spaces and Threads.
 
 ### Desktop
 - [nheko](https://nheko-reborn.github.io/)

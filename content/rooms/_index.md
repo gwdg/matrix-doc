@@ -5,7 +5,6 @@ chapter: true
 draft: false
 weight: 35
 ---
-# Räume
 
 Konversationen sind in Matrix in Räumen organisiert (die wiederum in [Spaces]({{< relref "spaces/_index.md" >}}) organisiert werden können). 1:1-Gespräche sind auch Räume, aber eben mit nur zwei Personen.
 

@@ -5,7 +5,6 @@ draft: false
 chapter: true
 weight: 10
 ---
-# Empfehlungen zu Schritten nach dem Erstlogin
 
 ## Einrichtung der Schlüsselsicherung
 

@@ -6,9 +6,7 @@ draft: false
 weight: 2
 ---
 
-# Wie kann ich Matrix nutzen?
-
-## Matrix-Login mit Academic Id
+## Matrix-Login mit Academic Id ##
 
 Allen Nutzenden der Academic Cloud wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihrer **Academic Id** mit Angehörigen ihrer und anderer Hochschulen, Universitäten und Institute sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner*innen) per Chat zu kommunizieren.  
 Der Dienst wird über einen Client genutzt, es stehen eine [Vielzahl verschiedener Programme]({{% relref "clients/_index.md" %}}) zur Auswahl. Der bekannteste Client ist Element (früher Riot), neben der Desktop-Anwendung und mobilen Versionen für Android und IOS für Ihre Geräte betreibt die GWDG Element auch als Web-Anwendung. 

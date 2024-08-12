@@ -6,8 +6,6 @@ chapter: true
 weight: 15
 ---
 
-# Matrix-Clients
-
 Der bekannteste und empfohlene Client zur Nutzung von Matrix heißt **Element** (früher Riot). Neben Element gibt es eine [Vielzahl anderer Clients](https://matrix.org/clients/) zur Auswahl. Element steht für verschiedenste Platformen zum Download verfügbar und kann sogar ohne Download im Browser genutzt werden. Einer der Vorteile ist, dass beispielsweise die Desktop-App und die mobile App für Smartphones sehr gut zusammen funktionieren und so zum Beispiel kryptographische Schlüssel unter den Geräten ausgetauscht werden
 
 ## [Element Web]({{< ref "browser.md" >}} "Einrichtung von Element Web (Browser)")

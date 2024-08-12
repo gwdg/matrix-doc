@@ -7,7 +7,7 @@ theme = "hugo-theme-relearn"
 
 [params]
   themeVariant = "ac"
-  disableNextPrev = true
+  disableNextPrev = false
   disableShortcutsTitle = false
   showVisitedLinks = false
   disableBreadcrumb = false

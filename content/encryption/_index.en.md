@@ -6,8 +6,6 @@ chapter: true
 weight: 60
 ---
 
-# Use of end-to-end encryption
-
 1:1 chats are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is highly recommended ([Important settings]({{< ref "settings" >}}))
 
 {{% notice warning %}}

@@ -6,8 +6,6 @@ chapter: true
 weight: 60
 ---
 
-# Ende-zu-Ende-Verschlüsselung nutzen
-
 1:1 Gespräche sind standardmäßig Ende-zu-Ende-verschlüsselt. Daher wird eine eingerichtete Schlüsselsicherung sowie eine Verifikation aller selbst eingesetzten Client-Geräte empfohlen (siehe [Wichtige Einstellungen]({{< ref "settings" >}})).
 
 {{% notice warning %}}

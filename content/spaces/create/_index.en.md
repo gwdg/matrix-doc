@@ -6,8 +6,6 @@ chapter: true
 weight: 2
 ---
 
-# Create a Space
-
 The sequence of steps describes an example of how to set up a Space in Element Web.
 
 1. In the user interface, Spaces are displayed in the first left column. There you will find the plus icon **"Create new Space "** below all previous Spaces, you may have to scroll to the end of the list first. Click on the plus icon.

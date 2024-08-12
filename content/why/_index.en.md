@@ -6,8 +6,6 @@ chapter: true
 weight: 1
 ---
 
-# Why matrix as a chat system?
-
 There are many services and programs for instant electronic communication. Matrix was chosen because it has the following characteristics:
 
 - Open standard (no technical dead end)
