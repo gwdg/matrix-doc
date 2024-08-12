@@ -136,6 +136,6 @@ Sie haben Ihren Schlüssel erfolgreich gesichert.
 
 ## Matrix-Login ohne Academic Id ##
 
-Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist an den von der GWDG betriebenen Matrix-Instanzen nicht möglich. Für die Nutzung des Dienst ist ein Login mit Academic Id notwendig.  
- Es ist jedoch möglich mit Nutzern anderer Matrix-Homeserver von verschiedenen wissenschaftlichen und zivilgesellschaftlichen Institutionen zu komminizieren. Dieses Feature nennt sich Förderation. Das Prinzip ist ähnlich zu E-Mail: E-Mails können beispielsweise von den Servern der GWDG an die Hochschule Hannover geschickt werden.  
+Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist an den von der GWDG betriebenen Matrix-Instanzen nicht möglich. Für den Zugang zum Dienst ist ein Login mit Academic Id notwendig. Für Nutzer*innen von Academic Cloud Gast-Accounts ist der Matrix-Homeserver (analog zur bisherigen Praxis bei Rocketchat) freigeschaltet.  
+Es ist auch möglich mit Nutzern anderer Matrix-Homeserver von verschiedenen wissenschaftlichen und zivilgesellschaftlichen Institutionen zu komminizieren. Dieses Feature nennt sich Förderation. Das Prinzip ist ähnlich zu E-Mail: E-Mails können beispielsweise von den Servern der GWDG an die Hochschule Hannover geschickt werden.  
 Auf öffentlichen Homeservern, wie zum Beispiel dem von [matrix.org](https://app.element.io/), kann sich jede Person einen Account anlegen.
