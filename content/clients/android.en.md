@@ -11,7 +11,7 @@ Downloads for: {{% button href="https://play.google.com/store/apps/details?id=im
 
 ## Element X
 
-You may find the app 'Element X' in the Play-Store. This app is not ready for production and does not work with our matrix server.
+You may find the app 'Element X' in the Play-Store. This app is not ready for production. Among others missing features are Spaces and Threads.
 
 ## Setup
 

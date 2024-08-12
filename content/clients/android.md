@@ -10,7 +10,7 @@ Downloads für: {{% button href="https://play.google.com/store/apps/details?id=i
 
 ## Element X
 
-Im Play-Store findet sich auch die App 'Element X'. Diese ist noch nicht fertig und funktioniert noch nicht mit unserer Matrix-Instanz.
+Im Play-Store findet sich auch die App 'Element X'. Diese ist noch nicht fertig. Unter anderem fehlen noch die Funktionen 'Spaces' und 'Threads'.
 
 ## Einrichtung
 

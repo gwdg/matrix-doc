@@ -16,6 +16,8 @@ Für experimentierfreudige Nutzende gibt es neben Element noch zahlreiche weiter
     - Fühlt sich etwas aufgeräumter an.
 - [SchildiChat](https://schildi.chat/)
     - Eine etwas andere Oberfläche auf Basis von Element
+- [Element X](https://element.io/labs/element-x)
+    - Vorschauversion der nächsten Element-Generation. Deutlich schneller und leichtgewichtiger. Noch fehlen aber Funktionen wie Spaces oder Threads.
 
 ### Desktop
 - [nheko](https://nheko-reborn.github.io/)
