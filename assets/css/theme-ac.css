@@ -87,16 +87,3 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     border-color: none;
     box-shadow: none;
 }
-
-div.notices.warning:lang(de) p:first-child:after {
-    content: 'Warnung';
-}
-div.notices.note:lang(de) p:first-child:after {
-    content: 'Hinweis';
-}
-div.notices.info:lang(de) p:first-child:after {
-    content: 'Info';
-}
-div.notices.tip:lang(de) p:first-child:after {
-    content: 'Tipp';
-}

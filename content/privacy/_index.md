@@ -2,7 +2,7 @@
 title: "Datenschutz"
 date: 2024-08-08T13:25:27+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 900
 ---
 ## Datenschutzerklärung für den Matrix-Dienst der GWDG

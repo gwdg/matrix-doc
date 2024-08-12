@@ -2,7 +2,7 @@
 title: "Development"
 date: 2020-07-03T13:15:20+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 200
 ---
 

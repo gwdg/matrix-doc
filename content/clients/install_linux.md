@@ -2,7 +2,7 @@
 title: "Installation unter Linux"
 date: 2020-12-31T09:29:07+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 60
 ---
 

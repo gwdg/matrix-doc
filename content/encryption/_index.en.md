@@ -2,7 +2,7 @@
 title: "Encryption"
 date: 2020-07-03T13:20:58+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 60
 ---
 

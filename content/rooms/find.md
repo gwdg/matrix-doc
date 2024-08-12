@@ -1,7 +1,7 @@
 ---
 title: "Räume finden"
 date: 2020-07-02T21:23:14+02:00
-chapter: true
+chapter: false
 draft: false
 weight: 20
 ---

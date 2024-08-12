@@ -2,7 +2,7 @@
 title: "Create Space"
 date: 2022-06-22T15:19:14+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 2
 ---
 

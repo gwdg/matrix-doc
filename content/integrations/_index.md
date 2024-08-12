@@ -2,7 +2,7 @@
 title: "Integrationen"
 date: 2020-07-02T21:23:01+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 80
 ---
 

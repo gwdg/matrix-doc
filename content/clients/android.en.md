@@ -2,7 +2,7 @@
 title: "Element Android"
 date: 2020-10-12T09:29:07+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 29
 ---
 

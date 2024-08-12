@@ -2,7 +2,7 @@
 title: "Imprint/ Contact"
 date: 2024-08-08T21:22:54+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 1000
 ---
 

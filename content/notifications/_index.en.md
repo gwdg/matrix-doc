@@ -2,7 +2,7 @@
 title: "Notifications"
 date: 2020-07-03T13:45:15+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 38
 ---
 ## Fine-tune notifications

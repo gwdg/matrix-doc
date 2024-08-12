@@ -2,7 +2,7 @@
 title: "Spaces"
 date: 2021-12-03T13:55:57+01:00
 draft: false
-chapter: true
+chapter: false
 weight: 51
 ---
 

@@ -2,7 +2,7 @@
 title: "Nachrichten suchen"
 date: 2021-03-02T11:42:35+01:00
 draft: false
-chapter: true
+chapter: false
 weight: 40
 ---
 

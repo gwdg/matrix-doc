@@ -2,7 +2,7 @@
 title: "Element Web (Browser)"
 date: 2020-07-15T16:46:07+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 5
 ---
 

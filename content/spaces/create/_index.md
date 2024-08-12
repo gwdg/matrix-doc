@@ -2,7 +2,7 @@
 title: "Space erstellen"
 date: 2022-06-22T15:19:17+02:00
 draft: true
-chapter: true
+chapter: false
 weight: 2
 ---
 

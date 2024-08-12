@@ -2,7 +2,7 @@
 title: "Format messages"
 date: 2020-07-15T18:05:37+02:00
 draft: false
-chapter: true
+chapter: false
 weight: 30
 ---
 
