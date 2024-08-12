@@ -29,7 +29,7 @@ Falls Sie bereits eine Academic Id haben, ist keine weitere Registrierung nötig
 
 Ihr Heimserver ist vorkonfiguriert, klicken Sie auf "Fortfahren", Sie werden zum Academic Cloud SSO geleitet. Falls Sie noch nicht angemeldet sind, loggen Sie sich mit Ihrer Academic Id und ggf. Ihrem zweiten Faktor ein.
 
-![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud__SSO_de.png)
+![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud_SSO_de.png)
 
 Ihre Account-Daten (Anzeige Name & E-Mail-Adresse) werden aus der Benutzerverwaltung übertragen, eine Änderung ist an dieser Stelle nicht möglich.
 
@@ -43,7 +43,7 @@ Der Browser muss lokale Daten auf Ihrem PC speichern, erlauben Sie diesen Zugrif
 
 ![Datenzugriff im Browser bestätigen](/images/06_Browser_Allow_Data_Storage_de.png)
 
-Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen, sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{< relref "settings/_index.md" >}})
+Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen, sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{% relref "settings/_index.md" %}})
 
 {{% notice tip %}}
 Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten.
@@ -79,7 +79,7 @@ Das Program Elements-Desktop taucht dabei als `element://vector/webapp/` auf.
 
 ![Weiterleitung zum SSO](/images/04_Desktop_SSO_de.png)
 
-Ab hier funktioniert der Ablauf in der Desktop-Anwendung genau wie bei der Webseite. Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{< relref "settings/_index.md" >}})
+Ab hier funktioniert der Ablauf in der Desktop-Anwendung genau wie bei der Webseite. Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen sich die Zeit zu nehmen und den Aufforderungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{% relref "settings/_index.md" %}})
 
 {{% notice tip %}}
 Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten.
