@@ -6,20 +6,35 @@ chapter: true
 weight: 30
 ---
 
+
 Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067" icon="fas fa-download" %}}iOS (iPhone/iPad){{% /button %}}
 
 ## Einrichtung
 
 1. Nach dem erstmaligen Öffnen der Element-App wählen Sie **„Ich habe bereits ein Konto“**.
+![Bild1](/images/15_Element_iOS1_de.jpg?height=50vh&classes=border)
 
-![Einrichtungsanzeige der Element-App beim ersten Start. Es werden wischbare Hinweistexte angezeigt und darunter befinden sich die Buttons "Konto erstellen" und "Ich habe schon ein Konto".](/images/15_Element_iOS1_de.png?height=50vh&classes=border)
+2. Anschließend tippen Sie auf **"Bearbeiten"** in der oberen rechten Ecke.
+![Bild2](/images/15_Element_iOS2_de.jpg?height=50vh&classes=border)
 
-2. Geben Sie Anschließend im Feld **„E-Mail oder Nutzername“** Ihr TUB-Nutzernamen in **Kleinbuchstaben** ein. Geben Sie im **„Passwort“**-Feld Ihr TUB-Passworts ein.
+3. Ersetzen Sie das vorausgefüllte ~~matrix.org~~ durch `gwdg.de` und tippen Sie auf **"Bestätigen"**.
+![Bild3](/images/15_Element_iOS3_de.jpg?height=50vh&classes=border)
 
-![Konfigurationsbildschirm der Element App. Es werden die Felder "E-Mail oder Nutzername", "Telefonnummer" und "Passwort" angezeigt. Zusätzlich befindet sich die Checkbox "Individuelle Server-Optionen" auf der Seite und die beiden Buttons zum Anmelden via Apple oder facebook.](/images/15_Element_iOS2_de.png?height=50vh&classes=border)
+4. Anschließend tippen Sie auf **"Weiter mit SSO"**.
+![Bild4](/images/15_Element_iOS4_de.jpg?height=50vh&classes=border)
 
-3. Aktivieren Sie die Checkbox **„individuelle Server-Optionen“** und tragen Sie im Feld **„Heimserver-URL“** die Adresse `https://matrix.tu-berlin.de` ein (nicht tu-dresden wie im Bild!).
+5. Daraufhin erscheint Popup, welches Sie mit **"Fortfahren"** bestätigen.
+![Bild5](/images/15_Element_iOS5_de.jpg?height=50vh&classes=border)
 
-![Konfigurationsbildschirm wie in Schritt 2. Die Checkbox "Individuelle Server-Optionen" ist aktiviert, sodass das Textfeld "Heimserver-URL" erscheint.](/images/15_Element_iOS3_de.png?height=50vh&classes=border)
+6. Es öffnet sich der Browser in dem Sie sich mit Ihrer **"GWDG-Emailadresse"** und dem zugehörigen **"GWDG-Passwort"** anmelden.
+| ![Bild6](/images/15_Element_iOS6_de.jpg?height=50vh&classes=border) | ![Bild7](//images/15_Element_iOS7_de.jpg?height=50vh&classes=border) |
+|---------------------------------------------------------------------|----------------------------------------------------------------------|
 
-4. Abschließend können Sie sich durch Betätigen des **„Anmelden“**-Buttons einloggen.
+7. Ihre Daten werden importiert während Sie mit **"Konto erstellen"** fortfahren.
+![Bild8](/images/15_Element_iOS8_de.jpg?height=50vh&classes=border)
+
+8. Sodann erlauben Sie den Zugang zu Ihrem Account mit **"Weiter"**.
+![Bild9](/images/15_Element_iOS9_de.jpg?height=50vh&classes=border)
+
+9. Abschließend können Sie der Element-App **"Erlauben"** Ihnen Mitteilungen zu senden.
+![Bild10](/images/15_Element_iOS10_de.jpg?height=50vh&classes=border)
