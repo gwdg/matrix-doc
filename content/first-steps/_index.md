@@ -31,7 +31,7 @@ Ihr Heimserver ist vorkonfiguriert, klicken Sie auf "Fortfahren", Sie werden zum
 
 ![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud_SSO_de.png)
 
-Ihre Account-Daten (Anzeige Name & E-Mail-Adresse) werden aus der Benutzerverwaltung übertragen, eine Änderung ist an dieser Stelle nicht möglich.
+Ihre Account-Daten (Anzeigename & E-Mail-Adresse) werden aus der Benutzerverwaltung übertragen, eine Änderung ist an dieser Stelle nicht möglich.
 
 ![Übertragung der Account-Daten](/images/04_Browser_Data_Import_de.png)
 
@@ -74,7 +74,7 @@ Nun können Sie Ihren Homeserver angeben:
 
 ![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.tu-berlin.de](/images/03_Desktop_Set_Homeserver_de.png)
 
-Bestätigen Sie Ihre Eingabe und Sie werden zum Academic Cloud SSO geleitet, um sich anzumelden und die Übertragung und Verabeitung Ihrer Daten durch die Anwendung zu bestätigen.
+Bestätigen Sie Ihre Eingabe und Sie werden zum Academic Cloud SSO geleitet, um sich anzumelden und die Übertragung und Verabeitung Ihrer Daten durch die Anwendung zu bestätigen.  
 Das Program Elements-Desktop taucht dabei als `element://vector/webapp/` auf.
 
 ![Weiterleitung zum SSO](/images/04_Desktop_SSO_de.png)
