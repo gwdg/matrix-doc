@@ -50,6 +50,8 @@ into the chat line. If you are a member of that room, you can confirm the auto-c
 
 The share icon at the top right of each room also offers a matrix.to-link, as well as a QR code and various social networks. The matrix.to-link leads to a page where you can select how the link should be opened. For example, the installed client Element Desktop can be used, or it can be selected via which home server the room is to be entered. 
 
+{{% notice note %}} People who receive the room address can only join immediately if the room is set to Public under Room Settings -> Security & Privacy -> Access or if their account was explicitly invited into the room. {{% /notice %}}
+
 ![share icon marked in the chat view of the room](/images/04_Sharing-Button_en.png)
 
 ```

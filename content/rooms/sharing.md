@@ -40,6 +40,8 @@ Erhält man solche Adressen auf anderem Wege (z.B. via E-Mail) hilft es, diese i
 
 Das Teilen-Symbol oben rechts in jedem Raum, bietet einen matrix.to-Link an, sowie einen QR-Code und verschiedene soziale Netzwerke. Der matrix.to- Link führt auf eine Seite, auf der ausgewählt werden kann, wie der Link geöffnet werden soll. So kann z.B. der installierte Client Element Desktop verwendet werden, oder ausgewählt werden, über welchen Heimserver der Raum betreten werden soll.
 
+{{% notice note %}} Damit Personen welche die Raumadresse als Link erhalten haben den Raum auch direkt betreten können, muss der Raum unter Raumeinstellungen -> Sicherheit -> Zutritt als Öffentlich markiert werden, oder die Person muss zusätzliche explizit in den Raum eingeladen werden. {{% /notice %}}
+
 ![Teilensymbol in der Chatansicht des Raums makiert](/images/04_Sharing-Button_de.png)
 
 <!--
