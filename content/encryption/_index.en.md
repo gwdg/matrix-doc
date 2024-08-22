@@ -33,7 +33,7 @@ This can be confirmed with OK. From now on the messages can only be read by thos
 
 The option to enable encryption for a room can never be taken back, the room has to be deleted and recreated!
 
-Now the encrypted exchange can begin. If you want to verify the correctness of the keys and to document this trustworthiness digitally, you first have to unfold the sidebar by clicking on the person symbol in the upper right corner:
+Now you can start chatting with end-to-end encryption! If you want to verify the correctness of the keys and to document this trustworthiness digitally, you first have to unfold the sidebar by clicking on the person symbol in the upper right corner:
 
 ![open the list of persons in the room](/images/04_RoomPeople_en.png)
 
@@ -51,7 +51,7 @@ This verification should be done with the contact person by comparison (e.g. ver
 
 A detailed description of the topic can be found in this [video by Prof. Plikat](https://invidious.ggc-project.de/VOxfa6dqXSk) and [in this Matrix blog article](https://blog.riot.im/e2e-encryption-by-default-cross-signing-is-here).
 
-The adjustment itself is done via emoji images or QR codes, which can look different depending on the device and icon pack. Also the translation of all interface elements into German is not 100% available.
+The adjustment itself is done via emoji images or QR codes, which can look different depending on the device and icon pack. 
 
 ![Emoji comparison to verify the key exchange](/images/16_E2EE_en.png)
 
