@@ -37,11 +37,11 @@ In the **Security & Privacy** tab, room administrators have to make important de
 
 **To explain the room access options:**
 
-1. "Only people who have been invited": These are closed rooms. Access at the moment only by explicit invitation by moderator:inside or administrator:inside
-2) "Everyone who knows the room link (except guests)": This is a public room, but you can only read it if you enter it (and thus become visible to all room members). Here you can see exactly who is in the room and when, and if necessary you can kick and ban people who should not be in the room...
-3. "Everyone who knows the room link (including guests)": This is a public room, and everyone can read it. All over the world. And room members will never know who read it and when. So this is like a website where everyone can take notes. This setting often goes along with the option that "everyone" can read the chat history.
+1. "Private (invite only)": These are closed rooms. Access at the moment only by explicit invitation by moderators or administrators.
+2) "Space Members": Here you can configure a list of spaces to restrict the user group (for example to some organizational unit like research group or institute).
+3. "Public": This is a public room, and everyone can read it. All over the world. And room members will never know who read it and when. So this is like a website where everyone can take notes. This setting often goes along with the option that "everyone" can read the chat history.
 
-A "call waiting" to closed rooms is not yet possible. The closest workaround is to send a direct message to the room administrator, who will then invite you.
+Requesting an invitation to closed rooms is not yet possible. The closest workaround is to send a direct message to the room administrator, who will then invite you.
 
 {{% notice note %}}
 The end-to-end encryption of large or public spaces is critical in terms of the difficult verification for many people. See [Use end-to-end encryption]({{% relref "encryption" %}}).
