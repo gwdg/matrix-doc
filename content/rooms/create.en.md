@@ -47,7 +47,7 @@ Requesting an invitation to closed rooms is not yet possible. The closest workar
 The end-to-end encryption of large or public spaces is critical in terms of the difficult verification for many people. See [Use end-to-end encryption]({{% relref "encryption" %}}).
 {{% /notice %}}
 {{% notice warning %}}
-As the room administrator, you have **responsibility** for the content shared in the room (e.g. false messages, hate mail, etc.). Include other people in this responsibility by assigning roles in the right bar (after clicking on the person icon) via the "Permission Level" drop-down menu, e.g. Administrator:inside or Moderator:inside.
+As the room administrator, you have **responsibility** for the content shared in the room (e.g. fake messages, hate mail, etc.). Include other people in this responsibility by assigning roles in the right bar (after clicking on the person icon) via the "Permission Level" drop-down menu, e.g. Admin or Moderator.
 {{% /notice %}}
 
 ![Drop-down menu for the assignment of rights for room participants (image row 1)](/images/06_Users-Permissions-1_en.png)

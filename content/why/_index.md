@@ -17,7 +17,7 @@ Es gibt sehr viele Dienste und Programme zum instantanen elektronischen Kommuniz
   - Die Kontakte auf dem eigenen Handy werden nicht automatisch an Dritte weitergegeben (kein Adressbuch-Upload)
 - Anbindung an bestehende Authentifizierungssysteme (bspw. der TU Berlin)
 - Bestehende erfolgreiche Sicherheitsauditierung
-- Autonomie und Kontrolle: lokal installierbar (Serverstandort TU Berlin)
+- Autonomie und Kontrolle: lokal installierbar (Serverstandort Rechenzentrum der GWDG in Göttingen)
 - Aktive Weiterentwicklung
 - Aufstrebende Nutzung durch weitere Wissenschaftseinrichtungen (bspw. viele deutsche Hochschulen)
 

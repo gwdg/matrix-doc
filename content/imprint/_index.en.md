@@ -14,9 +14,9 @@ Please mail general questions to the ticket-system of GWDG:
 
 The [Impressum der GWDG](https://gwdg.de/impressum/) is valid for the matrix services hosted at 
 
-chat.academiccloud.de
-chat.umg.eu
-matrixchat.mpg.de
-chat.uni-goettingen.de
-matrix.gwdg.de
+* chat.academiccloud.de
+* chat.umg.eu
+* matrixchat.mpg.de
+* chat.uni-goettingen.de
+* matrix.gwdg.de
 

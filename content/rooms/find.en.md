@@ -1,5 +1,5 @@
 ---
-title: "find rooms"
+title: "Find rooms"
 date: 2020-07-02T21:23:14+02:00
 chapter: false
 draft: false

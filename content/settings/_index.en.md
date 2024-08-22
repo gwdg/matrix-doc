@@ -38,7 +38,7 @@ After successfully setting up the key backup, you now activate the desktop notif
 
 Adjust settings in the Settings menu: to do this, click on the line of the e-mail address and the downward pointing triangle and then on the line "All settings":
 
-![Selection of the menu item Settings in the user:inside menu](/images/06_Settings_en.png)
+![Selection of the menu item Settings in the user menu](/images/06_Settings_en.png)
 
 The e-mail address field is not necessarily to be filled in, since an e-mail address is stored via your ZIH login. Theoretically you can add more addresses here, e.g. to have notifications about missed messages sent to another e-mail address.
 
@@ -52,7 +52,7 @@ In the **Voice & Video** tab, you can authorize the Matrix client element to use
 
 ![Screenshot of the settings menu language and video](/images/06_Settings-Media_en.png)
 
-Fortunately, 1:1 calls start end-to-end encrypted by default. To really trust this encryption with a good feeling, users:inside can perform the key comparison with interlocutor:inside. To ensure that this also applies to all devices of these conversational partners, Matrix users must in turn verify the keys of all their devices with each other (technical term: cross-signing). If you follow the instructions below, this can be done very conveniently.
+Fortunately, 1:1 calls start end-to-end encrypted by default. To really trust this encryption with a good feeling, users can perform the key comparison with their discussion partner. To ensure that this also applies to all devices of these conversational partners, Matrix users must in turn verify the keys of all their devices with each other (technical term: cross-signing). If you follow the instructions below, this can be done very conveniently.
 
 ## Security & Privacy
 In the **Security & Privacy** tab you will find all your devices that have been used by the Matrix account so far. 
@@ -63,7 +63,7 @@ In the **Security & Privacy** tab you will find all your devices that have been 
 
 * The device names also give you an overview when comparing keys between your devices. 
 
-* The public names of your devices which can be assigned here (by clicking on them with the mouse) can also be viewed by your conversation partner:inside.  This helps if they want to compare the cryptographic keys of your devices (e.g. laptop + cell phone) and can easily identify the device names.
+* The public names of your devices which can be assigned here (by clicking on them with the mouse) can also be viewed by your conversation partner.  This helps if they want to compare the cryptographic keys of your devices (e.g. laptop + cell phone) and can easily identify the device names.
 
 * The many cryptographic keys are stored on the respective device. If this is e.g. a tab in a browser, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the matrix server, on which (protected by a passphrase) all cryptographic keys are stored encrypted. It is strongly recommended to use this key backup!
 

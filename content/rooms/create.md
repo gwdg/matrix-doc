@@ -13,13 +13,13 @@ Neue Räume werden über das **+** in der linken Leiste in der Kategorie Räume 
 Anschließend ist der Raumname zu vergeben. Auch kann optional ein Thema (das später immer wieder angepasst werden kann) vergeben werden. Optional kann der Raum auch öffentlich zugänglich gemacht werden (dies ist nicht die Standardeinstellung). Mit einem zusätzlichen Klick auf „Weitere Einstellungen anzeigen“ kann anschließend noch verhindert werden, dass Matrix-Nutzende von außerhalb der Academic Cloud den Raum betreten können. Dies sollte **nicht aktiviert** werden, da schon die Academic Cloud aus mehreren Matrix-Servern besteht. Standard ist inzwischen, dass alle neuen Räume (genau wie alle neuen 1:1-Gespräche) eine [Ende-zu-Ende-Verschlüsselung]({{% relref "encryption" %}}) eingerichtet haben. Sollte man dies nicht wünschen (bspw. weil in sehr großen Räumen die Verifikation der Teilnehmenden sehr unpraktisch wird) kann hier vor der Raum-Erstellung der Schieberegler benutzt werden um die Ende-zu-Ende-Verschlüsselung nicht zu aktivieren.
 
 {{% notice warning %}}
-Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
+Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
 {{% /notice %}}
 
 
 ![Eingabemenü für den Raumnamen](/images/02_Rooms_de.png)
 
-Der Raum ist nun erstellt und erhält eine beliebige bunte Icon-Farbe. Durch Klick auf das i oben rechts und anschließend das Zahnrad „Raum-Einstellungen“ gelangt man zu genau jenen Raum-Einstellungen:
+Der Raum ist nun erstellt und erhält eine beliebige bunte Icon-Farbe. Durch Klick auf das i oben rechts und anschließend das Zahnrad „Raumeinstellungen“ gelangt man zu genau jenen Raumeinstellungen:
 
 ![Makierung des Raumenstellungsbuttons für den neu erstellten Raum](/images/03_Rooms_de.png)
 
@@ -27,7 +27,7 @@ Hier kann im Reiter **Allgemein** ein raumspezifisches Bild/Icon hochgeladen wer
 
 <p style="text-align: center; font-style: italic;">#&lt;raumadressname&gt;:academiccloud.de</p>
 
-Eine weitere wichtige Einstellmöglichkeit ist hier, ob der Raum im Raum-Verzeichnis der TU Berlin auftauchen soll. Auch die URL-Vorschau für den Raum kann hier aktiviert werden.
+Eine weitere wichtige Einstellmöglichkeit ist hier, ob der Raum im Raum-Verzeichnis der AcademicCloud auftauchen soll. Auch die URL-Vorschau für den Raum kann hier aktiviert werden.
 
 ![Raumeinstellungen](/images/04_Rooms_de.png)
 

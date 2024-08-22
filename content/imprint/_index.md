@@ -14,9 +14,9 @@ Allgemeine Fragen richten Sie bitte per Mail an das Ticketsystem der GWDG:
 
 Es gilt das [Impressum der GWDG](https://gwdg.de/impressum/) für die Matrix Installationen unter
 
-chat.academiccloud.de<br>
-chat.umg.eu<br>
-matrixchat.mpg.de<br>
-chat.uni-goettingen.de<br>
-matrix.gwdg.de<br>
+* chat.academiccloud.de
+* chat.umg.eu
+* matrixchat.mpg.de
+* chat.uni-goettingen.de
+* matrix.gwdg.de
 

@@ -16,7 +16,7 @@ The decision whether a created room should be encrypted in this way must be well
 
 ![Create new room with activated encryption](/images/01_Create-Room-wE2E_en.png)
 
-If you want end-to-end encryption (E2EE) to interlocutor:inside in an unencrypted room, you can achieve this by clicking on the settings of the desired room. (or in the room via "Room info" > "Room settings" in the upper right corner):
+If you want to enable end-to-end encryption (E2EE) in an unencrypted room, you can achieve this by opening the settings of the desired room, e.g. by clicking on the ... next to the room name and going to Settings -> Security&nbsp;&&nbsp;Privacy -> Encryption.
 
 ![Menu to get to the room settings](/images/02_Roomsettings_en.png)
 
