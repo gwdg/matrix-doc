@@ -19,7 +19,17 @@ Element steht als Desktop-Anwendung zum Download bereit:
 Wir empfehlen die Nutzung von Element als Desktop-Anwendung bzw. mobile Client oder die von GWDG bereitgestellte Web-Anwendung.
 {{% /notice %}}
 
-Die folgenden Screenshots zeigen als Beispiel die Nutzung von [chat.academiccloud.de](https://chat.academiccloud.de) im Browser. Bei einer anderen Instanz können die Screenshots in Details von Ihrem Ablauf abweichen, den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
+Die folgenden Screenshots zeigen als Beispiel die Nutzung von [chat.academiccloud.de](https://chat.academiccloud.de) im Browser, bei de anderen Instanzen können die Screenshots in Details abweichen.
+
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | [matrixchat.mpg.de](matrixchat.mpg.de) |
+| Georg-August-Universität Göttingen | [chat.uni-goettingen.de](chat.uni-goettingen.de) |
+| Universitätsmedizin Göttingen  | [chat.umg.eu](chat.umg.eu) |
+| GWDG | [matrix.gwdg.de](matrix.gwdg.de) |
+| Academic Cloud | [chat.academiccloud.de](chat.academiccloud.de) |
+
+Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 
 ![Startseite des Element Webclient mit Anmeldebutton](/images/01_Browser_Welcome_de.png)
 
@@ -66,9 +76,9 @@ Nun können Sie Ihren Homeserver angeben:
 
 | Institution | Homeserver |
 |---|---|
-| Max-Planck-Gesellschaft | im Aufbau |
-| Georg-August-Universität Göttingen | im Aufbau |
-| Universitätsmedizin Göttingen  | im Aufbau |
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
 | GWDG | matrix.gwdg.de |
 | Academic Cloud | chat.academiccloud.de |
 
