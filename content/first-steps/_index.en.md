@@ -11,7 +11,7 @@ weight: 2
 Members and members of the TU Dresden (of course also students) can use their **TUD login** (=ZIH-Login) to communicate with members of the TU Dresden and other universities and other Matrix users (e.g. academic partners) via chat and audio/video telephony in compliance with the relevant legal and regulatory provisions on data protection and IT security.
 
 {{% notice tip %}}
-We recommend using the Element desktop client, because this avoids most problems users have with Matrix, e.g. end to end encryption.
+We recommend using the Element desktop client, because this avoids most problems users have with Matrix, e.g. end-to-end encryption.
 {{% /notice %}}
 
 Downloads for: {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}} {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}} {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}

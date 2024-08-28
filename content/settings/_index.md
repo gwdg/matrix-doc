@@ -11,17 +11,17 @@ weight: 10
 Matrix verschlüsselt nicht nur die Daten zwischen den Clients und dem Homeserver (im RZ der GWDG) sondern erlaubt auch die Nutzung von Ende-zu-Ende-Verschlüsselung (E2EE). Hierzu müssen kryptografische Schlüssel zwischen allen beteiligten Geräten ausgetauscht werden. Obwohl diese technische Notwendigkeit kompliziert klingt und im Hintergrund auch ist, ist sie inzwischen für die Anwendenden sehr bequem geworden. Die vielen kryptografischen Schlüssel werden vom Client erstellt auf dem jeweiligen Gerät gespeichert. Sollte dies beispielsweise ein Tab in einem Browser sein, besteht die Gefahr, dass dieser Tab einmal unbeabsichtigt geschlossen wird. Dann sind verschlüsselten Inhalte unter Umständen nicht mehr lesbar. Damit dies nicht geschieht, wird eine Schlüsselsicherung auf dem Matrix-Server angeboten, auf der (mit einer Sicherheitsphrase bzw. daraus errechenbaren Sicherheitsschlüssel geschützt) alle kryptografischen Schlüssel (verschlüsselt) abgelegt sind.
 
 {{% notice info %}}
-Es wird dringend empfohlen, die Schlüsselsicherung zu nutzen. Die Sicherheitsphrase, darf **nicht** Ihrem üblichen Passwort entsprechen!
+Es wird dringend empfohlen, die Schlüsselsicherung zu nutzen. Die Sicherheitsphrase darf **nicht** Ihrem üblichen Passwort entsprechen!
 {{% /notice %}}
 
 ![Aufforderung den Sicherheitsschlüssel zu generieren oder eine Sicherheitsphrase einzugeben](/images/11_Setup-Key_de.png)
 ![Aufforderung eine Passwort für die Schlüsselsicherung einzugeben](/images/12_Enter-Key_de.png)
 
-Alternativ können Sie sich statt der Sicherheitsphrase auch einen Sicherheitsschlüssel generieren lassen, welcher den selben Zweck wie die Sicherheitsphrase erfüllt. Weiterhin wird der Sicherheitsschlüssel immer zusätzlich zur Sicherheitsphrase erstellt und sollte als Notfallschlüssel sicher und wiederauffindbar verwahrt werden (z.B. Abspeichern als .txt-Datei und Ausdrucken).
+Alternativ können Sie sich statt der Sicherheitsphrase auch einen Sicherheitsschlüssel generieren lassen, welcher den selben Zweck wie die Sicherheitsphrase erfüllt. Weiterhin wird der Sicherheitsschlüssel immer zusätzlich zur Sicherheitsphrase erstellt und sollte als Notfallschlüssel sicher und wiederauffindbar verwahrt werden (z.B. Kopieren in Texteditor und Ausdrucken).
 
 ![Anzeige des Sicherheitsschlüssel zum abschreiben oder wegspeichern](/images/13_Present-Key_de.png)
 
-Meldet man sich nun von einem anderen Gerät beziehungsweise mit einem anderen Client an, wird man dazu aufgefordert die Sitzung zu verifizieren. Ist man noch mit einem weiteren Client angemeldet, kann die Verifikation über dieses Gerät erfolgen. Andernfalls ist man auf den Sicherheitsschlüssel oder die Sicherheitsphrase angewiesen.
+Meldet man sich nun von einem anderen Gerät - oder mit einem anderen Client - an, wird man dazu aufgefordert die Sitzung zu verifizieren. Ist man mit einem weiteren Client angemeldet, kann die Verifikation über dieses Gerät erfolgen. Andernfalls ist man auf den Sicherheitsschlüssel oder die Sicherheitsphrase angewiesen.
 
 ![Screenshot der Aufforderung eine Sicherheitsphrase einzugeben](/images/01_Restore-Session_de.png)
 
@@ -34,7 +34,7 @@ Vermeiden Sie diese Situation durch eine eingerichtete Schlüsselsicherung!
 ## Weitere wichtige Einstellungen
 
 Nach erfolgreicher Einrichtung der Schlüsselsicherung können Sie nun die Desktop-Benachrichtigungen aktivieren.
-Dies kann später auch rückgängig gemacht werden und insbendore können die Benachrichtigungen für einzelne „Gespräche“ (Räume) eingestellt werden.
+Dies kann später auch rückgängig gemacht werden und insbesondere können die Benachrichtigungen für einzelne „Gespräche“ (Räume) eingestellt werden.
 
 ![Screenshot der Abfrage, Pushbenarchitigungen zu aktivieren](/images/06_Enable-Notifications_de.png)
 

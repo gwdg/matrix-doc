@@ -7,7 +7,7 @@ weight: 20
 ---
 ## Räume finden
 
-Das Raumverzeichnis, in dem die öffentlich zugänglichen Räume präsentiert werden, erreicht man über den Button „Entdecke / Explore“ links oben unter dem eigenen Anzeigenamen. Hier kann nach öffentlichen Räumen auf dem Homerserver der TU Berlin gesucht werden.
+Das Raumverzeichnis, in dem die öffentlich zugänglichen Räume präsentiert werden, erreicht man über den Button „Entdecke / Explore“ links oben unter dem eigenen Anzeigenamen. Hier kann nach öffentlichen Räumen auf dem Homerserver der Academic Cloud gesucht werden.
 
 ![Menü zum finden von öffentlichen Räumen](/images/01_Find_de.png)
 

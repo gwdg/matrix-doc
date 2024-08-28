@@ -37,7 +37,7 @@ Im Reiter **Sicherheit & Datenschutz** sind für Raumadministrator:innen wichtig
 
 **Zur Erklärung der Raumzugangsoptionen:**
 1. „Privat (Betreten mit Einladung)“: Das sind geschlossene Räume. Zugang zur Zeit nur durch explizite Einladung durch Moderator:innen oder Administrator:innen
-2. „Spacemitglieder“: Hier kann eine Liste mit Spaces konfiguriert werden um die Nutzergruppe einzuschränken (zum Beispiel auf eine gewünschte Organisationseinheit wie Arbeitsgruppe oder Institut).
+2. „Spacemitglieder“: Hier kann eine Liste mit Spaces konfiguriert werden um die Nutzergruppe einzuschränken (zum Beispiel auf eine gewünschte Organisationseinheit wie Arbeitsgruppe oder Institut welche zuvor als Space eingerichtet wurde).
 3. „Öffentlich“: Das ist ein öffentlicher Raum, und lesen können ihn alle. Weltweit. Und Raummitglieder werden nie erfahren, wer es wann gelesen hat. Dies ist also so wie eine Internetseite, auf der alle mitschreiben können. Zu dieser Einstellung oft passend wäre auch die später zu tätigende Option, dass „Jeder“ den Chatverlauf lesen darf.
 
 Ein "Anklopfen" an geschlossene Räume ist bisher nicht möglich. Der nahestehendste Workaround ist, an die raumadministrierende Person eine Direkte Nachricht zu senden, die einen dann einlädt.
