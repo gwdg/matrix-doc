@@ -8,7 +8,7 @@ weight: 2
 
 ## Matrix-Login mit Academic ID ##
 
-Allen Nutzenden der AcademicCloud wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihrer **Academic ID** mit Angehörigen ihrer und anderer Hochschulen, Universitäten und Institute sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner*innen) per Chat zu kommunizieren.  
+Allen Nutzenden der Academic Cloud wird unter Einhaltung der einschlägigen gesetzlichen und rechtlichen Bestimmungen zum Datenschutz und zur IT-Sicherheit ermöglicht, mittels ihrer **Academic ID** mit Angehörigen ihrer und anderer Hochschulen, Universitäten und Institute sowie weiteren Matrix-Nutzenden (bspw. akademischen Partner*innen) per Chat zu kommunizieren.  
 Der Dienst wird über einen Client genutzt, es stehen eine [Vielzahl verschiedener Programme]({{% relref "clients/_index.md" %}}) zur Auswahl. Der bekannteste Client ist Element (früher Riot), neben der Desktop-Anwendung und mobilen Versionen für Android und iOS für Ihre Geräte betreibt die GWDG Element auch als Web-Anwendung. 
 
 Element steht als Desktop-Anwendung zum Download bereit:
@@ -27,7 +27,7 @@ Die folgenden Screenshots zeigen beispielhaft die Nutzung von [chat.academicclou
 | Georg-August-Universität Göttingen | [chat.uni-goettingen.de](chat.uni-goettingen.de) |
 | Universitätsmedizin Göttingen  | [chat.umg.eu](chat.umg.eu) |
 | GWDG | [matrix.gwdg.de](matrix.gwdg.de) |
-| AcademicCloud | [chat.academiccloud.de](chat.academiccloud.de) |
+| Academic Cloud | [chat.academiccloud.de](chat.academiccloud.de) |
 
 Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 
@@ -35,11 +35,11 @@ Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-ste
 
 Falls Sie bereits eine Academic ID haben, ist keine weitere Registrierung nötig, der Dienst kann nach dem Login sofort genutzt werden.
 
-![Loginfenster mit einem Knopf welcher zum AcademicCloud SSO Login weiterleitet](/images/02_Browser_Login_de.png)
+![Loginfenster mit einem Knopf welcher zum Academic Cloud SSO Login weiterleitet](/images/02_Browser_Login_de.png)
 
-Ihr Heimserver ist vorkonfiguriert, klicken Sie auf "Fortfahren", Sie werden zum AcademicCloud SSO geleitet. Falls Sie noch nicht angemeldet sind, loggen Sie sich mit Ihrer Academic ID und ggf. Ihrem zweiten Faktor ein.
+Ihr Heimserver ist vorkonfiguriert, klicken Sie auf "Fortfahren", Sie werden zum Academic Cloud SSO geleitet. Falls Sie noch nicht angemeldet sind, loggen Sie sich mit Ihrer Academic ID und ggf. Ihrem zweiten Faktor ein.
 
-![AcademicCloud SSO Login](/images/03_Browser_Academic_Cloud_SSO_de.png)
+![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud_SSO_de.png)
 
 Ihre Account-Daten (Anzeigename & E-Mail-Adresse) werden aus der Benutzerverwaltung übertragen, eine Änderung ist an dieser Stelle nicht möglich.
 
@@ -80,11 +80,11 @@ Nun können Sie Ihren Homeserver angeben:
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |
 | Universitätsmedizin Göttingen  | chat.umg.eu |
 | GWDG | matrix.gwdg.de |
-| AcademicCloud | chat.academiccloud.de |
+| Academic Cloud | chat.academiccloud.de |
 
 ![Eingabefeld zum Ändern des Homeservers mit der Eingabe matrix.tu-berlin.de](/images/03_Desktop_Set_Homeserver_de.png)
 
-Bestätigen Sie Ihre Eingabe und Sie werden zum AcademicCloud SSO geleitet, um sich anzumelden und die Übertragung und Verabeitung Ihrer Daten durch die Anwendung zu bestätigen.  
+Bestätigen Sie Ihre Eingabe und Sie werden zum Academic Cloud SSO geleitet, um sich anzumelden und die Übertragung und Verabeitung Ihrer Daten durch die Anwendung zu bestätigen.  
 Das Program Elements-Desktop taucht dabei als `element://vector/webapp/` auf.
 
 ![Weiterleitung zum SSO](/images/04_Desktop_SSO_de.png)
@@ -144,6 +144,6 @@ Sie haben Ihren Schlüssel erfolgreich gesichert.
 
 ## Matrix-Login ohne Academic ID ##
 
-Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist an den von der GWDG betriebenen Matrix-Instanzen nicht möglich. Für den Zugang zum Dienst ist ein Login mit Academic ID notwendig. Für Nutzer*innen von AcademicCloud Gast-Accounts ist der Matrix-Homeserver (analog zur bisherigen Praxis bei Rocketchat) freigeschaltet.  
+Eine Registrierung von Accounts (wie vielleicht von anderen Matrix-Servern bekannt) ist an den von der GWDG betriebenen Matrix-Instanzen nicht möglich. Für den Zugang zum Dienst ist ein Login mit Academic ID notwendig. Für Nutzer*innen von Academic Cloud Gast-Accounts ist der Matrix-Homeserver (analog zur bisherigen Praxis bei Rocketchat) freigeschaltet.  
 Es ist auch möglich mit Nutzern anderer Matrix-Homeserver von verschiedenen wissenschaftlichen und zivilgesellschaftlichen Institutionen zu komminizieren. Dieses Feature nennt sich Förderation. Das Prinzip ist ähnlich zu E-Mail: E-Mails können beispielsweise von den Servern der GWDG an die Hochschule Hannover geschickt werden.  
 Auf öffentlichen Homeservern, wie zum Beispiel dem von [matrix.org](https://app.element.io/), kann sich jede Person einen Account anlegen.
