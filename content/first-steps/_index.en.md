@@ -2,13 +2,12 @@
 title: "First steps"
 date: 2020-08-02T21:26:25+02:00
 chapter: false
-draft: true
 weight: 2
 ---
 
-## Matrix-Login with TUD account
+## Matrix Login with Academic ID ##
 
-Members and members of the TU Dresden (of course also students) can use their **TUD login** (=ZIH-Login) to communicate with members of the TU Dresden and other universities and other Matrix users (e.g. academic partners) via chat and audio/video telephony in compliance with the relevant legal and regulatory provisions on data protection and IT security.
+All Academic Cloud users are enabled to chat with each other as well as matrix users at different universities and research institutes using  the GWDG matrix service in compliance with the relevant legal and regulatory provisions on data protection and IT security. 
 
 {{% notice tip %}}
 We recommend using the Element desktop client, because this avoids most problems users have with Matrix, e.g. end-to-end encryption.
@@ -16,7 +15,7 @@ We recommend using the Element desktop client, because this avoids most problems
 
 Downloads for: {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}} {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}} {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}
 
-After a desktop installation, make sure to use the existing account with the TUD login and not to create a new account on another server. Here the example of Element:
+After a desktop installation, make sure to use the existing account with the Academic ID and not to create a new account on another server. Here the example of Element:
 
 ![Selected login button in the element matrix client](/images/01_Login_en.png)
 
@@ -24,34 +23,32 @@ This is done by clicking on **Change**. Then you will not accidentally end up on
 
 ![Change login page with focus on the homeserver button](/images/02_Change-Homeserver_en.png)
 
-Now you can manually specify the home server: tu-dresden.de
+Now you can manually specify the home server:
+
+| Institution | Home Server |
+|---|---|
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
 
 ![Input field to change the home server with the input matrix.tu-dresden.de](/images/03_Set-Homeserver_en.png)
 
-Afterwards the login with TUD login (=ZIH login) and TUD password (=ZIH password) must be carried out:
+Afterwards you can login via the Academic Cloud:
 
-The drop-down menu "Log in with:" should be left at "User name". Then the following entries must be made:
-
-**Username: TUD-Login** (only the ZIH-Login, no e-mail address!)
-
-**Password: TUD-Password** (=ZIH-Password)
-
-An alternative login, e.g. using the e-mail address, is **NOT** possible during the first, initial login, only after the second login.
-
-After the first login there is also no e-mail / confirmation mail.
+![Academic Cloud SSO Login](/images/03_Browser_Academic_Cloud_SSO_de.png)
 
 Analogous to e-mail addresses, this results in matrix addresses with the following structure:
 
-@TUD-Login:tu-dresden.de
-
-![Login window with request to enter TUD login and password](/images/04_Username_en.png)
+@username:academiccloud.de
 
 ## Convenient use of end-to-end encryption (E2EE)
 
-Matrix not only encrypts transports to and from the home server (in the data center of TU Dresden called ZIH) but also allows the use of end-to-end encryption (E2EE). For this, cryptographic keys have to be exchanged between all devices that want to write end-to-end encrypted. This technical necessity sounds and is complicated, but in the meantime it has become very convenient for the users. The many cryptographic keys created by the client are stored on the respective device. If this is a tab in a browser, for example, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the home server of the TU Dresden, on which (protected with a security phrase (or security key that can be calculated from it) all cryptographic keys are stored encrypted. 
+Matrix not only encrypts transports to and from the home server (in the data center of the GWDG) but also allows the use of end-to-end encryption (E2EE). For this, cryptographic keys have to be exchanged between all devices that want to write end-to-end encrypted. This technical necessity sounds and is complicated, but in the meantime it has become very convenient for the users. The many cryptographic keys created by the client are stored on the respective device. If this is a tab in a browser, for example, there is a risk that this tab will be closed unintentionally. Then all encrypted contents are no longer readable. To prevent this from happening, a key protection is offered on the home server of the Academic Cloud, on which (protected with a security phrase or security key that can be calculated from it) all cryptographic keys are stored encrypted. 
    
 {{% notice info %}}
-It is highly recommended to use this key backup (with a secure security phrase which is NOT your TUD password)!
+It is highly recommended to use this key backup (with a secure security phrase which is NOT your Academic Cloud password)!
 {{% /notice %}}
    
 ![Prompt to generate the security key or enter a security phrase](/images/11_Setup-Key_en.png)
@@ -80,114 +77,5 @@ If you omit this here as well, you will get a last warning if you log off consci
 
 Avoid this situation by setting up a key backup!
 
-## Matrix-Login without TUD account
-
-A registration of accounts (as known from other matrix servers) is not possible here at the TU Dresden, because only persons with TUD login can use the service. The TU Dresden is not a communication service provider. 
-
-For scientific cooperations with colleagues without a TUD account there is the possibility to [apply for a TUD guest account](https://tu-dresden.de/zih/dienste/service-katalog/zugangsvoraussetzung), which also entitles to use Matrix.
-
-However, the federation with the Matrix servers of other scientific or civil society institutions will soon be possible (analogous to the existing e-mail federation). Example servers with which communication is already possible are:
-
-* [TU Freiberg](https://matrix.tu-freiberg.de/) incl. [Docu](https://tu-freiberg.de/en/urz/dienste/chat)
-
-* [TU Chemnitz](https://matrix.tu-chemnitz.de) incl. [Docu](https://www.tu-chemnitz.de/urz/groupware/chat/doku/)
-
-* [Hochschule Darmstadt](https://chat.fbi.h-da.de) incl. [Doku](https://its.h-da.io/element-docs/)
-
-* [Hochschule Zittau-Görlitz](https://matrix.hszg.de) incl. [Docu](https://zfe.hszg.de/das-zfe/aktuelle-entwicklungen/matrix)
-
-* [HMT Leipzig](https://chat.hmt-leipzig.de)
-
-* [Uni Hamburg](http://uni-hamburg.de/)
-
-* [Uni Bremen](https://element.stugen.de/#/welcome)
-
-* [TU Berlin](https://chat.tu-berlin.de/) incl. [Docu](https://www.innocampus.tu-berlin.de/projekte/matrixinnocampus/)
-
-* [Humboldt Uni Berlin](https://element.hu-berlin.de/) incl. [Docu](https://www.digitale-lehre.hu-berlin.de/de/lehr-und-lernlandschaft/element)
-
-* [TU München](https://matrix.tum.de) incl. [Docu](https://wiki.in.tum.de/Informatik/Helpdesk/RIOT)
-
-* [Uni Hannover](https://matrix.uni-hannover.de) incl. [Docu](https://www.luis.uni-hannover.de/de/services/kommunikation/matrix-messenger/)
-
-* [Uni Osnabrück](https://element.uni-osnabrueck.de) incl. [Docu](https://digitale-lehre.virtuos.uni-osnabrueck.de/eintrag/instant-messenger-element/)
-
-* [Uni Bielefeld](https://uni-bielefeld.de/teamchat2)
-
-* [Bauhaus-Universität Weimar](https://chat.uni-weimar.de/) inkl. [Doku](https://chat.uni-weimar.de/docs/matrix/)
-
-* [RWTH Aachen](https://riot.comsys.rwth-aachen.de/)
-
-* [Ruhr Universität Bochum](https://riot.rub.de/) incl. [Docu](https://www.it-services.ruhr-uni-bochum.de/services/issi/element.html.de)
-
-* [Uni Bonn](https://element.matrix.informatik.uni-bonn.de/)
-
-* [Uni Heidelberg](https://matrix-im.uni-heidelberg.de/) incl. [Docu](https://www.urz.uni-heidelberg.de/en/heichat)
-
-* [Karlsruher Institut für Technologie (KIT)](https://matrix.kit.edu/)
-
-* [Uni Augsburg](https://element.physik.uni-augsburg.de/#/welcome) incl. [Docu](https://www.uni-augsburg.de/de/fakultaet/mntf/physik/facilities/itservices/elequick/)
-
-* [Uni Stuttgart](https://chat.stuvus.de/) incl. [Docu](https://wiki.stuvus.uni-stuttgart.de/display/ITKB/Matrix+Messenger)
-
-* [Hochschule Bremerhaven](https://matrix.hs-bremerhaven.de/)
-
-* [TU Darmstadt](https://element.matrix.tu-darmstadt.de)
-
-* [Philipps-Universität Marburg](https://matrix.uni-marburg.de/)
-
-* [TU Braunschweig](https://chat.tu-bs.de/)
-
-* [Hochschule Furtwangen](https://matrix.hs-furtwangen.de/) incl. [Docu](https://howto.hs-furtwangen.de/hfu-chat/)
-
-* [Friedrich-Alexander-Universität Erlangen-Nürnberg](https://chat.fau.de/) incl. [Docu](https://www.rrze.fau.de/serverdienste/matrix/)
-
-* [Friedrich-Schiller-Universität Jena](https://chat.uni-jena.de/) incl. [Docu](https://wiki.uni-jena.de/display/URZ010SD/Chatten+mit+Matrix)
-
-* [Albert-Ludwigs-Universität Freiburg](https://matrix.uni-freiburg.de/)
-
-* [Hochschule Stralsund](https://matrix.hochschule-stralsund.de) incl. [Docu](https://matrix.hochschule-stralsund.de/doc/)
-
-* [Technische Hochschule Mittelhessen](https://element.thm.de) incl. [Docu](https://go.thm.de/thmconnect)
-
-
-Explicitly for students:
-
-* [StudiChat](https://chat.studichat.de/#/welcome) (for all)
-
-* [Fachschaften](https://matrix.fachschaften.org/) (for student representatives)
-
-Other European universities:
-
-* [ETH Zürich](https://element.phys.ethz.ch/) incl. [Docu](https://readme.phys.ethz.ch/chat/)
-
-* [Universität Innsbruck](https://chat.uibk.ac.at/) incl. [Docu](https://www.uibk.ac.at/zid/anleitungen/chat/)
-
-* [University for Business and Technology, Kosovo](https://ubt-uni.net/)
-
-* [Karl-Franzens-Universität Graz](https://chat.uni-graz.at/)
-
-* [University of Oxford](https://chat.cs.ox.ac.uk) incl. [Docu](https://users.ox.ac.uk/~ball5903/oums/)
-
-* [École polytechnique fédérale de Lausanne](https://element.epfl.ch/)
-
-<object data="/images/federation_map.svg" type="image/svg+xml" style="width: 600px; max-width: 100%"></object>
-
-
-For civil use of the Matrix protocol, here is a list of public home servers that can also be used by Kolleg:innen if their institution does not yet offer a Matrix server:
-
-[https://austinhuang.me/matrix-homeservers.html](https://austinhuang.me/matrix-homeservers.html)
-
-[https://www.hello-matrix.net/public_servers.php](https://www.hello-matrix.net/public_servers.php)
-
-[https://publiclist.anchel.nl/](https://publiclist.anchel.nl/)
-
-[https://fediverse.blog/~/FossMessenger/matrix-server](https://fediverse.blog/~/FossMessenger/matrix-server)
-
-## Imprint
-
-Imprint: [Link]({{% relref "imprint/_index.en.md" %}})
-
-## Privacy policy
-
-Privacy policy: [Link](https://matrix.tu-berlin.de/_matrix/consent)
+## Matrix Login without Academic ID
+It is not possible to register a matrix account directly. However, matrix is available for guests accounts, which can be created on [Academic Cloud](https://academiccloud.de).
