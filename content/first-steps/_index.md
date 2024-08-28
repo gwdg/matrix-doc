@@ -92,7 +92,7 @@ Das Program Elements-Desktop taucht dabei als `element://vector/webapp/` auf.
 Ab hier funktioniert der Ablauf in der Desktop-Anwendung genau wie bei der Webseite. Unter Umständen werden Sie nach der ersten Anmeldung dazu aufgefordert, die Schlüsselsicherung einzurichten oder andere wichtige Einstellungen vorzunehmen. Wir empfehlen sich die Zeit zu nehmen und den Anweisungen zu folgen. [Hier finden Sie Hinweise zu den Einstellungen.]({{% relref "settings/_index.md" %}})
 
 {{% notice tip %}}
-Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten.
+Wir raten dringend dazu, die [Schlüsselsicherung]({{% relref "first-steps/_index.md/#schlüsselsicherung-der-ende-zu-ende-verschlüsselung-e2ee" %}}) einzurichten. Bei Verlust aller Schlüsselkopien sind verschlüsselte Chats sonst nicht mehr lesbar.
 {{% /notice %}}
 
 ## Neue Geräte hinzufügen ##
@@ -111,7 +111,7 @@ Sollte dies aber bspw. ein Tab in einem Browser sein, besteht die Gefahr, dass d
 Damit dies nicht geschieht, bietet Element eine Schlüsselsicherung auf dem Heimserver an, in der alle kryptografischen Schlüssel abgelegt sind.
 
 {{% notice warning %}}
-Wir raten dringend dazu, die Schlüsselsicherung zu nutzen.
+Wir raten dringend dazu, die Schlüsselsicherung zu nutzen. Bei Verlust aller Schlüsselkopien sind verschlüsselte Chats sonst nicht mehr lesbar.
 {{% /notice %}}
 
 Falls Sie bereits an einem Raum teilnehmen, werden Sie durch einen Dialog zur Sicherung Ihrer Schlüssel aufgefordert. Sonst finden Sie den Punkt unter "Sicherheit" in Ihren Accounteinstellungen.
