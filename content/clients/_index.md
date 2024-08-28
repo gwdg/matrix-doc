@@ -20,7 +20,7 @@ Element kann als Programm auf dem eigenen Rechner installiert werden. Vorteil is
 
 {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}} {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}} {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}
 
-## Element Mobil (Android, IOS)
+## Element Mobil (Android, iOS)
 
 Unterwegs ist der Zugriff auf Matrix per Smartphone mit Hilfe der mobilen Element Apps möglich.
 
