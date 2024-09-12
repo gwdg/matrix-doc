@@ -133,7 +133,7 @@ Nutzen sie auf keinen Fall das Passwort Ihrer Academic ID oder anderer Zugangsda
 
 ![Sicherheitssphrase eingeben](/images/10_Browser_Sicherungsphrase_eingeben_de.png)
 
-Legen Sie diesen Sicherheitsschlüssel sicher ab, z.B. in Ihrem Passmamager oder als Ausdruck.
+Legen Sie diesen Sicherheitsschlüssel sicher ab, z.B. in Ihrem Passwortmanager oder als Ausdruck.
 
 ![Sicherheitsschlüssel](/images/11_Browser_Sicherungsschluessel_speichern_de.png)
 
