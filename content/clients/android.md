@@ -24,7 +24,7 @@ Im Play-Store findet sich auch die App 'Element X'. Diese ist noch nicht fertig.
 
 3. Geben Sie im Adress-Feld den Server entsprechend der Tabelle unten ein und bestätigen Sie Serveradresse durch einen Tipp auf den **„Fortfahren“**-Button.
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

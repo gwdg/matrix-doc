@@ -20,7 +20,7 @@ Downloads for: {{% button href="https://apps.apple.com/app/vector/id1083446067" 
 
 3. Check the **"individual server options"** checkbox and enter the server name according to the following table in the **"home server URL"** field.
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

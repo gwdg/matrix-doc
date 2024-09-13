@@ -11,7 +11,7 @@ For users who like to experiment, there are numerous other clients in addition t
 
 In any case you have to enter the correct name of your home matrix server:
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

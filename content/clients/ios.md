@@ -22,7 +22,7 @@ Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067"
 
 3. Ersetzen Sie das vorausgefüllte ~~matrix.org~~ durch den Servername anhand der folgenden Tabelle und tippen Sie auf **"Bestätigen"**.
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

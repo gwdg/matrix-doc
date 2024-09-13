@@ -66,9 +66,18 @@ Bitte folgendes ausführen:
   2. In der einen Matrix-Sitzung, bei der man soeben in Schritt 1 die Raumschlüssel manuell exportiert hat, unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` alle weiteren Sitzungen am Zeilenende ankreuzen und unterhalb der Liste auf den rot umrandeten Knopf „x ausgewählte Geräte  abmelden“ klicken. Die oberste in Fettschrift ist die aktuelle Sitzung, diese nicht mit anhaken, also nicht löschen.
   3. Ggf. ausloggen und wieder einloggen, dabei Nachfragen ignorieren.
   4. Unter `Einstellungen`-> `Sicherheit` -> `Sicheres Backup` schauen ob dort ein grüner Knopf `Einrichten` und keine roten Knöpfe da sind. Oder wenn noch rote Knöpfe da sind, erst den Knopf `Sicherung löschen`, dann den Knopf `Zurücksetzen` klicken. Möglicherweise ist ein löschen des Zwischenspeichers (roter Knopf unter `Einstellungen`-> `Hilfe & Über`) nötig, möglicherweise auch ein Abmelden und erneutes Anmelden. 
-  5. Anschließend unter `Einstellungen`-> `Sicherheit` -> `Quersignierung` auf den roten Knopf `Zurücksetzen` drücken. Die Aktion war erfolgreich, wenn für `Sicheres Backup` und `Quersignierung` nur noch der grüne Einrichten Knopf angezeigt wird.
-  6. Jetzt die zuvor exportieren Schlüsselsicherungen manuell importieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel importieren klicken.
-  7. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung). Den Sicherheitsschlüssel können Sie zum Beispiel ausdrucken und sicher verwahren.
+  5. Den Cross-Signing-Reset erlauben. Dies ist abhängig von der eigenen Instanz eine der folgenden URLs:
+| Institution | Erlaubnis-URL |
+|---|---|
+| Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de/account/reset-cross-signing](https://auth.matrixchat.mpg.de/account/reset-cross-signing) |
+| Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de/account/reset-cross-signing](https://auth.chat.uni-goettingen.de/account/reset-cross-signing) |
+| Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu/account/reset-cross-signing](https://auth.chat.umg.eu/account/reset-cross-signing) |
+| GWDG | [https://auth.matrix.gwdg.de/account/reset-cross-signing](https://auth.matrix.gwdg.de/account/reset-cross-signing) |
+| Academic Cloud | [https://auth.chat.academiccloud.de/account/reset-cross-signing](https://auth.chat.academiccloud.de/account/reset-cross-signing) |
+
+  6. Anschließend unter `Einstellungen`-> `Sicherheit` -> `Quersignierung` auf den roten Knopf `Zurücksetzen` drücken. Die Aktion war erfolgreich, wenn für `Sicheres Backup` und `Quersignierung` nur noch der grüne Einrichten Knopf angezeigt wird.
+  7. Jetzt die zuvor exportieren Schlüsselsicherungen manuell importieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel importieren klicken.
+  8. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung). Den Sicherheitsschlüssel können Sie zum Beispiel ausdrucken und sicher verwahren.
 ***
 
 #### Was muss ich tun, wenn auf einem Mac oder MacBook Video oder Audio in einer Videokonferenz nicht funktioniert? {#apple-no-video}

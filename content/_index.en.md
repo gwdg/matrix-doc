@@ -13,6 +13,12 @@ Am Montag den 06.11.23 ab 20:30 Uhr finden Wartungsarbeiten statt - Matrix wird 
 
 Our matrix home server can be accessed via the [Element-Client](https://chat.academiccloud.de/) in your favourite browser.
 
+
+{{% notice info %}}
+Don't forget to [set up your key backup]({{% relref "encryption/keymanagement/_index.en.md" %}})!
+{{% /notice %}}
+
+
 ## English version under development
 Currently we are stil working on the english version of this documentation.
 More pages in the menu will appear soon.

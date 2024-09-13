@@ -20,7 +20,7 @@ This is done by clicking on **Change**. Then you will not accidentally end up on
 
 Now you can manually specify the home server according to the following table:
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

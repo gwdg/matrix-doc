@@ -11,7 +11,7 @@ Für experimentierfreudige Nutzende gibt es neben Element noch zahlreiche weiter
 
 In jedem Fall müssen Sie im Client dann Ihren passenden Matrix-Homeserver eintragen:
 
-| Institution | Homeserver |
+| Institution | Server |
 |---|---|
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |

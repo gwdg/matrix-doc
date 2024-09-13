@@ -13,6 +13,11 @@ Am Montag den 06.11.23 ab 20:30 Uhr finden Wartungsarbeiten statt - Matrix wird 
 
 Unser Matrix-Homeserver ist über den [Element-Client](https://chat.academiccloud.de/) im Browser erreichbar.
 
+
+{{% notice info %}}
+Denken Sie bitte an die [Einrichtung der Schlüsselsicherung]({{% relref "encryption/keymanagement/_index.md" %}})!
+{{% /notice %}}
+
 ## Dokumentation im Aufbau
 Aktuell arbeiten wir noch daran die [Dokumentation von der TU-Dresden](https://doc.matrix.tu-dresden.de/) an unsere Matrix-Instanz anzupassen. Im Menü auf der linken Seite werden nach und nach immer mehr Seiten entstehen.
 

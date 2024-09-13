@@ -66,9 +66,17 @@ Please do the following:
   2. In the one matrix session where you just exported the room keys manually in step 1, go to `Settings` -> `Security` -> `Encryption`, tick all other sessions at the end of the line and click on the red bordered button "log off x selected devices" below the list. The topmost one in bold is the current session, do not tick this one, i.e. do not delete it.
   3. If necessary, log out and then log in again, ignoring any requests.
   4. Under `Settings`-> `Security` -> `Secure Backup` look if there is a green button `Setup` and no red buttons. Or if there are still red buttons, first click the button `Delete Backup`, then the button `Reset`. It may be necessary to clear the cache (red button under `Settings`-> `Help & About`), possibly also to log out and log in again. 
-  5. Afterwards press the red button `Reset` under `Settings`-> `Security` -> `Cross-signing`. The action was successful, if for 'Secure Backup' and 'Cross Signing' only the green 'Set Up' button is displayed. 
-  6. Now import the previously exported key backups manually. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Import E2E room keys.
-  7. Set up new key backup and cross signing with the two green buttons. See [Key Backup](/en/settings/#key-backup). You can print out the security key, for example, and keep it safe.
+  5. Allow to reset the cross-signing feature. This depends on your matrix home server and can be done on one of the following sites:
+| Institution | URL |
+|---|---|
+| Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de/account/reset-cross-signing](https://auth.matrixchat.mpg.de/account/reset-cross-signing) |
+| Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de/account/reset-cross-signing](https://auth.chat.uni-goettingen.de/account/reset-cross-signing) |
+| Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu/account/reset-cross-signing](https://auth.chat.umg.eu/account/reset-cross-signing) |
+| GWDG | [https://auth.matrix.gwdg.de/account/reset-cross-signing](https://auth.matrix.gwdg.de/account/reset-cross-signing) |
+| Academic Cloud | [https://auth.chat.academiccloud.de/account/reset-cross-signing](https://auth.chat.academiccloud.de/account/reset-cross-signing) |
+  6. Afterwards press the red button `Reset` under `Settings`-> `Security` -> `Cross-signing`. The action was successful, if for 'Secure Backup' and 'Cross Signing' only the green 'Set Up' button is displayed. 
+  7. Now import the previously exported key backups manually. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Import E2E room keys.
+  8. Set up new key backup and cross signing with the two green buttons. See [Key Backup](/en/settings/#key-backup). You can print out the security key, for example, and keep it safe.
 ***
 
 #### What should I do if video or audio in a video conference does not work on a Mac or MacBook? {#apple-no-video}
