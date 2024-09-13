@@ -13,10 +13,11 @@ Spaces are a special type of rooms that allow grouping people, rooms and spaces,
 * [Types](#types)
 * [Default Spaces](#default-spaces)  
 * [Create Space](create)  
+* [Organizing Spaces](#spaces-organize)
 
-## Types
+## Types {#types}
 
-Three types of Spaces exist:
+Two types of Spaces exist:
 
 1. **Public Spaces**  
     If the Space is public, joining is simply done via an easily shareable access link, no invitation is required. This type lends itself to open communities.
@@ -24,10 +25,7 @@ Three types of Spaces exist:
 2. **Private Spaces**  
     If the Space is private, joining is by explicit invitation only. This type is suitable for closed groups that do not allow external users, but still want to make the Space easily discoverable for familiar people. 
 
-3. **Personal Spaces**  
-    Personal Spaces are used for individual organization of one's own spaces and people.
-
-## Default Spaces
+## Default Spaces {#default-spaces}
 
 Predefined personal Spaces are available in Element:
 
@@ -47,3 +45,13 @@ For configuration, call up the "Quick settings" as the last option in the Spaces
 In the sidebar settings, activate the desired spaces or configurations via the respective checkbox.
 
 ![Explanatory screenshot for the previous description](/images/40_Space_Overview_2_de.png?classes=border)
+
+## Organizing Spaces {#spaces-organize}
+
+Spaces ease up the access to rooms inside a group of people. All roomes attributed to a space are visible and accessable to all space members, when the room security settings are set to access "space members". By clicking twice on the space a list of all attributed rooms is shown.
+
+![Explanatory screenshot for the organization of rooms and spaces inside a space, which can be accessed to autonomously](/images/40_Space_Overview_3_de.png?classes=border)
+
+Just as rooms, furhter spaces may be organized inside an existing space. To attribute a room to an existing space, you may either [create a room]({{% relref "rooms/create" %}}) within this space, or you "add" an existing room to a space. Therefore click on "add" on top of the room list "Rooms and spaces" and hit "Add existing room". From the list of accessable rooms you may select multiple ones.
+
+![Explanatory screenshot for adding rooms to a space](/images/40_Space_Overview_5_de.png?classes=border)

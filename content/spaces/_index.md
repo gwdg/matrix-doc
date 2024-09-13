@@ -6,28 +6,26 @@ chapter: false
 weight: 51
 ---
 
-Spaces sind eine spezielle Art von Räumen, die das Gruppieren von Personen, Räumen und Spaces erlauben, wobei all diese Raumarten zugleich mehreren Spaces zugeordnet werden können. Dadurch erleichtern sie die Verwaltung vieler Räume und ermöglichen es, diese auch für andere Personen einfacher auffindbar zu machen.
+Spaces helfen dem Organisieren und Gruppieren von Personen, Räumen (und weiteren Spaces). Personen, Räume und Spaces können dabei mehreren Spaces zugeordnet sein. Dadurch erleichtern Spaces die Verwaltung vieler Räume und ermöglichen es, diese einfacher auffindbar zu machen.
 
 ## Inhalt
 
 * [Arten](#types)
 * [Standard-Spaces](#default-spaces)  
 * [Space erstellen](create)
+* [In Spaces organisieren](#spaces-organize)
 
 ## Arten {#types}
 
-Es existieren drei Arten von Spaces:
+Zwei Arten von Spaces werden unterschieden:
 
 1. **Öffentliche Spaces**  
-    Ist der Space öffentlich, erfolgt der Beitritt einfach per leicht teilbarem Zugangslink, eine Einladung ist nicht erforderlich. Diese Art bietet sich für offene Communities an.
+    Ist ein Space öffentlich, erfolgt der Beitritt einfach per leicht teilbarem Zugangslink, eine Einladung ist nicht erforderlich. Diese Art bietet sich für offene Communities an.
 
 2. **Private Spaces**  
-    Ist der Space privat, erfolgt der Beitritt ausschließlich durch explizite Einladung. Diese Art bietet sich für geschlossene Gruppen an, welche keine externen Nutzer:innen zulassen, aber den Space trotzdem für vertraute Personen leicht entdeckbar machen möchten. 
+    Ist ein Space privat, erfolgt der Beitritt ausschließlich durch explizite Einladung. Diese Art bietet sich für geschlossene Gruppen an, welche keine externen Nutzer:innen zulassen, aber den Space trotzdem für vertraute Personen leicht entdeckbar machen möchten. 
 
-3. **Persönliche Spaces**  
-    Persönliche Spaces dienen zur individuellen Organisation der eigenen Räume und Personen.
-
-## Standard-Spaces
+## Standard-Spaces {#default-spaces}
 
 In Element stehen vordefinierte persönliche Spaces zur Verfügung:
 
@@ -47,3 +45,13 @@ Zur Konfiguration rufen Sie die „Schnelleinstellungen“ als letzte Option in 
 In den Einstellungen zur Seitenleiste aktivieren Sie über die jeweilige Checkbox die gewünschten Spaces bzw. Konfigurationen.
 
 ![Erklärender Screenshot zur vorangegangen Beschreibung](/images/40_Space_Overview_2_de.png?classes=border)
+
+## In Spaces organisieren {#spaces-organize}
+
+Spaces eignen sich hervorragend, um den Zugang zu untergeordneten Räumen zu erleichtern. Alle Räume, die einem Space zugeordnet sind, und in ihren Raumeinstellungen unter "Sicherheit" den Zugriff für "Spacemitglieder" erlauben, sind für alle Mitglieder eines Spaces sichtbar. Die Space-Mitglieder können selbstständig diesen Räumen beitreten. Eine Übersicht aller sichtbarer Räume innerhalb eines Spaces lassen sich durch einen Doppelklick auf den Space anzeigen.
+
+![Erklärender Screenshot zur Übersicht aller einem Space zugeordneten Räume und Spaces, die selbstständig durch seine Space-Mitglieder betreten werden können](/images/40_Space_Overview_3_de.png?classes=border)
+
+Ebenso wie Räume, lassen sich auch weitere Spaces innerhalb eines Spaces organisieren. Um einem Space einen Raum zuzuordnen, können Sie entweder einen [neuen Raum]({{% relref "rooms/create" %}}) innerhalb eines Spaces erzeugen, oder einen bestehenden Raum, in dem Sie Mitglied sind, einem Space hinzufügen. Klicken Sie dazu "Hinzufügen" oberhalb der Liste von "Räumen und Spaces" und wählen dann "Existierenden Raum hinzufügen". Aus der Ansicht aller Ihnen verfügbarer Räume lassen sich auch mehrere gleichzeitig auswählen und dem Space zuordnen. Räume und Spaces können auch mehreren Spaces zugeordnet sein.
+
+![Erklärender Screenshot zum Hinzufügen existierender Räume zu einem Space](/images/40_Space_Overview_5_de.png?classes=border)
