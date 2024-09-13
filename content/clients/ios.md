@@ -20,7 +20,16 @@ Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067"
 
 ![Bild2](/images/15_Element_iOS2_de.jpeg?height=50vh&classes=border)  
 
-3. Ersetzen Sie das vorausgefüllte ~~matrix.org~~ durch `gwdg.de` und tippen Sie auf **"Bestätigen"**.  
+3. Ersetzen Sie das vorausgefüllte ~~matrix.org~~ durch den Servername anhand der folgenden Tabelle und tippen Sie auf **"Bestätigen"**.
+
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
+
 
 ![Bild3](/images/15_Element_iOS3_de.jpeg?height=50vh&classes=border)  
 
@@ -32,7 +41,7 @@ Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067"
 
 ![Bild5](/images/15_Element_iOS5_de.jpeg?height=50vh&classes=border)  
 
-6. Es öffnet sich der Browser in dem Sie sich mit Ihrer **"GWDG-Emailadresse"** und dem zugehörigen **"GWDG-Passwort"** anmelden.  
+6. Es öffnet sich der Browser in dem Sie sich wie gehabt anmelden.
 
 | ![Bild6](/images/15_Element_iOS6_de.jpeg?height=50vh&classes=border) | ![Bild7](/images/15_Element_iOS7_de.jpeg?height=50vh&classes=border) |
 |---------------------------------------------------------------------|----------------------------------------------------------------------|  

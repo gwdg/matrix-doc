@@ -9,6 +9,17 @@ For users who like to experiment, there are numerous other clients in addition t
 
 - https://matrix.org/ecosystem/clients/
 
+In any case you have to enter the correct name of your home matrix server:
+
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
+
+
 ## You might give these a try
 
 ### Mobil
@@ -24,3 +35,5 @@ For users who like to experiment, there are numerous other clients in addition t
     - Funktionsreicher, nativer Desktop-Client; bisweilen etwas unübersichtlich
 - [Fractal](https://gitlab.gnome.org/World/fractal)
     - Übersichtlicher, nativer Desktop-Client für Linux mit Fokus auf einfache Bedienung und Übersichtlichkeit. Unterstützt noch keine Spaces und Threads.
+- [iamb](https://iamb.chat/)
+    - Commandline-Client with VI-like 'usability'

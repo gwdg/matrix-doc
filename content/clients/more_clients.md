@@ -9,6 +9,17 @@ Für experimentierfreudige Nutzende gibt es neben Element noch zahlreiche weiter
 
 - https://matrix.org/ecosystem/clients/
 
+In jedem Fall müssen Sie im Client dann Ihren passenden Matrix-Homeserver eintragen:
+
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
+
+
 ## Einen Blick wert sind mindestens
 
 ### Mobil
@@ -24,3 +35,5 @@ Für experimentierfreudige Nutzende gibt es neben Element noch zahlreiche weiter
     - Funktionsreicher, nativer Desktop-Client; bisweilen etwas unübersichtlich
 - [Fractal](https://gitlab.gnome.org/World/fractal)
     - Übersichtlicher, nativer Desktop-Client für Linux mit Fokus auf einfache Bedienung und Übersichtlichkeit. Unterstützt noch keine Spaces und Threads.
+- [iamb](https://iamb.chat/)
+    - Kommandozeilen-Client mit einer VI-artigen Bedienphilosophie

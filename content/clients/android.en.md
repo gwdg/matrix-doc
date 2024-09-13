@@ -23,7 +23,16 @@ You may find the app 'Element X' in the Play-Store. This app is not ready for pr
 
 ![Selection of a server: You can see the options "matrix.org", "element matrix services" and "Other".](/images/15_Element_Android2_en.jpg?height=50vh&classes=border)
 
-3. Enter `acadamiccloud.de` in the address field and confirm server address by tapping the **"Continue"** button.
+3. Enter the server name according to the following table in the address field and confirm server address by tapping the **"Continue"** button.
+
+| Institution | Homeserver |
+|---|---|
+| Max-Planck-Gesellschaft | matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| Academic Cloud | chat.academiccloud.de |
+
 
 !["Other" screen to connect to custom server. The Address text box requires the server address to be entered, and below it is the Continue button.](/images/15_Element_Android3_en.jpg?height=50vh&classes=border)
 
