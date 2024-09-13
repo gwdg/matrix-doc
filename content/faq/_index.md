@@ -78,6 +78,9 @@ Bitte folgendes ausführen:
   6. Anschließend unter `Einstellungen`-> `Sicherheit` -> `Quersignierung` auf den roten Knopf `Zurücksetzen` drücken. Die Aktion war erfolgreich, wenn für `Sicheres Backup` und `Quersignierung` nur noch der grüne Einrichten Knopf angezeigt wird.
   7. Jetzt die zuvor exportieren Schlüsselsicherungen manuell importieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel importieren klicken.
   8. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung). Den Sicherheitsschlüssel können Sie zum Beispiel ausdrucken und sicher verwahren.
+
+Auf [https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing](https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing) finden Sie eine bebilderte Anleitung. Zuvor müssen Sie den Punkt 5 unserer Anleitung erledigen.
+
 ***
 
 #### Was muss ich tun, wenn auf einem Mac oder MacBook Video oder Audio in einer Videokonferenz nicht funktioniert? {#apple-no-video}

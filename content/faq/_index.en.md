@@ -77,6 +77,8 @@ Please do the following:
   6. Afterwards press the red button `Reset` under `Settings`-> `Security` -> `Cross-signing`. The action was successful, if for 'Secure Backup' and 'Cross Signing' only the green 'Set Up' button is displayed. 
   7. Now import the previously exported key backups manually. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Import E2E room keys.
   8. Set up new key backup and cross signing with the two green buttons. See [Key Backup](/en/settings/#key-backup). You can print out the security key, for example, and keep it safe.
+
+Your might also follow [https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing](https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing) after doing step 5 in our step-by-step guide.
 ***
 
 #### What should I do if video or audio in a video conference does not work on a Mac or MacBook? {#apple-no-video}
