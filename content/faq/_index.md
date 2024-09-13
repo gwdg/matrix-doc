@@ -31,7 +31,7 @@ Dies ist eine Zusammenstellung häufiger Fragen und deren Antworten.
 - [Kann ich die/eine Matrix-App auf meinem Handy installieren, ohne Benachrichtigungen zu bekommen?](#app-without-notifications)
 - [Ist es möglich, benachrichtigt zu werden wenn es neue Nachrichten in Matrix gibt, ohne eine App/Website zu öffnen?](#notifications-via-email)
 - [Kann ich mit Element mehrere Matrix-Accounts verwalten (Multi-Account-Client)?](#multiple-accounts-element)
-- [Wie kann ich einen (Chat-)Bot in Matrix bertreiben?](#hook)
+- [Wie kann ich einen (Chat-)Bot in Matrix betreiben?](#hook)
 
 ***
 # Problembehandlung / "Troubleshooting"
