@@ -29,11 +29,11 @@ Now you can manually specify the home server:
 |---|---|
 | Institution | Home Server |
 |---|---|
-| Max-Planck-Gesellschaft | matrixchat.mpg.de |
-| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
-| Academic Cloud | chat.academiccloud.de |
+| Max-Planck-Gesellschaft | https://matrixchat.mpg.de |
+| Georg-August-Universität Göttingen | https://chat.uni-goettingen.de |
+| Universitätsmedizin Göttingen  | https://chat.umg.eu |
+| GWDG | https://matrix.gwdg.de |
+| Academic Cloud | https://chat.academiccloud.de |
 
 ![Input field to change the home server with the input matrix.tu-dresden.de](/images/03_Set-Homeserver_en.png)
 

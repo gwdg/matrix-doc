@@ -23,11 +23,11 @@ Die folgenden Screenshots zeigen beispielhaft die Nutzung von [chat.academicclou
 
 | Institution | Server |
 |---|---|
-| Max-Planck-Gesellschaft | [matrixchat.mpg.de](matrixchat.mpg.de) |
-| Georg-August-Universität Göttingen | [chat.uni-goettingen.de](chat.uni-goettingen.de) |
-| Universitätsmedizin Göttingen  | [chat.umg.eu](chat.umg.eu) |
-| GWDG | [matrix.gwdg.de](matrix.gwdg.de) |
-| Academic Cloud | [chat.academiccloud.de](chat.academiccloud.de) |
+| Max-Planck-Gesellschaft | [matrixchat.mpg.de](https://matrixchat.mpg.de) |
+| Georg-August-Universität Göttingen | [chat.uni-goettingen.de](https://chat.uni-goettingen.de) |
+| Universitätsmedizin Göttingen  | [chat.umg.eu](https://chat.umg.eu) |
+| GWDG | [matrix.gwdg.de](https://matrix.gwdg.de) |
+| Academic Cloud | [chat.academiccloud.de](https://chat.academiccloud.de) |
 
 Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 
