@@ -66,6 +66,7 @@ In order to meet the demand for real-time communication, the open communication 
 * [Use integrations, bridges, bots (e.g. Jitsi)]({< relref "integrations/_index.en.md" >}})
 * [Further development of Matrix]({< relref "development/_index.en.md" >}})
 -->
+* [Migration to matrix]({{% relref "migration/_index.md" %}})
 * [Frequently asked questions (FAQ)]({{% relref "faq/_index.en.md" %}})
 * [Privacy policy](https://gwdg.de/imprint)
 * [Imprint]({{% relref "imprint/_index.en.md" %}})
