@@ -41,3 +41,6 @@ After a successful migration, a final message is generated in the Rocket.Chat ch
 ![Migrated channel in RC](/images/70_Migration_03_de.png)
 
 
+## Failed migration
+
+In rare cases, a migration that has already begun may fail. In this case, the migration will be stopped and you will be informed about it in the migration portal. Despite the error, the chat on Rocket.Chat is still usable. Failed migrations are regularly checked by the GWDG. They try to fix the errors and then restart the migrations. If a migration has not been completed even after a long period of time, please contact <a href=‘mailto:support@gwdg.de’>support(at)gwdg.de</a>.
