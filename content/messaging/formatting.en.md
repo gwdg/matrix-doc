@@ -30,7 +30,7 @@ Using text formatted in the markup language [**MarkDown**](https://de.wikipedia.
 
 The current [MarkDown specification can be found here](https://spec.commonmark.org/current/).
 
-The input of LaTeX formulas is currently supported as lab functionality and has to be activated from the messaging partner as well to display LaTeX formular correctly.
+The input of LaTeX formulas is currently supported as lab functionality and has to be activated from the messaging partner as well to display LaTeX formular correctly, which may be done by activating the field under "All settings > Labs > Messaging > Render LaTeX maths in messages".
 
 **Hashtags** can be used to make terms easier to find in the search.
 
