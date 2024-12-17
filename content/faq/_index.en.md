@@ -61,10 +61,10 @@ Please check whether you have set up the secure key backup. See [Key Backup](/en
 ***
 
 #### How can I reset the key backup if I have lost my security phrase AND my security key? {#reset-securityphrase}
-Please note: You can use the reset to obtain a ‘verified’ session again. As soon as you have a verified session, you can also log in to other devices and verify them via the first session, but we strongly recommend using the
-Element Client as the ‘main session’. Depending on your operating system there is a program for it, for this see the [first steps](/first-steps/index.html).
+Please note: You can use the reset to obtain a ‘verified’ session again. As soon as you have a verified session, you can also log in to other devices and verify them via the first session, but we strongly recommend using the Element Client as the ‘main session’. Depending on your operating system there is a program for it, for this see the [first steps](/first-steps/index.html).
+
 Please do the following:
-   1. Export the room keys in a matrix session (=client/devices/browser) where you can still read the previous encrypted calls. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Export E2E room keys. If there is no longer access to a matrix session in which previous encrypted messages are readable, or if old messages do not necessarily need to be preserved, this step can be skipped.
+   1. Export the room keys in a matrix session (=client/devices/browser) where you can still read the previous encrypted messages. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Export E2E room keys. If there is no longer access to a matrix session in which previous encrypted messages are readable, or if old messages do not necessarily need to be preserved, this step may be skipped.
   2. Depending on the instance, see the following table, log in to the corresponding auth-instance and log out of the active sessions via ‘My account’ -> ‘Devices’. You should not log out of the ‘active now’ browser session, this refers to the session on the auth-instance, which is still required below.
 
      | Institution | auth-instance |
