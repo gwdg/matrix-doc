@@ -64,35 +64,22 @@ Bitte prüfen Sie, ob die Schlüsselsicherung eingerichtet wurde. Siehe [Schlüs
 Beachten Sie: Mit der Zurücksetzung können Sie wieder eine "verifizierte" Sitzung erhalten. Sobald Sie _eine_ verifizierte Sitzung haben, können Sie sich auch an anderen Geräten neu anmelden und auch diese über die erste Sitzung verifizieren, jedoch raten wir als "Hauptsitzung" ganz dringend dazu, den Element Client zu benutzen. Diesen können Sie je nach Betriebssystem installieren, siehe dazu die [ersten Schritte](/first-steps/index.html). 
 
 Bitte folgendes ausführen:
-  1. In einer Matrix-Sitzung (=Client/Geräte/Browser), wo man die früheren verschlüsselten Gespräche noch lesen kann, die Raumschlüssel exportieren. Dazu zu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel exportieren klicken. Sollte es keinen Zugang mehr zu einer Matrix-Sitzung geben, in der frühere verschlüsselte Nachrichten lesbar sind, oder alte Nachrichten nicht notwendigerweise erhalten werden müssen, kann dieser Schritt übersprungen werden.
-  2. Je nach Instanz, siehe folgende Tabelle, einloggen und über `Meinen Account` > `Geräte` von den aktiven Sitzungen abmelden. Nicht abmelden muss man sich von der "aktiven" Browser-Sitzung, diese bezieht sich auf die Sitzung auf der Auth-Instanz.
-	| Institution | Auth-Instanz |
-	|---|---|
-	| Academic Cloud | [https://auth.chat.academiccloud.de](https://auth.chat.academiccloud.de) |
-	| Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
-	| GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
-	| Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
-	| Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
+  1. In einer Matrix-Sitzung (=Client/Geräte/Browser), wo man die früheren verschlüsselten Gespräche noch lesen kann, die Raumschlüssel exportieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel exportieren klicken. Sollte es keinen Zugang mehr zu einer Matrix-Sitzung geben, in der frühere verschlüsselte Nachrichten lesbar sind, oder alte Nachrichten nicht notwendigerweise erhalten werden müssen, kann dieser Schritt übersprungen werden.
+  2. Je nach Instanz, siehe folgende Tabelle, einloggen und über `Mein Account` -> `Geräte` von den aktiven Sitzungen abmelden. Nicht abmelden muss man sich von der "aktiven" Browser-Sitzung, diese bezieht sich auf die Sitzung auf der Auth-Instanz, die im Folgenden noch benötigt wird.
+
+     | Institution | Auth-Instanz |
+     | ----------- | ------------ |
+     | Academic Cloud | [https://auth.chat.academiccloud.de](https://auth.chat.academiccloud.de) |
+     | Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
+     | GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
+     | Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
+     | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
+
   3. Im gleichen Browserfenster, d.h. auf der Auth-Instanz, auf den Reiter `Einstellungen` wechseln, den Punkt `Ende-zu-Ende Verschlüsselung` aufklappen und den roten Knopf `Identität zurücksetzen` klicken.
   4. Zurück zum Client (z.B. Element-Client, wir raten dringend vom Browser ab!) wechseln und sofern man hier noch nicht automatisch abgemeldet wurde einmal manuell ausloggen (im Element-Client hierzu auf den Namen oben links klicken und Abmelden). Daraufhin neu anmelden.
-  5. Nach dem Login sollte die Frage erscheinen, eine neue Schlüsselphrase oder -schlüssel einzurichten. Diesen neu erstellen und *SICHER ABLEGEN*, z.B. per Ausdruck oder Passwort-Management Programm wie KeePassXC o.ä.
+  5. Nach dem Login sollte die Frage erscheinen, eine neue Schlüsselphrase oder -schlüssel einzurichten. Diesen neu erstellen und *SICHER ABLEGEN*, z.B. per Ausdruck oder Passwort-Manager wie KeePassXC o.ä.
 
-Nach dem neuen Login sollte Ihre Sitzung verifiziert sein. Sie können sich nun bei Bedarf auch an anderen Clients, z.B. am Handy, anmelden, zur Verifizierung müssen Sie dann in der Element-Client-Sitzung einmal den Login bestätigen, der Austausch der nötigen Schlüssel passiert dann im Hintergrund automatisch.
-
-  5. Den Cross-Signing-Reset erlauben. Dies ist abhängig von der eigenen Instanz eine der folgenden URLs:
-| Institution | Erlaubnis-URL |
-|---|---|
-| Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de/account/reset-cross-signing](https://auth.matrixchat.mpg.de/account/reset-cross-signing) |
-| Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de/account/reset-cross-signing](https://auth.chat.uni-goettingen.de/account/reset-cross-signing) |
-| Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu/account/reset-cross-signing](https://auth.chat.umg.eu/account/reset-cross-signing) |
-| GWDG | [https://auth.matrix.gwdg.de/account/reset-cross-signing](https://auth.matrix.gwdg.de/account/reset-cross-signing) |
-| Academic Cloud | [https://auth.chat.academiccloud.de/account/reset-cross-signing](https://auth.chat.academiccloud.de/account/reset-cross-signing) |
-
-  6. Anschließend unter `Einstellungen`-> `Sicherheit` -> `Quersignierung` auf den roten Knopf `Zurücksetzen` drücken. Die Aktion war erfolgreich, wenn für `Sicheres Backup` und `Quersignierung` nur noch der grüne Einrichten Knopf angezeigt wird.
-  7. Jetzt die zuvor exportieren Schlüsselsicherungen manuell importieren. Dazu unter `Einstellungen`-> `Sicherheit` -> `Verschlüsselung` auf E2E-Raumschlüssel importieren klicken.
-  8. Neue Schlüsselsicherung und Quersignierung einrichten mit den zwei grünen Knöpfen. Siehe [Schlüsselsicherung](/settings/#schlüsselsicherung). Den Sicherheitsschlüssel können Sie zum Beispiel ausdrucken und sicher verwahren.
-
-Auf [https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing](https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing) finden Sie eine bebilderte Anleitung. Zuvor müssen Sie den Punkt 5 unserer Anleitung erledigen.
+Nach dem neuen Login sollte Ihre Sitzung verifiziert sein. Bei Bedarf kann man sich nun auch an anderen Clients, z.B. am Handy, anmelden, zur Verifizierung muss dann in der Element-Client-Sitzung, sozusagen der "Hauptsitzung" einmal der Login bestätigt werden, der Austausch der nötigen Schlüssel passiert dann im Hintergrund automatisch.
 
 ***
 
