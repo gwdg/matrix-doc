@@ -61,24 +61,26 @@ Please check whether you have set up the secure key backup. See [Key Backup](/en
 ***
 
 #### How can I reset the key backup if I have lost my security phrase AND my security key? {#reset-securityphrase}
+Please note: You can use the reset to obtain a ‘verified’ session again. As soon as you have a verified session, you can also log in to other devices and verify them via the first session, but we strongly recommend using the
+Element Client as the ‘main session’. Depending on your operating system there is a program for it, for this see the [first steps](/first-steps/index.html).
 Please do the following:
-  1. In a matrix session (that is, client/device/browser), where you can still read the previous encrypted conversations, export the room keys. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Export E2E room keys. If there is no more access to any matrix session where previous encrypted messages are readable, skip this step.
-  2. In the one matrix session where you just exported the room keys manually in step 1, go to `Settings` -> `Security` -> `Encryption`, tick all other sessions at the end of the line and click on the red bordered button "log off x selected devices" below the list. The topmost one in bold is the current session, do not tick this one, i.e. do not delete it.
-  3. If necessary, log out and then log in again, ignoring any requests.
-  4. Under `Settings`-> `Security` -> `Secure Backup` look if there is a green button `Setup` and no red buttons. Or if there are still red buttons, first click the button `Delete Backup`, then the button `Reset`. It may be necessary to clear the cache (red button under `Settings`-> `Help & About`), possibly also to log out and log in again. 
-  5. Allow to reset the cross-signing feature. This depends on your matrix home server and can be done on one of the following sites:
-| Institution | URL |
-|---|---|
-| Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de/account/reset-cross-signing](https://auth.matrixchat.mpg.de/account/reset-cross-signing) |
-| Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de/account/reset-cross-signing](https://auth.chat.uni-goettingen.de/account/reset-cross-signing) |
-| Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu/account/reset-cross-signing](https://auth.chat.umg.eu/account/reset-cross-signing) |
-| GWDG | [https://auth.matrix.gwdg.de/account/reset-cross-signing](https://auth.matrix.gwdg.de/account/reset-cross-signing) |
-| Academic Cloud | [https://auth.chat.academiccloud.de/account/reset-cross-signing](https://auth.chat.academiccloud.de/account/reset-cross-signing) |
-  6. Afterwards press the red button `Reset` under `Settings`-> `Security` -> `Cross-signing`. The action was successful, if for 'Secure Backup' and 'Cross Signing' only the green 'Set Up' button is displayed. 
-  7. Now import the previously exported key backups manually. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Import E2E room keys.
-  8. Set up new key backup and cross signing with the two green buttons. See [Key Backup](/en/settings/#key-backup). You can print out the security key, for example, and keep it safe.
+   1. Export the room keys in a matrix session (=client/devices/browser) where you can still read the previous encrypted calls. To do this, go to `Settings`-> `Security` -> `Encryption` and click on Export E2E room keys. If there is no longer access to a matrix session in which previous encrypted messages are readable, or if old messages do not necessarily need to be preserved, this step can be skipped.
+  2. Depending on the instance, see the following table, log in to the corresponding auth-instance and log out of the active sessions via ‘My account’ -> ‘Devices’. You should not log out of the ‘active now’ browser session, this refers to the session on the auth-instance, which is still required below.
 
-Your might also follow [https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing](https://ems-docs.element.io/books/element-cloud-documentation/page/reset-cross-signing) after doing step 5 in our step-by-step guide.
+     | Institution | auth-instance |
+     | ----------- | ------------ |
+     | Academic Cloud | [https://auth.chat.academiccloud.de](https://auth.chat.academiccloud.de) |
+     | Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
+     | GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
+     | Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
+     | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
+
+  3. In the same browser window, i.e. on the auth-instance, switch to the ‘Settings’ tab, open the ‘End-to-end encryption’ item and click the red ‘Reset identity’ button.
+  4. Switch back to the client (e.g. the element-client, we strongly recommend not to use the browser) and log out if you were not logged out automatically. Log back in again.
+  5. After login you should be asked to create a new key phrase or password. Select one and create it and *SAVE IT SECURELY*, e.g. printing it or using a password-manager like KeePassXC or similar. To do this you may also follow [these steps](/settings/index.html).
+
+After the new login you session should be verified. If necessary you may also log into other clients, e.g. a smartphone, for verification you need to verify the login in the element client-session, so to speak the ‘main session’. Exchange of all necessary keys will then happen automatically in the background.
+
 ***
 
 #### What should I do if video or audio in a video conference does not work on a Mac or MacBook? {#apple-no-video}
