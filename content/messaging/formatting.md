@@ -30,7 +30,7 @@ Mittels Text, der in der Auszeichnungssprache [**MarkDown**](https://de.wikipedi
 
 Die aktuelle [MarkDown-Spezifikation ist hier](https://spec.commonmark.org/current/) zu finden.
 
-Das Eingeben von LaTeX-Formeln wird als Labor-Funktion unterstützt, und kann vom Gegenüber *gerendert* betrachtet werden, wenn dort in den Labor-Funktionen die Darstellung von LaTeX-Formeln ebenfalls aktiviert ist.
+Das Eingeben von LaTeX-Formeln wird als Labor-Funktion unterstützt, und kann vom Gegenüber *gerendert* betrachtet werden, wenn dort in den Labor-Funktionen die Darstellung von LaTeX-Formeln ebenfalls aktiviert ist. Hierzu muss unter "Alle Einstellungen > Labor > Kommunikation" der Reiter "LaTeX-Matheformeln" ausgewählt werden.
 
 **Hashtags** können benutzt werden um Begriffe leichter in der Suche auffindbar zu machen.
 
