@@ -76,8 +76,8 @@ Bitte folgendes ausführen:
      | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
 
   3. Im gleichen Browserfenster, d.h. auf der Auth-Instanz, auf den Reiter `Einstellungen` wechseln, den Punkt `Ende-zu-Ende Verschlüsselung` aufklappen und den roten Knopf `Identität zurücksetzen` klicken.
-  4. Zurück zum Client (z.B. Element-Client, wir raten dringend vom Browser ab!) wechseln und sofern man hier noch nicht automatisch abgemeldet wurde einmal manuell ausloggen (im Element-Client hierzu auf den Namen oben links klicken und Abmelden). Daraufhin neu anmelden.
-  5. Nach dem Login sollte die Frage erscheinen, eine neue Schlüsselphrase oder -schlüssel einzurichten. Diesen neu erstellen und *SICHER ABLEGEN*, z.B. per Ausdruck oder Passwort-Manager wie KeePassXC (o.ä.). Hier können Sie [diesen Schritten](/settings/index.html) folgen.
+  4. Zurück zum Client (z.B. Element-Client, wir raten dringend vom Browser ab!) wechseln und sofern man hier noch nicht automatisch abgemeldet wurde einmal manuell ausloggen (im Element-Client hierzu auf den Namen oben links klicken und Abmelden). Daraufhin neu anmelden. Sollte hier nach dem Sicherheitsschlüssel oder -passwort gefragt werden, diesen zurücksetzen (sollte als Option unter dem Textfeld erscheinen).
+  5. Nach dem Login kommt die Forderung eine neue Schlüsselphrase oder -schlüssel einzurichten. Diesen neu erstellen und *SICHER ABLEGEN*, z.B. per Ausdruck oder Passwort-Manager wie KeePassXC (o.ä.). Hier können Sie [diesen Schritten](/settings/index.html) folgen.
 
 Nach dem neuen Login sollte Ihre Sitzung verifiziert sein. Bei Bedarf kann man sich nun auch an anderen Clients, z.B. am Handy, anmelden, zur Verifizierung muss dann in der Element-Client-Sitzung, sozusagen der "Hauptsitzung", einmal der Login bestätigt werden, der Austausch der nötigen Schlüssel passiert dann im Hintergrund automatisch.
 
