@@ -76,8 +76,8 @@ Please do the following:
      | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
 
   3. In the same browser window, i.e. on the auth-instance, switch to the ‘Settings’ tab, open the ‘End-to-end encryption’ item and click the red ‘Reset identity’ button.
-  4. Switch back to the client (e.g. the element-client, we strongly recommend not to use the browser) and log out if you were not logged out automatically. Log back in again.
-  5. After login you should be asked to create a new key phrase or password. Select one and create it and *SAVE IT SECURELY*, e.g. printing it or using a password-manager like KeePassXC or similar. To do this you may also follow [these steps](/settings/index.html).
+  4. Switch back to the client (e.g. the element-client, we strongly recommend not to use the browser) and log out if you were not logged out automatically. Log back in again. If you are asked to put your security key or security phrase, select the option to reset it (should appear below the text field).
+  5. After login you are asked to create a new security key phrase or password. Select one and create it and *SAVE IT SECURELY*, e.g. printing it or using a password-manager like KeePassXC or similar. To do this you may also follow [these steps](/settings/index.html).
 
 After the new login you session should be verified. If necessary you may also log into other clients, e.g. a smartphone, for verification you need to verify the login in the element client-session, so to speak the ‘main session’. Exchange of all necessary keys will then happen automatically in the background.
 
