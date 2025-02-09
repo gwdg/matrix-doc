@@ -17,7 +17,7 @@ Data or files stored on other matrix servers cannot be deleted by GWDG. Matrix u
 
 ### Files
 
-Matrix can be used to exchange files, but is not intended for longer-term storage. For this reason, files that have been received or sent in Matrix are automatically removed from the TU Dresden Matrix server after a certain period of time. Specifically, a file is deleted 12 months after it was last accessed.
+Matrix can be used to exchange files, but is not intended for longer-term storage. For this reason, files that have been received or sent in Matrix are automatically removed from the GWDG Matrix servers after a certain period of time. Specifically, a file is deleted 12 months after it was last accessed.
 
 {{% notice tip %}}
 Appropriate services such as [ownCloud](https://owncloud.gwdg.de) can be used for the permanent storage of files.
