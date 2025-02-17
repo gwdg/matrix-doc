@@ -193,22 +193,6 @@ This way several starters can be placed in the autostart, which then have differ
 ***
 
 #### Can I use (chat)bots, Webhooks or RSS-Feeds in Matrix? {#hook}
+It is possible, please check the page about [automations](/automations). For simple cases often the `hookshot` user will be enough, for more general cases also a bot-account may be used.
 
-Yes. Invite the user `@hookshot:gwdg.de` into the chat and set its power level to 'Moderator'. Now send the following message into the chat-channel:
-```
-!hookshot feed <url>
-or
-!hookshot webhook <kreativerName>
-```
-
-For the webhook you now get the corresponding information (Token/ URL) as personal message from the Hookshot user. You may use the webhook like:
-```
-curl -X PUT https://hook.matrix.gwdg.de/webhook/ffffff-fffff-ffff-ffff-ffffffffffff -H "Content-Type: application/json" -d '{"text": "The answer is 42."}'
-```
-
-All possibilities are rendered with
-```
-!hookshot help
-```
-More information and examples [can be found on the website of the hookshot bot](https://matrix-org.github.io/matrix-hookshot/latest/setup/webhooks.html).
 ***

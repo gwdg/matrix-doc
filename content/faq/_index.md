@@ -193,24 +193,6 @@ So lassen sich mehrere Starter im Autostart platzieren, die dann verschiedene Pr
 ***
 
 #### Kann ich (Chat-)Bots oder Webhooks verwenden bzw. RSS-Feeds einbinden? {#hook}
-Dies ist möglich. Laden Sie hierfür den Benutzer `@hookshot:gwdg.de` in ihren Kanal ein und geben Sie dem User das Power-Level 'Moderator'. Anschließend kann mit der Chatnachricht
-```
-!hookshot feed <url>
-bzw.
-!hookshot webhook <kreativerName>
-```
+Das ist möglich, siehe hierzu die Seite zu [Automatisierungen](/automations). Für einfache Fälle reicht oft der `Hookshot`, für allgemeinere Fälle kann auch ein Bot-Account genutzt werden.
 
-ein RSS-Feed abonniert bzw. ein neuer Webhook angelegt werden. Im Falle des Webhook werden die nötigen Infos (Token/ URL) als persönliche Nachricht durch den Hookshot-User verschickt.
-
-Eine Nachricht kann nun z.B. so erstellt werden:
-```
-curl -X PUT https://hook.matrix.gwdg.de/webhook/ffffff-fffff-ffff-ffff-ffffffffffff -H "Content-Type: application/json" -d '{"text": "The answer is 42."}'
-```
-
-
-Alle möglichen Befehle listet
-```
-!hookshot help
-```
-auf. Weitere Informationen [auf der Website des hookshot-Bots](https://matrix-org.github.io/matrix-hookshot/latest/setup/webhooks.html).
 ***
