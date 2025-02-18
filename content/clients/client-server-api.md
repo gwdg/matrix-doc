@@ -63,9 +63,3 @@ Als Referenz ein paar Beispiele für bestehende Clients / SDKs:
 - Mautrix-Go (Go): https://github.com/mautrix/go
 - Matrix-Nio (Python): https://github.com/matrix-nio/matrix-nio
 - Matrix-Bot-SDK (Javascript): https://github.com/turt2live/matrix-bot-sdk
-
-Etwas fortgeschrittenere Clients:
-
-- Hemppa: https://github.com/vranki/hemppa
-- Maubot: https://github.com/maubot/maubot
-- Opsdroid: https://opsdroid.dev
