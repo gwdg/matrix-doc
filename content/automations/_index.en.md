@@ -1,5 +1,5 @@
 ---
-title: "Automatisierungen"
+title: "Automations and Bots"
 date: 2025-02-17T19:11:00+02:00
 chapter: false
 draft: false
