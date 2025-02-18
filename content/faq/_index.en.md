@@ -193,6 +193,6 @@ This way several starters can be placed in the autostart, which then have differ
 ***
 
 #### Can I use (chat)bots, Webhooks or RSS-Feeds in Matrix? {#hook}
-It is possible, please check the page about [automations](/automations). For simple cases often the `hookshot` user will be enough, for more general cases also a bot-account may be used.
+It is possible, please check the page about [automations and bots](/automations). For simple cases often the `hookshot` user will be enough, for more general cases also a bot-account may be used.
 
 ***
