@@ -54,3 +54,9 @@ For maximum flexibility, bot accounts can be used. These accounts exist on a sep
 4. The bot can now interact with the [Client-Server API](/clients/client-server-api), for special cases it may be necessary to check whether synapse implements them.
 
 On the [Client-Server API](/clients/client-server-api) page, you can find minimal code examples and references to useful clients.
+
+If you do not want to directly use the Client-Server API, there are also some tools that simplify this. You may consider one of the following:
+
+- Hemppa: https://github.com/vranki/hemppa
+- Maubot: https://github.com/maubot/maubot
+- Opsdroid: https://opsdroid.dev

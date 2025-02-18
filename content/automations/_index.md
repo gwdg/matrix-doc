@@ -56,3 +56,9 @@ Für maximale Flexibilität können Bot-Accounts genutzt werden, diese existiere
 4. Es können nun Befehle der [Client-Server API](/clients/client-server-api) von Matrix genutzt werden - für ganz spezielle Sonderfälle müsste man im Zweifel noch prüfen, ob Synapse diese implementiert.
 
 Auf der Seite [Cient-Server API](/clients/client-server-api) werden Minimalbeispiele gezeigt, wie per Bot-Account Befehle erzeugt werden können und auf bestehende Clients hingewiesen.
+
+Möchte man nicht direkt die Client-Server API nutzen, gibt es auch Tools, die das etwas vereinfachen. Siehe hierzu z.B.:
+
+- Hemppa: https://github.com/vranki/hemppa
+- Maubot: https://github.com/maubot/maubot
+- Opsdroid: https://opsdroid.dev
