@@ -5,8 +5,6 @@ chapter: false
 draft: false
 ---
 
-## Automatisierungen und Bots
-
 Möchte man sich in Matrix automatisiert Nachrichten in einem Raum erzeugen lassen, funktioniert die API auf Grund der SSO-Authentifizierung nicht direkt, stattdessen kann hierfür die Academiccloud Bot-Instanz genutzt werden.
 
 Die Möglichkeiten sind hier sehr vielfältig, Anwendungsbeispiele könnten sein:

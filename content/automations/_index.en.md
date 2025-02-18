@@ -5,7 +5,6 @@ chapter: false
 draft: false
 ---
 
-## Automations and Bots
 If you want to automatically generate messages in a Matrix room, the API does not work directly due to SSO authentication. Instead, you can use the Academiccloud Bot instance for this purpose.
 
 There are many possible use cases, such as:
