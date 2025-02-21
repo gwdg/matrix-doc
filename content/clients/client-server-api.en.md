@@ -8,7 +8,7 @@ draft: false
 ## Client-Server API
 
 The [Client-Server API](https://spec.matrix.org/latest/client-server-api) allows programmatic communication with a Matrix homeserver. Using this API, a client can authenticate, retrieve and send room events, and perform other
-operations. The following examples assume that a [bot user](/automations/_index.en.md) already exists.
+operations. The following examples assume that a [bot user](/automations#bot-user) already exists.
 
 Before implementing a complete client from scratch, it is recommended to check [existing clients](#existing-clients) first.
 

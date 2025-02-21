@@ -7,7 +7,8 @@ draft: false
 
 ## Client-Server API
 
-Mithilfe der [Client-Server API](https://spec.matrix.org/latest/client-server-api/) kann programmatisch mit einem Matrix Homeserver kommuniziert werden. Mit der API kann sich ein Client authentifizieren, Raum-Events abrufen und erzeugen und mehr. Im Folgenden wird vorausgesetzt, dass ein [Bot-User](/automations/_index.md) existiert.
+Mithilfe der [Client-Server API](https://spec.matrix.org/latest/client-server-api/) kann programmatisch mit einem Matrix Homeserver kommuniziert werden. Mit der API kann sich ein Client authentifizieren, Raum-Events abrufen
+und erzeugen und mehr. Im Folgenden wird vorausgesetzt, dass ein [Bot-User](/automations#bot-user) existiert.
 
 Bevor komplette Clients nachprogrammiert werden, lohnt es sich zunächst [existierende Clients](#existing-clients) zu prüfen.
 
