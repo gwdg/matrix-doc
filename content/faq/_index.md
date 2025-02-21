@@ -193,6 +193,6 @@ So lassen sich mehrere Starter im Autostart platzieren, die dann verschiedene Pr
 ***
 
 #### Kann ich (Chat-)Bots oder Webhooks verwenden bzw. RSS-Feeds einbinden? {#hook}
-Das ist möglich, siehe hierzu die Seite zu [Automatisierungen und Bots](/automations). Für einfache Fälle reicht oft der `Hookshot`, für allgemeinere Fälle kann auch ein Bot-Account genutzt werden.
+Das ist möglich, siehe hierzu die Seite zu [Automatisierungen und Bots](/automations). Für einfache Fälle reicht oft der Hookshot-User `@hookshot:gwdg.de`, für allgemeinere Fälle kann auch ein Bot-Account genutzt werden.
 
 ***
