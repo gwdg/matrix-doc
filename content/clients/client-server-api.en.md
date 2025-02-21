@@ -12,7 +12,7 @@ operations. The following examples assume that a [bot user](/automations/_index.
 
 Before implementing a complete client from scratch, it is recommended to check [existing clients](#existing-clients) first.
 
-### Authentication {example-auth}
+### Authentication {#example-auth}
 Firstly, the bot account `uXXXXX` needs to authenticate with the bot instance. This process generates a temporary access token.
 
 ```
