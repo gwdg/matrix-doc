@@ -4,15 +4,18 @@ defaultContentLanguageInSubdir = false
 title = "Matrix Dokumentation"
 
 [params]
+  math = true
+  mermaid = true
+
   themeVariant = "ac"
+
   disableNextPrev = false
   disableShortcutsTitle = false
   showVisitedLinks = false
   disableBreadcrumb = false
-  disableMermaid = false
 
 [outputs]
-  home = [ "HTML", "RSS", "SEARCH"]
+  home = [ "html", "rss"]
 
 # No newline (<br/>) unless unsafe is enabled
 # https://gohugo.io/news/0.60.0-relnotes/
