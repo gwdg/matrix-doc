@@ -2,8 +2,6 @@ baseURL = "https://docs.chat.academiccloud.de/"
 DefaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 title = "Matrix Dokumentation"
-theme = "hugo-theme-relearn"
-
 
 [params]
   themeVariant = "ac"
@@ -33,3 +31,7 @@ theme = "hugo-theme-relearn"
     weight = 2
     languageName = "English"
     disabled = false
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
