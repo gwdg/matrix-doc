@@ -1,5 +1,6 @@
-/public
+.vscode/
+public/
+resources/
 .DS_Store
 .hugo_build.lock
 todos.org
-resources

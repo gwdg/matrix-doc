@@ -9,7 +9,7 @@ weight: 60
 1:1 Gespräche sind standardmäßig Ende-zu-Ende-verschlüsselt. Daher wird eine eingerichtete Schlüsselsicherung sowie eine Verifikation aller selbst eingesetzten Client-Geräte empfohlen (siehe [Wichtige Einstellungen]({{% ref "settings" %}})).
 
 {{% notice warning %}}
-Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann.
+Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 2 Teilnehmenden ab. Ansonsten kann es bei einigen Personen gehäuft zu nicht-entschlüsselbaren Nachrichten kommen.
 {{% /notice %}}
 
 Die Entscheidung, ob ein erzeugter Raum verschlüsselt werden soll, muss gut überlegt sein und kann nicht mehr rückgängig gemacht werden. Wenn es sich um größere oder öffentliche Räume handelt, könnte das Prüfen aller Schlüssel aller Gesprächspartner viel Zeit in Anspruch nehmen. Diese manuelle Prüfung kann man aber auch später bei Gelegenheit durchführen und auch direkt Ende-zu-Ende-verschlüsselte Gespräche mit vorerst blindem Vertrauen starten.
@@ -76,5 +76,3 @@ Alle im Raum befindlichen Personen wurden verifiziert.
 Hier ein weiteres Beispiel, wie man den Verschlüsselungszustand eines Raumes in den Rauminformationen oben rechts neben dem Raum-Icon erkennen kann:
 
 ![Darstellung der Verschlüsselungssituation in Matrix-Räumen](/images/room_security_status.png)
-
-

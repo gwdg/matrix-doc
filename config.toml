@@ -2,19 +2,20 @@ baseURL = "https://docs.chat.academiccloud.de/"
 DefaultContentLanguage = "de"
 defaultContentLanguageInSubdir = false
 title = "Matrix Dokumentation"
-theme = "hugo-theme-relearn"
-
 
 [params]
+  math = true
+  mermaid = true
+
   themeVariant = "ac"
+
   disableNextPrev = false
   disableShortcutsTitle = false
   showVisitedLinks = false
   disableBreadcrumb = false
-  disableMermaid = false
 
 [outputs]
-  home = [ "HTML", "RSS", "SEARCH"]
+  home = [ "html", "rss"]
 
 # No newline (<br/>) unless unsafe is enabled
 # https://gohugo.io/news/0.60.0-relnotes/
@@ -33,3 +34,7 @@ theme = "hugo-theme-relearn"
     weight = 2
     languageName = "English"
     disabled = false
+
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
