@@ -9,7 +9,7 @@ weight: 60
 1:1 chats are now encrypted end-to-end by default. Therefore, a configured key backup as well as a verification of all self used client devices is highly recommended ([Important settings]({{% ref "settings" %}}))
 
 {{% notice warning %}}
-We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages.
+We strongly discourage from enabling encryption for any rooms with more than 2 participants. Else in some configurations people may encounter undecryptable messages.
 {{% /notice %}}
 
 The decision whether a created room should be encrypted in this way must be well thought out and cannot be undone. If the room is large or public, checking all keys of all interlocutors could take a lot of time. But this manual check can be done later on occasion and end-to-end encrypted conversations can be started directly with blind trust for the time being.
@@ -76,4 +76,3 @@ All persons in the room were verified.
 Further example, how you can realise the encryption state of a room by checking the relevant icon next to the room icon in the room information panel at the top right:
 
 ![Darstellung der Verschlüsselungssituation in Matrix-Räumen](/images/room_security_status_en.png)
-

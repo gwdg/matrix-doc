@@ -14,7 +14,7 @@ Hierfür betrachten wir Signierung der eingesetzten Schlüssel sowie deren versc
 
 > | Anwendungsbereich |
 > |----|
-> | Diese Anleitung wendet sich an Personen, die abhörsicher und vertraulich kommunizieren wollen oder müssen. |
+> | Diese Anleitung wendet sich an fortgeschrittene Anwenderïnnen, die abhörsicher und vertraulich kommunizieren wollen oder müssen. |
 
 Dies betrifft:
 
@@ -37,13 +37,13 @@ Zum Fortfahren benötigen wir:
     [Verschlüsselung](https://docs.chat.academiccloud.de/encryption/index.html):  
     | Zitat |
     |----|
-    | Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 4 oder 5 Teilnehmenden ab, da es sonst gehäuft zu nicht-Entschlüsselbaren Nachrichten bei einigen Personen kommen kann. |
+    | Zum aktuellen Zeitpunkt raten wir stark von einer Verschlüsselung von Räumen mit mehr als 2 Teilnehmenden ab. Ansonsten kann es bei einigen Personen gehäuft zu nicht-entschlüsselbaren Nachrichten kommen. |
   - Englisch:  
     **[Important settings](https://docs.chat.academiccloud.de/en/settings/index.html)**  
     [Encryption](https://docs.chat.academiccloud.de/en/encryption/index.html):  
     | Quote |
     |----|
-    | We strongly discourage from enabling encryption for rooms with more then 5 people. Else you might see a lot of problems with undecryptable messages. |
+    | We strongly discourage from enabling encryption for any rooms with more than 2 participants. Else in some configurations people may encounter undecryptable messages. |
 - einen entsperrten persönlichen Schlüsselbund in einem Passwort-Manager zur Ablage von Zugangsdaten, Passphrasen und kryptographischen Schlüsseln
 
 &nbsp;
