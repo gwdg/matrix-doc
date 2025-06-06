@@ -58,6 +58,7 @@ Auf der Seite [Cient-Server API](/clients/client-server-api) werden Minimalbeisp
 
 Möchte man nicht direkt die Client-Server API nutzen, gibt es auch Tools, die das etwas vereinfachen. Siehe hierzu z.B.:
 
+- Simple-Matrix-Bot-Lib: https://codeberg.org/imbev/simplematrixbotlib
 - Hemppa: https://github.com/vranki/hemppa
 - Maubot: https://github.com/maubot/maubot
 - Opsdroid: https://opsdroid.dev
