@@ -57,6 +57,7 @@ On the [Client-Server API](/clients/client-server-api) page, you can find minima
 
 If you do not want to directly use the Client-Server API, there are also some tools that simplify this. You may consider one of the following:
 
+- Simple-Matrix-Bot-Lib: https://codeberg.org/imbev/simplematrixbotlib
 - Hemppa: https://github.com/vranki/hemppa
 - Maubot: https://github.com/maubot/maubot
 - Opsdroid: https://opsdroid.dev
