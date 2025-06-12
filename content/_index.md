@@ -74,7 +74,7 @@ setInterval(() => {
 * [Häufige Fragen (FAQ)]({{% relref "faq/_index.md" %}})
 * [Weiterentwicklung von Matrix]({{% relref "development/_index.md" %}})
 * [Impressum]({{% relref "imprint/_index.md" %}})
-* [Datenschutzerklärung](https://gwdg.de/impress)
+* [Datenschutzerklärung](https://gwdg.de/impressum)
 
 ### Fragen / Kontakt
 
