@@ -69,7 +69,7 @@ In order to meet the demand for real-time communication, the open communication 
 * [Automations and Bots]({{%relref "automations/_index.en.md" %}})
 * [Migration to matrix]({{% relref "migration/_index.en.md" %}})
 * [Frequently asked questions (FAQ)]({{% relref "faq/_index.en.md" %}})
-* [Privacy policy](https://gwdg.de/imprint)
+* [Privacy policy](https://academiccloud.de/privacy)
 * [Imprint]({{% relref "imprint/_index.en.md" %}})
 
 ### Questions and Contact
