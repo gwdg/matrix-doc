@@ -28,6 +28,7 @@ Die folgenden Screenshots zeigen beispielhaft die Nutzung von [chat.academicclou
 | Universitätsmedizin Göttingen  | [chat.umg.eu](https://chat.umg.eu) |
 | GWDG | [matrix.gwdg.de](https://matrix.gwdg.de) |
 | Academic Cloud | [chat.academiccloud.de](https://chat.academiccloud.de) |
+| Universität Kassel | [matrix.uni-kassel.de](https://matrix.uni-kassel.de) |
 
 Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 
