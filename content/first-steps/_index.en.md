@@ -34,6 +34,7 @@ Now you can manually specify the home server:
 | Universitätsmedizin Göttingen  | https://chat.umg.eu |
 | GWDG | https://matrix.gwdg.de |
 | Academic Cloud | https://chat.academiccloud.de |
+| Universität Kassel | https://matrix.uni-kassel.de |
 
 ![Input field to change the home server with the input matrix.tu-dresden.de](/images/03_Set-Homeserver_en.png)
 
