@@ -48,10 +48,10 @@ For more details, check the [hookshot bot documentation](https://matrix-org.gith
 For maximum flexibility, bot accounts can be used. These accounts exist on a separate Matrix instance, meaning their home server is always `bot.academiccloud.de`. The steps for creating a bot-account are:
 
 1. Open a support-ticket to request the necessary right to create bot accounts.
-2. Go to idm.gwdg.de, click the User button in the top right corner, and open the "Application-Specific Access Credentials" page.
-3. In the left menu, select "Matrix: Access Credentials for Bots", fill in the required details, and click "Generate Credentials".
-4. A username and an access token will be generated. The username will also serve as the bot's identifier, e.g. username `uXXXXX` later translates to `uXXXXX:bot.academiccloud.de`. The token represents the password.
-5. The bot can now interact with the [Client-Server API](/clients/client-server-api), for special cases it may be necessary to check whether synapse implements them.
+2. Open ["Application Credentials"](https://id.academiccloud.de/ApplicationCredentials) on id.academiccloud.de and authenticate with your multi-faktor-authentication.
+3. In the entry "Matrix Bot" click on "add", fill in the required data and klick "save".
+4. A uid and a password will be generated. You can use the uid as username (in the [API it is called localpart](https://spec.matrix.org/v1.19/appendices/#user-identifiers)) for the bot, eg. uid `uXXXXX` results in in user-id `@uXXXXX:bot.academiccloud.de`.
+5. Using these credentials you can now [create an `access_token`](/clients/client-server-api), that can be used to authenticate against the matrix client-server api. The available endpoints are [documented in the spec](https://spec.matrix.org/latest/client-server-api/).
 
 On the [Client-Server API](/clients/client-server-api) page, you can find minimal code examples and references to useful clients.
 
