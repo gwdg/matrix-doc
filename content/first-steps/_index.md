@@ -23,12 +23,16 @@ Die folgenden Screenshots zeigen beispielhaft die Nutzung von [chat.academicclou
 
 | Institution | Server |
 |---|---|
+| Academic Cloud | [chat.academiccloud.de](https://chat.academiccloud.de) |
 | Max-Planck-Gesellschaft | [matrixchat.mpg.de](https://matrixchat.mpg.de) |
 | Georg-August-Universität Göttingen | [chat.uni-goettingen.de](https://chat.uni-goettingen.de) |
 | Universitätsmedizin Göttingen  | [chat.umg.eu](https://chat.umg.eu) |
-| GWDG | [matrix.gwdg.de](https://matrix.gwdg.de) |
-| Academic Cloud | [chat.academiccloud.de](https://chat.academiccloud.de) |
+| Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) | [matrix.gwdg.de](https://matrix.gwdg.de) |
+| Deutsches Zentrum für Luft- und Raumfahrt (DLR) | [matrix.dlr.de](https://matrix.dlr.de) |
 | Universität Kassel | [matrix.uni-kassel.de](https://matrix.uni-kassel.de) |
+| Universität Augsburg | [matrix.uni-augsburg.de](https://matrix.uni-augsburg.de) |
+| Universität Hildesheim | [chat.uni-hildesheim.de](https://chat.uni-hildesheim.de) |
+| Landesarchiv Baden-Württemberg | [labw.chat.academiccloud.de](https://labw.chat.academiccloud.de) |
 
 Den [Start mit der Desktop-Anwendung beschreiben wir hier]({{% relref "first-steps/_index.md/#zugriff-vom-desktop-oder-mit-mobilen-clients" %}}).
 

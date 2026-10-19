@@ -24,11 +24,16 @@ Downloads für: {{% button href="https://apps.apple.com/app/vector/id1083446067"
 
 | Institution | Server |
 |---|---|
+| Academic Cloud | chat.academiccloud.de |
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
-| Academic Cloud | chat.academiccloud.de |
+| Universitätsmedizin Göttingen | chat.umg.eu |
+| Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) | matrix.gwdg.de |
+| Deutsches Zentrum für Luft- und Raumfahrt (DLR) | matrix.dlr.de |
+| Universität Kassel | matrix.uni-kassel.de |
+| Universität Augsburg | matrix.uni-augsburg.de |
+| Universität Hildesheim | chat.uni-hildesheim.de |
+| Landesarchiv Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 ![Bild3](/images/15_Element_iOS3_de.jpeg?height=50vh&classes=border)  

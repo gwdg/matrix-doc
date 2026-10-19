@@ -13,11 +13,16 @@ In jedem Fall müssen Sie im Client dann Ihren passenden Matrix-Homeserver eintr
 
 | Institution | Server |
 |---|---|
+| Academic Cloud | chat.academiccloud.de |
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
-| Academic Cloud | chat.academiccloud.de |
+| Universitätsmedizin Göttingen | chat.umg.eu |
+| Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) | matrix.gwdg.de |
+| Deutsches Zentrum für Luft- und Raumfahrt (DLR) | matrix.dlr.de |
+| Universität Kassel | matrix.uni-kassel.de |
+| Universität Augsburg | matrix.uni-augsburg.de |
+| Universität Hildesheim | chat.uni-hildesheim.de |
+| Landesarchiv Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 ## Einen Blick wert sind mindestens

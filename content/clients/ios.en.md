@@ -22,11 +22,16 @@ Downloads for: {{% button href="https://apps.apple.com/app/vector/id1083446067" 
 
 | Institution | Server |
 |---|---|
-| Max-Planck-Gesellschaft | matrixchat.mpg.de |
-| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
 | Academic Cloud | chat.academiccloud.de |
+| Max Planck Society | matrixchat.mpg.de |
+| Georg August University ofGöttingen | chat.uni-goettingen.de |
+| University Medical Center Göttingen | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| German Aerospace Center (DLR) | matrix.dlr.de |
+| University Kassel | matrix.uni-kassel.de |
+| University Augsburg | matrix.uni-augsburg.de |
+| University Hildesheim | chat.uni-hildesheim.de |
+| State Archives of Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 ![Configuration screen as in step 2. The Custom Server Options checkbox is selected so that the Home Server URL text box appears.](/images/15_Element_iOS3_de.png?height=50vh&classes=border)

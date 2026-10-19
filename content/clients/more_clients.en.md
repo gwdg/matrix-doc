@@ -13,11 +13,16 @@ In any case you have to enter the correct name of your home matrix server:
 
 | Institution | Server |
 |---|---|
-| Max-Planck-Gesellschaft | matrixchat.mpg.de |
-| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
 | Academic Cloud | chat.academiccloud.de |
+| Max Planck Society | matrixchat.mpg.de |
+| Georg August University of Göttingen | chat.uni-goettingen.de |
+| University Medical Center Göttingen | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| German Aerospace Center (DLR) | matrix.dlr.de |
+| University Kassel | matrix.uni-kassel.de |
+| University Augsburg | matrix.uni-augsburg.de |
+| University Hildesheim | chat.uni-hildesheim.de |
+| State Archives of Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 ## You might give these a try

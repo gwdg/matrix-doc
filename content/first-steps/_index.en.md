@@ -29,12 +29,16 @@ Now you can manually specify the home server:
 |---|---|
 | Institution | Home Server |
 |---|---|
-| Max-Planck-Gesellschaft | https://matrixchat.mpg.de |
-| Georg-August-Universität Göttingen | https://chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | https://chat.umg.eu |
-| GWDG | https://matrix.gwdg.de |
-| Academic Cloud | https://chat.academiccloud.de |
-| Universität Kassel | https://matrix.uni-kassel.de |
+| Academic Cloud | [chat.academiccloud.de](https://chat.academiccloud.de) |
+| Max Planck Society | [matrixchat.mpg.de](https://matrixchat.mpg.de) |
+| Georg August University of Göttingen | [chat.uni-goettingen.de](https://chat.uni-goettingen.de) |
+| Universitätsmedizin Göttingen  | [chat.umg.eu](https://chat.umg.eu) |
+| GWDG | [matrix.gwdg.de](https://matrix.gwdg.de) |
+| German Aerospace Center (DLR) | [matrix.dlr.de](https://matrix.dlr.de) |
+| University Kassel | [matrix.uni-kassel.de](https://matrix.uni-kassel.de) |
+| University Augsburg | [matrix.uni-augsburg.de](https://matrix.uni-augsburg.de) |
+| University Hildesheim | [chat.uni-hildesheim.de](https://chat.uni-hildesheim.de) |
+| State Archvies of Baden-Württemberg | [labw.chat.academiccloud.de](https://labw.chat.academiccloud.de) |
 
 ![Input field to change the home server with the input matrix.tu-dresden.de](/images/03_Set-Homeserver_en.png)
 

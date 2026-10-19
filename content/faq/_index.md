@@ -70,10 +70,15 @@ Bitte folgendes ausführen:
      | Institution | Auth-Instanz |
      | ----------- | ------------ |
      | Academic Cloud | [https://auth.chat.academiccloud.de](https://auth.chat.academiccloud.de) |
-     | Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
-     | GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
      | Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
+     | Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
      | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
+     | Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
+     | Deutsches Zentrum für Luft- und Raumfahrt (DLR) | [https://auth.matrix.dlr.de](https://auth.matrix.dlr.de) |
+     | Universität Kassel | [https://auth.matrix.uni-kassel.de](https://auth.matrix.uni-kassel.de) |
+     | Universität Augsburg | [https://auth.matrix.uni-augsburg.de](https://auth.matrix.uni-augsburg.de) |
+     | Universität Hildesheim | [https://auth.chat.uni-hildesheim.de](https://auth.chat.uni-hildesheim.de) |
+     | Landesarchiv Baden-Württemberg | [https://auth.labw.chat.academiccloud.de](https://auth.labw.chat.academiccloud.de) |
 
   3. Im gleichen Browserfenster, d.h. auf der Auth-Instanz, auf den Reiter `Einstellungen` wechseln, den Punkt `Ende-zu-Ende Verschlüsselung` aufklappen und den roten Knopf `Identität zurücksetzen` klicken.
   4. Zurück zum Client (z.B. Element-Client, wir raten dringend vom Browser ab!) wechseln und sofern man hier noch nicht automatisch abgemeldet wurde einmal manuell ausloggen (im Element-Client hierzu auf den Namen oben links klicken und Abmelden). Daraufhin neu anmelden. Sollte hier nach dem Sicherheitsschlüssel oder -passwort gefragt werden, diesen zurücksetzen (sollte als Option unter dem Textfeld erscheinen).

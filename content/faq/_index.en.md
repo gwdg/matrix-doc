@@ -70,10 +70,15 @@ Please do the following:
      | Institution | auth-instance |
      | ----------- | ------------ |
      | Academic Cloud | [https://auth.chat.academiccloud.de](https://auth.chat.academiccloud.de) |
-     | Georg-August-Universität Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
-     | GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
-     | Max-Planck-Gesellschaft | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
+     | Max Planck Society | [https://auth.matrixchat.mpg.de](https://auth.matrixchat.mpg.de) |
+     | Georg August University of Göttingen | [https://auth.chat.uni-goettingen.de](https://auth.chat.uni-goettingen.de) |
      | Universitätsmedizin Göttingen  | [https://auth.chat.umg.eu](https://auth.chat.umg.eu) |
+     | GWDG | [https://auth.matrix.gwdg.de](https://auth.matrix.gwdg.de) |
+     | German Aerospace Center (DLR) | [https://auth.matrix.dlr.de](https://auth.matrix.dlr.de) |
+     | University Kassel | [https://auth.matrix.uni-kassel.de](https://auth.matrix.uni-kassel.de) |
+     | University Augsburg | [https://auth.matrix.uni-augsburg.de](https://auth.matrix.uni-augsburg.de) |
+     | University Hildesheim | [https://auth.chat.uni-hildesheim.de](https://auth.chat.uni-hildesheim.de) |
+     | State Archvies of Baden-Württemberg | [https://auth.labw.chat.academiccloud.de](https://auth.labw.chat.academiccloud.de) |
 
   3. In the same browser window, i.e. on the auth-instance, switch to the ‘Settings’ tab, open the ‘End-to-end encryption’ item and click the red ‘Reset identity’ button.
   4. Switch back to the client (e.g. the element-client, we strongly recommend not to use the browser) and log out if you were not logged out automatically. Log back in again. If you are asked to put your security key or security phrase, select the option to reset it (should appear below the text field).

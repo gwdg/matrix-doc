@@ -26,11 +26,16 @@ Im Play-Store findet sich auch die App 'Element X'. Diese ist noch nicht fertig.
 
 | Institution | Server |
 |---|---|
+| Academic Cloud | chat.academiccloud.de |
 | Max-Planck-Gesellschaft | matrixchat.mpg.de |
 | Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
-| Academic Cloud | chat.academiccloud.de |
+| Universitätsmedizin Göttingen | chat.umg.eu |
+| Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) | matrix.gwdg.de |
+| Deutsches Zentrum für Luft- und Raumfahrt (DLR) | matrix.dlr.de |
+| Universität Kassel | matrix.uni-kassel.de |
+| Universität Augsburg | matrix.uni-augsburg.de |
+| Universität Hildesheim | chat.uni-hildesheim.de |
+| Landesarchiv Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 ![Bildschirm "Andere" zur Verbindung mit einem anderen Server. Das Textfeld Adresse erfordert die Eingabe der Serveradresse, darunter befindet sich der Fortfahren-Button.](/images/15_Element_Android3_de.jpg?height=50vh&classes=border)

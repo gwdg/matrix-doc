@@ -27,11 +27,16 @@ You may find the app 'Element X' in the Play-Store. This app is not ready for pr
 
 | Institution | Server |
 |---|---|
-| Max-Planck-Gesellschaft | matrixchat.mpg.de |
-| Georg-August-Universität Göttingen | chat.uni-goettingen.de |
-| Universitätsmedizin Göttingen  | chat.umg.eu |
-| GWDG | matrix.gwdg.de |
 | Academic Cloud | chat.academiccloud.de |
+| Max Planck Society | matrixchat.mpg.de |
+| Georg August University of Göttingen | chat.uni-goettingen.de |
+| University Medical Center Göttingen | chat.umg.eu |
+| GWDG | matrix.gwdg.de |
+| German Aerospace Center (DLR) | matrix.dlr.de |
+| University Kassel | matrix.uni-kassel.de |
+| University Augsburg | matrix.uni-augsburg.de |
+| University Hildesheim | chat.uni-hildesheim.de |
+| State Archives of Baden-Württemberg | labw.chat.academiccloud.de |
 
 
 !["Other" screen to connect to custom server. The Address text box requires the server address to be entered, and below it is the Continue button.](/images/15_Element_Android3_en.jpg?height=50vh&classes=border)
