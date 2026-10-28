@@ -1,3 +1,5 @@
+⚠️ 2026-10-28: archived at Github and moved to ➡️ [gitlab.gwdg.de/gwdg/matrix/matrix-doc](https://gitlab.gwdg.de/gwdg/matrix/matrix-doc) ⚠️
+
 # Academic Cloud Matrix Documentation
 
 **Website:** **https://docs.chat.academiccloud.de**
