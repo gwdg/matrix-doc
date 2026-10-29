@@ -70,7 +70,6 @@ setInterval(() => {
 * [Integrations, Bridges, Bots nutzen (u.a. Jitsi)]({{% relref "integrations/_index.md" %}})
 -->
 * [Automatisierungen und Bots]({{% relref "automations/_index.md" %}})
-* [Migration zu Matrix]({{% relref "migration/_index.md" %}})
 * [Häufige Fragen (FAQ)]({{% relref "faq/_index.md" %}})
 * [Weiterentwicklung von Matrix]({{% relref "development/_index.md" %}})
 * [Impressum]({{% relref "imprint/_index.md" %}})
