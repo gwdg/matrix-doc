@@ -52,7 +52,7 @@ Für maximale Flexibilität können Bot-Accounts genutzt werden, diese existiere
 2. Auf id.academiccloud.de die ["Anwendungsspezifischen Zugangsdaten"](https://id.academiccloud.de/ApplicationCredentials) öffnen und mit Multi-Faktor-Authentifizierung freischalten.
 3. Im Eintrag "Matrix Bot" auf "Hinzufügen" klicken, die nötigen Daten ausfüllen und "Speichern" klicken.
 4. Es wird eine UID und ein Passwort erzeugt. Die UID stellt auch gleichzeitig den Benutzernamen (in der [API oft auch localpart](https://spec.matrix.org/v1.19/appendices/#user-identifiers) genannt) des Bots dar, z.B. Benutzername `uXXXXX` übersetzt sich später zur User-ID `@uXXXXX:bot.academiccloud.de`..
-5. Mit diesen Login-Daten kann nun [ein `access_token` erstellt werden](/clients/client-server-api), der zur Authentifizierung gegenüber der Client-Server API von Matrix genutzt werden kann. Eine Liste der verfügbaren API-Endpunkte lässt ist in der [Spec dokumentiert](https://spec.matrix.org/latest/client-server-api/).
+5. Mit diesen Login-Daten kann nun [ein `access_token` erstellt werden](/clients/client-server-api), der zur Authentifizierung gegenüber der Client-Server API von Matrix genutzt werden kann. Eine Liste der verfügbaren API-Endpunkte ist in der [Spec dokumentiert](https://spec.matrix.org/latest/client-server-api/).
 
 Auf der Seite [Cient-Server API](/clients/client-server-api) werden Minimalbeispiele gezeigt, wie per Bot-Account Befehle erzeugt werden können und auf bestehende Clients hingewiesen.
 
