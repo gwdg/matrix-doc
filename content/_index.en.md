@@ -67,7 +67,6 @@ In order to meet the demand for real-time communication, the open communication 
 * [Further development of Matrix]({< relref "development/_index.en.md" >}})
 -->
 * [Automations and Bots]({{%relref "automations/_index.en.md" %}})
-* [Migration to matrix]({{% relref "migration/_index.en.md" %}})
 * [Frequently asked questions (FAQ)]({{% relref "faq/_index.en.md" %}})
 * [Privacy policy](https://academiccloud.de/privacy)
 * [Imprint]({{% relref "imprint/_index.en.md" %}})
