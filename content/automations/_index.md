@@ -49,10 +49,10 @@ auf. Weitere Informationen [auf der Website des hookshot-Bots](https://matrix-or
 Für maximale Flexibilität können Bot-Accounts genutzt werden, diese existieren auf einer eigenen Matrix Instanz, d.h. Bots haben als Home-Server immer `bot.academiccloud.de`. Die Schritte, um einen Bot-Account zu erhalten, sind:
 
 1. Ein Support-Ticket öffnen, um die notwendigen Rechte zum Erstellen von Bot-Accounts anzufragen.
-2. Auf idm.gwdg.de den User-Knopf oben rechts klicken und die Seite der "Anwendungsspezifischen Zugangsdaten" öffnen.
-3. Im linken Reiter den Punkt "Matrix: Zugangsdaten für Bots" auswählen, die nötigen Daten ausfüllen und "Zugangsdaten generieren" klicken.
-4. Es wird ein Benutzername und ein Token erzeugt. Der Benutzername stellt auch gleichzeitig den Namen des Bots dar, z.B. Benutzername `uXXXXX` übersetzt sich später zu `uXXXXX:bot.academiccloud.de`. Der Token stellt das Passwort dar.
-5. Es können nun Befehle der [Client-Server API](/clients/client-server-api) von Matrix genutzt werden - für ganz spezielle Sonderfälle müsste man im Zweifel noch prüfen, ob Synapse diese implementiert.
+2. Auf id.academiccloud.de die ["Anwendungsspezifischen Zugangsdaten"](https://id.academiccloud.de/ApplicationCredentials) öffnen und mit Multi-Faktor-Authentifizierung freischalten.
+3. Im Eintrag "Matrix Bot" auf "Hinzufügen" klicken, die nötigen Daten ausfüllen und "Speichern" klicken.
+4. Es wird eine UID und ein Passwort erzeugt. Die UID stellt auch gleichzeitig den Benutzernamen (in der [API oft auch localpart](https://spec.matrix.org/v1.19/appendices/#user-identifiers) genannt) des Bots dar, z.B. Benutzername `uXXXXX` übersetzt sich später zur User-ID `@uXXXXX:bot.academiccloud.de`..
+5. Mit diesen Login-Daten kann nun [ein `access_token` erstellt werden](/clients/client-server-api), der zur Authentifizierung gegenüber der Client-Server API von Matrix genutzt werden kann. Eine Liste der verfügbaren API-Endpunkte ist in der [Spec dokumentiert](https://spec.matrix.org/latest/client-server-api/).
 
 Auf der Seite [Cient-Server API](/clients/client-server-api) werden Minimalbeispiele gezeigt, wie per Bot-Account Befehle erzeugt werden können und auf bestehende Clients hingewiesen.
 
